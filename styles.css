@@ -584,69 +584,60 @@ h4 {
     width: 100%;
     height: auto;
     background-size: cover;
-    position: relative; 
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;    
 }
-
-
 
 .benefit_boxes {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 60%;
+    width: auto;
     margin: 0 auto;
     z-index: 2;
     position: relative;
-    background-color: #d3d3d369;
     list-style-type: none;
     gap: 20px;
-    height: auto;    
+    height: auto; 
 }
 
 .benefit_box {
     display: flex;
     background-color: white;
-    border-radius: 5%; 
+    border-radius: 5%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
 
 }
 
 .benefit-text {
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     width: 250px;
     height: 180px;
     text-align: left;
-    background-color: blue;
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 2%;
     padding-right: 1%;
-    background-color: white;
     z-index: 1;
     position: relative;
     display: flex;
+    padding-right: 10%;
 }
 
 .benefit-marker-wrapper {
-    background-color: pink; 
     width: auto;
     height: auto;
-    display: flex;
     justify-content: center;
-    padding-top: 9%;
-
 }
 
 .benefit-marker {
-
-    background-color: orange;
-    content: "\f00c"; 
-    font-family: "FontAwesome";
-    z-index: 10; 
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex;
+    justify-content: flex-end; */
     height: auto; 
-    width: auto;  
+    width: auto;
+    padding: 5px;  
 }
 
 .benefit-marker i {
@@ -657,14 +648,18 @@ h4 {
 .benefit-text h4 {
     position: relative;
     font-size: 90%;
-
+    flex-basis: 15%;
 }
 
 
 
 .benefit-text p {
     font-size: 0.8rem;
-    color: grey; 
+    color: grey;
+    letter-spacing: 0.5px;
+    margin-top: 18px;
+    border-top: solid 3px #4990CD;
+    padding-top: 15px;
 }
 
 
