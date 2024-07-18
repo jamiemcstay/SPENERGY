@@ -582,7 +582,7 @@ h4 {
 #benefits-section {
     background: url('images/benefits_image_1.jpg') no-repeat center center;
     width: 100%;
-    height: 80vh; 
+    height: auto;
     background-size: cover;
     position: relative; 
 }
