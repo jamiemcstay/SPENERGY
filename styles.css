@@ -590,17 +590,17 @@ h4 {
 
 
 .benefit_boxes {
-    display: flex; 
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 60%;
     margin: 0 auto;
     z-index: 2;
-    position: relative; 
-    background-color: blue;
+    position: relative;
+    background-color: white;
     list-style-type: none;
-    gap: 20px; 
-    height: 40%;     
+    gap: 20px;
+    height: auto;    
 }
 
 
@@ -620,7 +620,8 @@ h4 {
     padding-right: 1%;
     background-color: white;
     z-index: 1;
-    position: relative; 
+    position: relative;
+    display: flex;
 
 }
 
