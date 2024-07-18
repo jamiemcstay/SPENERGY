@@ -586,7 +586,20 @@ h4 {
     background-size: cover;
     position: relative;
     padding-left: 20%;
-    padding-right: 20%;    
+    padding-right: 20%;
+    padding-top: 3%;    
+}
+
+#benefits-section h3, #benefits-section p {
+    position: relative;
+    z-index: 10;
+}
+
+#benefits-section h3 {
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    border-bottom: solid white 3px;
+    border-bottom-width: 80%;
 }
 
 .benefit_boxes {
