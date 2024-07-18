@@ -597,85 +597,82 @@ h4 {
     margin: 0 auto;
     z-index: 2;
     position: relative;
-    background-color: white;
+    background-color: #d3d3d369;
     list-style-type: none;
     gap: 20px;
     height: auto;    
 }
 
+.benefit_box {
+    display: flex;
+    background-color: white;
+    border-radius: 5%; 
 
+}
 
 .benefit-text {
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
     width: 250px;
     height: 180px;
-    text-align: center;
-    background-color: white;
-    border-radius: 5%;
+    text-align: left;
+    background-color: blue;
     padding-top: 3%;
     padding-bottom: 3%;
-    padding-left: 1%;
+    padding-left: 2%;
     padding-right: 1%;
     background-color: white;
     z-index: 1;
     position: relative;
     display: flex;
+}
+
+.benefit-marker-wrapper {
+    background-color: pink; 
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 9%;
 
 }
 
+.benefit-marker {
 
-.benefit_box h4 {
+    background-color: orange;
+    content: "\f00c"; 
+    font-family: "FontAwesome";
+    z-index: 10; 
+    display: flex;
+    justify-content: flex-end;
+    height: auto; 
+    width: auto;  
+}
+
+.benefit-marker i {
+    color: #4990CD;
+    font-size: 40px; 
+}
+
+.benefit-text h4 {
     position: relative;
-    padding-left: 30px; /* Space for the marker */
     font-size: 90%;
 
 }
 
-.benefit_box h4::before {
-    content: "\f00c"; /* Unicode for check mark in FontAwesome */
-    font-family: "FontAwesome";
-    position: absolute;
-    left: 0; /* Position the marker inside the box */
-    top: 50%;
-    transform: translateY(-50%);
-    color: #007BFF; /* Color for the marker */
-    font-size: 40px; 
 
-}
 
-.benefit_box p {
+.benefit-text p {
     font-size: 0.8rem;
     color: grey; 
 }
 
-.benefit_box_image {
-    width: 40%;
-    height: auto;
-    margin: 5% auto 0 auto; 
-}
 
 .benefit_box_image img {
     width: 100%; 
 
 }
 
-
-/* .part_4 p {
-    font-size: 0.8rem;
-    width: 95%;
-    margin: 0 auto 0 auto; 
-    line-height: 1rem;
-} */
-
-/* .part_4 h4 {
-    font-family: Gotham Bold; 
-    width: 100%;
-    text-align: center;
-    
-    
-} */
 
 .contact_us_button {
     width: 30%;
