@@ -1,0 +1,1157 @@
+@font-face {
+    font-family: 'Gotham Regular';
+    src: url('fonts/Gotham-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('fonts/Gotham\ Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham Light Regular';
+    src: url('fonts/Gotham\ Light\ Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('fonts/Gotham\ Ultra.otf') format('opentype');
+}
+
+html {
+    font-size: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    margin: 0;
+    font-family: 'Gotham Regular';
+    background-color: #f3f1f1; 
+    width: 100%;   
+    
+}
+
+.white {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    position: relative;
+   
+}
+
+.logo img {
+    width: 160%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    width: auto;
+}
+
+nav ul li {
+    padding-right: 2rem;
+    font-size: 110%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Gotham Regular';
+    font-weight: 550;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.contact_info {
+    margin: 0;
+}
+
+.contact_info p {
+    font-size: 110%; 
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.top {
+    background: url(images/hero-image-3.jpg) no-repeat center / cover; 
+    height: 80vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+.hero_text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1; 
+}
+
+.hero_text h1 {
+    font-size: 400%;
+    margin-top: 0;
+    line-height: 20% 4rem;
+    font-family: Gotham Bold;
+    text-align: center;
+}
+
+.hero_text h2 {
+    font-size: 1.5rem;
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 20% 3rem;
+    margin-bottom: 0;
+    letter-spacing: 0.2rem;
+    padding: 0;
+    text-align: center;
+    font-weight: 300;
+    
+}
+
+#hero-buttons-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.cta_button {
+    text-transform: uppercase;
+    font-family: 'Gotham Bold';
+    width: 220px;
+    background-color: #4990CD;
+    color: white;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: auto;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.2);
+}
+
+.gradient-overlay {
+    background-color: #171a1c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    /* z-index: 1; */
+}
+
+
+.cta_button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+.part_2 {
+    width: 100%;
+    height: 100%;
+    background-color: #f3f1f1; 
+    margin-bottom: 0;
+    padding-bottom: 100px;
+    padding-top: 50px; 
+
+    position: relative; 
+}
+
+
+h3 {
+    text-align: center; 
+    font-family: 'Gotham Bold';
+    font-size: 180%; 
+    text-transform: uppercase; 
+    margin-bottom: 50px; 
+    font-weight: 800; 
+
+}
+
+.big-p {
+    font-size: 180%; 
+    font-family: 'Gotham Light';
+    margin: 0 auto;  
+    width: auto;
+    margin-bottom: 50px; 
+    text-align: center; 
+    
+}
+
+.divider {
+    height: 3px; 
+    background-color: #4990CD; 
+    width: 40%; 
+    margin: 0 auto; 
+    margin-bottom: 30px; 
+}
+
+.blue-text {
+    color: #4990CD; 
+}
+
+
+.part_2_info_boxes {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 900px;
+    z-index: 2;
+    position: relative;
+
+}
+
+.info_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    height: auto;
+    gap: 30px; 
+    border-radius: 25px; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+.icon {
+    width: auto;
+    height: auto; 
+    
+}
+
+.icon i {
+    font-size: 60px;
+    color: #2f6a9e; 
+}
+
+h4 { 
+    margin-bottom: 0;
+    padding: 0;
+    font-family: Gotham Bold; 
+    text-transform: uppercase; 
+    font-size: 120%;
+    
+}
+
+.part_2_info_boxes p {
+    font-size: 1rem;
+    width: 201.58px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Gotham Light;
+    color: grey;
+    line-height: 1.8;
+    height: 210px;
+    
+}
+
+.info-box-button-wrapper {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+
+.find_out_more_button {
+    width: 180px;
+    height: 50px;
+    background-color: #4990CD;
+    color: white;
+    border: black 1px;
+    border-radius: 0.9rem;
+    font-size: 1rem;
+    font-family: 'GOTHAM BOLD';
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+/*Who we are*/
+
+#who-we-are {
+    padding-top: 100px; 
+}
+
+#who-wrapper {
+    width: 60%; 
+    height: auto;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+#who-img {
+    width: 40%; 
+    background-color: blue;
+    border-radius: 25px; 
+    height: auto;
+    overflow: hidden;
+}
+
+#who-img img {
+    width: 100%;
+    height: 100%; 
+}
+
+#who-text {
+    width: 35%; 
+}
+
+#who-text h3 {
+    text-align: left; 
+    margin-bottom: 30px;
+}
+
+#who-text p {
+    margin-bottom: 15px; 
+}
+
+#who-text p:last-of-type {
+    margin-bottom: 30px; 
+}
+
+#who-button-wrapper {
+    display: flex; 
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.who-button {
+    text-transform: uppercase;
+    font-family: 'Gotham Bold';
+    width: 180px;
+    background-color: #4990CD;
+    color: white;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: auto;
+    box-shadow: 3px 3px 5px rgba(44, 44, 44, 0.2);
+}
+
+#blue-box {
+    position: absolute; 
+    bottom: 0 ;
+    height: 10%; 
+    width: 100%; 
+    background-color: #2f6a9e;
+    position: absolute;
+    bottom: 0;
+    height: 22%;
+    width: 100%;
+}
+
+.cta_button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/*How it works*/
+
+#how-it-works {
+    height: auto; 
+    width: auto; 
+    background-color: #f3f1f1;
+    background: url('images/20230727_172237.jpg') no-repeat center cover; 
+    padding-top: 100px;
+}
+
+
+#steps-wrapper {
+    display: flex; 
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative; 
+    margin-bottom: 100px; 
+
+}
+
+#steps-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border-top: 2px dotted #000;
+    /* height: 2px; Thickness of the line */
+    background-color: #000; /* Color of the line */
+    transform: translateY(-50%);
+    z-index: -2;
+}
+
+.step-box {
+    width: 250px; 
+    height: auto; 
+    position: relative; 
+    padding: 8px;
+    padding-bottom: 20px; 
+    z-index: 2;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.step-box i {
+    font-size: 40px;
+    color: #2f6a9e;
+    margin-bottom: 20px;
+}
+
+.step-box p {
+    font-size: 0.9rem;
+    width: 190px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Gotham Light;
+    color: black;
+    line-height: 1.8;
+    height: 175px;
+}
+
+.step-box > h4 {
+    display: flex;
+    align-items: center;
+    color: #2f6a9e;
+    font-size: 90%;
+    gap: 2px;
+    text-align: center;
+    margin-bottom: 15px;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+
+#get-in-touch-wrapper {
+    width: 60%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.h3-tight {
+    text-align: left;
+    width: 100%;
+    height: auto; 
+    margin-bottom: 30px; 
+
+    margin-bottom: 0; 
+}
+
+#get-in-touch-align-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+#how-works-button-wrapper {
+    width: auto;
+    height: auto;
+}
+
+#how-works-button-wrapper button {
+    text-transform: uppercase;
+    font-family: 'Gotham Bold';
+    width: 100%;
+    background-color: #4990CD;
+    color: white;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+#get-in-touch-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; 
+    width: 40%;
+}
+
+#get-touch-imgs {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#get-touch-imgs img {
+    width: 100%; 
+    height: 48%; 
+    background-color: pink;
+
+}
+
+.get-touch-content-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+#how-works-form {
+    width: 100%;
+    height: 25rem;
+    background-color: white; 
+    border-radius: 2%;
+    margin-bottom: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly;
+    align-items: center; 
+    font-family: 'Gotham Light'; 
+    margin-top: 50px;
+}   
+
+.photo-wrapper img {
+    width: 100%;
+}
+
+/*BENEFITS SECTION*/
+
+#benefits-section {
+    background: url('images/benefits_image_1.jpg') no-repeat center center;
+    width: 100%;
+    height: 80vh; 
+    background-size: cover;
+    position: relative; 
+}
+
+
+
+.benefit_boxes {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative; 
+    background-color: blue;
+    list-style-type: none;
+    gap: 20px; 
+    height: 40%;     
+}
+
+
+
+.benefit_box {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    height: 180px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+    z-index: 1;
+    position: relative; 
+
+}
+
+
+.benefit_box h4 {
+    position: relative;
+    padding-left: 30px; /* Space for the marker */
+    font-size: 90%;
+
+}
+
+.benefit_box h4::before {
+    content: "\f00c"; /* Unicode for check mark in FontAwesome */
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 0; /* Position the marker inside the box */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007BFF; /* Color for the marker */
+    font-size: 40px; 
+
+}
+
+.benefit_box p {
+    font-size: 0.8rem;
+    color: grey; 
+}
+
+.benefit_box_image {
+    width: 40%;
+    height: auto;
+    margin: 5% auto 0 auto; 
+}
+
+.benefit_box_image img {
+    width: 100%; 
+
+}
+
+
+/* .part_4 p {
+    font-size: 0.8rem;
+    width: 95%;
+    margin: 0 auto 0 auto; 
+    line-height: 1rem;
+} */
+
+/* .part_4 h4 {
+    font-family: Gotham Bold; 
+    width: 100%;
+    text-align: center;
+    
+    
+} */
+
+.contact_us_button {
+    width: 30%;
+    position: absolute;    
+    left: 36%;
+    background-color: #4990CD; 
+    color: white; 
+    padding: 0.5rem 1rem; 
+    border: none; 
+    border-radius: 0.5rem; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;   
+}
+
+
+.blue_text {
+    color: #4990CD;
+}
+
+/*Footer styles*/
+
+footer {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    font-size: 0.7em;
+    background-color:#4990CD ;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    color: white; 
+    line-height: 1.8em;
+    font-family: Gotham Light Regular; 
+}
+
+.logo_footer_white {
+    width: 20%;
+    height: auto;
+    margin: 0;
+}
+
+.logo_footer_white img {
+    width: 100%;
+}
+
+footer p  {
+    width: 20%;
+    /* margin: 1em 1em; */
+    color: white; 
+    /* line-height: 20%;: 1.8rem; */
+    font-family: Gotham Light Regular; 
+}
+
+footer ul {    
+    list-style: none; 
+    margin-left: 0;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;     
+
+}
+
+.bold_text {
+    font-family: Gotham Bold;
+
+}
+
+#footer-form {
+    width: 35%;
+    height: 25rem;
+    margin: 0 auto;
+    background-color: white; 
+    border-radius: 2%;
+    margin-bottom: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly;
+    align-items: center; 
+    font-family: Gotham Light; 
+}
+
+form h4 {
+    background-color: rgb(231, 229, 229);
+    padding: 0.5rem;
+    width: 80%;
+    text-align: center; 
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem; 
+    margin-top: 0.5rem; 
+    font-family: Gotham Bold; 
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin-top: 1%;
+    height: 2rem; 
+    font-family: Gotham Light Regular;
+    border-radius: 0.5rem;
+
+}
+
+textarea {
+    width: 80%;
+    border-radius: 0.5rem; 
+    font-family: Gotham Light; 
+}
+
+input[type="email"] {
+    border-radius: 0.5rem;
+   
+}
+
+
+input[type="submit"] {
+    margin: 10px 0 5% 0;
+    border-radius: 0.5rem;
+    background-color: #4990CD; 
+    color: white; 
+    padding: 0.5rem 1rem; 
+    border: none; 
+    border-radius: 0.5rem; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;   
+    
+}
+
+/*HOME SOLAR PAGE STYLES*/
+
+.home_solar_part_1 {
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    
+    
+}
+
+.home_solar_part_1_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    width: 50%; 
+    height: auto;   
+}
+
+.home_solar_part_1_left h5 {
+    font-family: Gotham Bold;
+    border-bottom: #4990CD  solid 3px;
+    border-bottom-width: 30%;
+    margin: 0; 
+    margin-bottom: 1rem;
+    width: 25%;
+    padding-bottom: 0.5rem;
+}   
+
+
+.home_solar_part_1_left  h2 {
+    font-family: Gotham Bold; 
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    line-height: 1.5rem;
+ 
+}
+
+
+
+.home_solar_part_1_left p {
+    border-left: solid #4990CD 3px;
+    padding-left: 0.5rem; 
+    width: 95%;
+    font-size: 0.8rem; 
+    margin-top: 0;
+    
+   
+
+}
+
+
+.home_solar_part_1_left_button {
+    width: 50%;
+    margin-top: 1rem;
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    padding: 0.5rem 1rem; 
+    border: none; /* Remove button border */
+    border-radius: 0.5rem; /* Button border radius */
+    font-size: 1rem; /* Button font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.home_solar_part_1_right {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    /* border: solid black 1px; */
+ 
+}
+
+.home_solar_part_1_right h2 {
+    font-family: Gotham Bold; 
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    line-height: 1.5rem;  
+    
+}
+
+.home_solar_part_1_right_image {    
+    width: 100%;
+    height: auto;
+    
+
+}
+
+
+.home_solar_part_1_right_image img {
+    width: 100%;
+    height: auto; 
+    border-radius: 2rem;
+}
+
+.home_solar_part_1_right p {
+    font-size: 0.8rem; 
+    border-left: solid #4990CD 3px;
+    padding-left: 0.5rem; 
+    width: 95%;
+    font-size: 0.8rem; 
+    margin-top: 0;
+}
+
+.services_boxes {
+    display: flex;
+    width: 95%;   
+    margin-top: 0; 
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.service_row {
+    display: flex; 
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.service_box {
+    width: 45%;
+    border: solid grey 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 1rem;
+    height: 4.5rem; 
+    background-color: white; 
+    
+    
+}
+
+.service_box h5 {
+    border: 0;
+    margin: 0;  
+    padding: 0; 
+    width: 40%; 
+}
+
+.service_box_logo {
+    width: 20%;
+    margin-left: 0;
+}
+
+.service_box_logo img {
+    width: 100%;
+}
+
+.our_products {
+
+    background-color: white; 
+    font-family: Gotham Bold;  
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    line-height: 1.5rem;
+    width: 100%;
+    height: auto; 
+    
+}
+
+.intro_products {
+    display: flex; 
+    width: 80%;
+    margin: 0 auto 0 auto; 
+
+}
+
+.intro_products_left {
+    font-size: 0.8rem;
+    font-family: Gotham Regular;
+    width: 50%;
+    text-align: left; 
+    padding-left: 0.8rem; 
+    border-left: solid #4990CD 3px; 
+    margin-bottom: 3rem; 
+}
+
+.intro_products_right {
+    width: 50%;
+    display: flex; 
+    flex-wrap: nowrap;
+}
+
+.intro_products_right ul li {
+    width: 100%; 
+}
+
+.intro_products_right ul li h5 {
+    width: 100%; 
+    border: none; 
+}
+
+.intro_products_right li p {
+    border: none; 
+    font-size: 0.8rem;
+    font-family: Gotham Regular;
+    width: 100%;
+    text-align: left; 
+}
+
+/* .intro_products ul {
+    display: flex;
+    justify-content: space-between; 
+    width: 50%;
+    
+} */
+
+
+/* .our_products p {
+    font-size: 0.8rem;
+    font-family: Gotham Regular;
+    width: 50%;
+    text-align: left; 
+    margin: 0 auto 0 auto; 
+    padding-left: 0.8rem; 
+    border-left: solid #4990CD 3px; 
+    margin-bottom: 3rem; 
+} */
+
+.our_products h3 {
+    border-bottom: solid #4990CD 3px; 
+    padding-bottom: 0.5rem; 
+}
+
+
+.our_products h2{
+    width: 90%;
+    font-family: Gotham Bold;  
+    text-align: center; 
+    
+    padding: 0;
+    margin: 2rem auto 2rem auto;
+    line-height: 1.5rem;
+}
+
+.our_products h5 {
+    border-bottom: #4990CD  solid 3px;
+    border-bottom-width: 30%;
+    margin: 0; 
+    margin-bottom: 1rem;
+    width: 12.5%;
+    padding-bottom: 0.5rem;
+    text-align: left; 
+    margin-left: 1rem; 
+    margin-bottom: 0; 
+}
+
+.product_container {
+    width: 60%;
+    margin: 0 auto 0 auto;    
+}
+
+.product_container h3 {
+    width: 50%;
+    text-align: center; 
+    margin: 0 auto 0 auto; 
+    margin-bottom: 10%;
+}
+
+.victron_energy {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    
+}
+
+.victron_energy_left {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 50%; 
+    
+    height: auto;    
+}
+
+.victron_energy_logo {
+    width: 90%;
+    height: auto;
+    
+}
+
+.victron_energy_logo img {
+    width: 100%;
+}
+
+.victron_energy_left p {
+    font-size: 0.8rem;
+    color: grey; 
+    font-family: Gotham Regular;
+    width: 80%; 
+    margin: 0 auto 0 auto;   
+    padding-left: 1rem;
+    margin-bottom: 1rem; 
+    text-align: left;
+    
+}
+
+.victron_energy h4 {
+    margin: 0 auto 0 auto;
+    margin-bottom: 1rem; 
+}
+
+.find_out_more_button_product {
+    width: 78%;   
+    background-color: #4990CD; /* Button background color */
+    color: white; /* Button text color */
+    margin: 0 auto 1rem 2.4rem;
+    font-family: Gotham Light;
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    padding: 0.5rem 1rem; /*Button padding */
+    border: none; /* Remove button border */
+    border-radius: 0.5rem; /* Button border radius */
+    font-size: 1rem; /* Button font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition effect */ 
+  
+}
+
+.victron_energy_right {
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    
+}
+
+.victron_energy_battery_image {
+    width: 90%;
+    height: auto; 
+    margin-bottom: 0.5rem;  
+}
+
+.victron_energy_battery_image img {
+    width: 100%; 
+}
+
+ 
