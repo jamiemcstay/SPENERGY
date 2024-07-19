@@ -698,16 +698,15 @@ h4 {
 
 .home-page-bottom {
     padding-top: 10%;
-    background-image: url('images/circle-background.svg'); 
-    background-size: 8px 8px;
-    background-repeat: repeat;
+    background-image: url('images/patterned-background.svg'); /* Path to your SVG file */
+    background-size: 16px 16px; /* Adjust size to control the pattern scale */
+    background-repeat: repeat; /* Ensure the pattern repeats */
     position: relative;
 }
 
 .home-page-bottom-wrapper {
     display: flex; 
     background-color: green;
-    padding-left: 100px;
     justify-content: center;
 }
 
