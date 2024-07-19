@@ -487,7 +487,7 @@ h4 {
 }
 
 .big-width {
-    width: 90%; 
+    width: 80%; 
 }
 
 .h3-tight {
@@ -586,13 +586,16 @@ h4 {
 
 #benefits-section {
     background: url('images/benefits_image_1.jpg') no-repeat center center;
-    width: 100%;
-    height: auto;
     background-size: cover;
     position: relative;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 3%;    
+}
+
+.benefits-section-top {
+    width: 100%;
+    height: auto;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 3%; 
 }
 
 #benefits-section h3, #benefits-section p {
@@ -679,34 +682,17 @@ h4 {
     padding-top: 15px;
 }
 
-
-.benefit_box_image img {
-    width: 100%; 
-
+.benefits-section-bottom {
+    width: 100%;
+    height: auto;
 }
-
-
-.contact_us_button {
-    width: 30%;
-    position: absolute;    
-    left: 36%;
-    background-color: #4990CD; 
-    color: white; 
-    padding: 0.5rem 1rem; 
-    border: none; 
-    border-radius: 0.5rem; 
-    font-size: 1rem; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease;   
-}
-
 
 .blue_text {
     color: #4990CD;
 }
 
 #gradient-overlay-benefits {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 /*Footer styles*/
