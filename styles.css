@@ -697,7 +697,7 @@ h4 {
 /*Home page bottom styles*/
 
 .home-page-bottom {
-    padding-top: 5%;
+    padding-top: 10%;
     background-image: url('images/patterned-background.svg'); /* Path to your SVG file */
     background-size: 16px 16px; /* Adjust size to control the pattern scale */
     background-repeat: repeat; /* Ensure the pattern repeats */
@@ -706,8 +706,8 @@ h4 {
 
 .home-page-bottom-wrapper {
     display: flex; 
-    /* background-color: green; */
     justify-content: center;
+    gap: 5%;
 }
 
 
@@ -722,6 +722,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .home-page-bottom-text h3 {
@@ -756,58 +757,6 @@ h4 {
     font-family: Gotham Light; 
 }
 
-/*Footer styles*/
-
-footer {
-    position: relative;
-    width: 100%;
-    margin: 0;
-    font-size: 0.7em;
-    background-color:#4990CD ;
-    display: flex;
-    justify-content: space-around;
-    height: auto;
-    color: white; 
-    line-height: 1.8em;
-    font-family: Gotham Light Regular; 
-}
-
-.logo_footer_white {
-    width: 20%;
-    height: auto;
-    margin: 0;
-}
-
-.logo_footer_white img {
-    width: 100%;
-}
-
-footer p  {
-    width: 20%;
-    /* margin: 1em 1em; */
-    color: white; 
-    /* line-height: 20%;: 1.8rem; */
-    font-family: Gotham Light Regular; 
-}
-
-footer ul {    
-    list-style: none; 
-    margin-left: 0;
-
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: white;     
-
-}
-
-.bold_text {
-    font-family: Gotham Bold;
-
-}
-
-
 form h4 {
     background-color: rgb(231, 229, 229);
     padding: 0.5rem;
@@ -826,6 +775,8 @@ input {
     height: 3rem; 
     font-family: Gotham Light Regular;
     border-radius: 0.5rem;
+    font-size: 120%;
+    padding-left: 2%; 
 
 }
 
@@ -834,14 +785,71 @@ textarea {
     border-radius: 0.5rem; 
     font-family: Gotham Light; 
     height: 8rem;
+    font-size: 150%;
+    padding-left: 2%; 
+ }
+
+/*Footer styles*/
+
+footer {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    font-size: 110%;
+    background-color: #143049;
+    display: flex;
+    height: auto;
+    color: white; 
+    font-family: Gotham Light Regular; 
+    padding-top: 3%;
 }
 
-input[type="email"] {
-    border-radius: 0.5rem;
-   
+footer h5 {
+    text-transform: uppercase; 
+    padding-bottom: 2%;
+    color: #4990CD;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    font-family: 'Gotham Bold';
+}
+
+.footer-top-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo_footer_white {
+    width: 30%;
+    height: auto;
+    margin: 0;
+}
+
+.logo_footer_white img {
+    width: 100%;
 }
 
 
+footer ul {    
+    list-style: none; 
+    margin-left: 0;
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    padding-right: 100px;
+    border-right: white solid 1px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;     
+}
+
+.bold_text {
+    font-family: Gotham Bold;
+}
 
 /*HOME SOLAR PAGE STYLES*/
 
