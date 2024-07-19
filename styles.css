@@ -482,6 +482,8 @@ h4 {
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
+    z-index: 10;
+    position: relative;
 }
 
 .h3-tight {
@@ -589,12 +591,12 @@ h4 {
     padding-top: 3%;    
 }
 
-#benefits-section h3:first-of-type, #benefits-section p {
+#benefits-section h3, #benefits-section p {
     position: relative;
     z-index: 10;
 }
 
-#benefits-section h3 {
+.benefits-h3-1 {
     padding-bottom: 20px;
     margin-bottom: 25px;
     border-bottom: solid white 3px;
@@ -611,7 +613,8 @@ h4 {
     position: relative;
     list-style-type: none;
     gap: 20px;
-    height: auto; 
+    height: auto;
+    margin-bottom: 50px; 
 }
 
 .benefit_box {
