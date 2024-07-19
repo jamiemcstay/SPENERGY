@@ -486,6 +486,10 @@ h4 {
     position: relative;
 }
 
+.big-width {
+    width: 90%; 
+}
+
 .h3-tight {
     text-align: center;
     width: 100%;
