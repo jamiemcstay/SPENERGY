@@ -797,11 +797,24 @@ footer {
     margin: 0;
     font-size: 110%;
     background-color: #143049;
-    display: flex;
     height: auto;
     color: white; 
     font-family: Gotham Light Regular; 
     padding-top: 3%;
+}
+
+.footer-top-wrapper {
+    display: flex;
+    padding-bottom: 3%;
+    border-bottom: solid white 1px; 
+}
+
+.footer-bottom-wrapper {
+    display: flex;
+    justify-content: center; 
+    padding: 1%;
+    background-color: white; 
+    color: black;
 }
 
 footer h5 {
@@ -813,7 +826,7 @@ footer h5 {
     font-family: 'Gotham Bold';
 }
 
-.footer-top-wrapper {
+.footer-ul-wrapper {
     width: 100%;
     height: auto;
     display: flex;
@@ -830,7 +843,6 @@ footer h5 {
     width: 100%;
 }
 
-
 footer ul {    
     list-style: none; 
     margin-left: 0;
@@ -840,6 +852,10 @@ footer ul {
     gap: 3%;
     padding-right: 100px;
     border-right: white solid 1px;
+}
+
+footer ul:last-of-type {
+    border-right: none; 
 }
 
 footer ul li a {
