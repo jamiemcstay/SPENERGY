@@ -317,6 +317,7 @@ h4 {
 
 #who-we-are {
     padding-top: 100px; 
+    background-image: url('images/single-line-pattern.svg');
 }
 
 #who-wrapper {
@@ -324,7 +325,8 @@ h4 {
     height: auto;
     margin: 0 auto;
     display: flex; 
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1%;
 }
 
 #who-img {
@@ -341,7 +343,11 @@ h4 {
 }
 
 #who-text {
-    width: 35%; 
+    width: 35%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 5%;
+ 
 }
 
 #who-text h3 {
