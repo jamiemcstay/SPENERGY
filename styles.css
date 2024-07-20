@@ -128,7 +128,7 @@ nav ul li a {
     font-size: 400%;
     margin-top: 0;
     line-height: 20% 4rem;
-    font-family: Gotham Bold;
+    font-family: "Gotham Bold";
     text-align: center;
 }
 
@@ -269,7 +269,7 @@ h3 {
 h4 { 
     margin-bottom: 0;
     padding: 0;
-    font-family: Gotham Bold; 
+    font-family: 'Gotham Bold'; 
     text-transform: uppercase; 
     font-size: 120%;
     
@@ -281,7 +281,7 @@ h4 {
     text-align: left;
     margin: 0 auto;
     padding: 0;
-    font-family: Gotham Light;
+    font-family: 'Gotham Light';
     color: grey;
     line-height: 1.8;
     height: 210px;
@@ -306,7 +306,7 @@ h4 {
     border: black 1px;
     border-radius: 0.9rem;
     font-size: 1rem;
-    font-family: 'GOTHAM BOLD';
+    font-family: 'Gotham Bold';
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-transform: uppercase;
@@ -466,7 +466,7 @@ h4 {
     text-align: left;
     margin: 0 auto;
     padding: 0;
-    font-family: Gotham Light;
+    font-family: 'Gotham Light';
     color: black;
     line-height: 1.8;
     height: 175px;
@@ -762,7 +762,7 @@ h4 {
     flex-direction: column; 
     justify-content: space-evenly;
     align-items: center; 
-    font-family: Gotham Light; 
+    font-family: 'Gotham Light'; 
 }
 
 form h4 {
@@ -773,7 +773,7 @@ form h4 {
     border-radius: 0.5rem;
     margin-bottom: 0.5rem; 
     margin-top: 0.5rem; 
-    font-family: Gotham Bold; 
+    font-family: 'Gotham Bold'; 
 }
 
 input {
@@ -781,7 +781,7 @@ input {
     width: 80%;
     margin-top: 1%;
     height: 3rem; 
-    font-family: Gotham Light Regular;
+    font-family: 'Gotham Light' Regular;
     border-radius: 0.5rem;
     font-size: 120%;
     padding-left: 2%; 
@@ -807,7 +807,7 @@ footer {
     background-color: #143049;
     height: auto;
     color: white; 
-    font-family: Gotham Light Regular; 
+    font-family: 'Gotham Light' Regular; 
     padding-top: 3%;
 }
 
@@ -873,7 +873,7 @@ footer ul li a {
 }
 
 .bold_text {
-    font-family: Gotham Bold;
+    font-family: 'Gotham Bold';
 }
 
 /*HOME SOLAR PAGE STYLES*/
@@ -898,7 +898,7 @@ footer ul li a {
 }
 
 .home_solar_part_1_left h5 {
-    font-family: Gotham Bold;
+    font-family: 'Gotham Bold';
     border-bottom: #4990CD  solid 3px;
     border-bottom-width: 30%;
     margin: 0; 
@@ -909,7 +909,7 @@ footer ul li a {
 
 
 .home_solar_part_1_left  h2 {
-    font-family: Gotham Bold; 
+    font-family: 'Gotham Bold'; 
     text-align: left;
     width: 100%;
     padding: 0;
@@ -954,7 +954,7 @@ footer ul li a {
 }
 
 .home_solar_part_1_right h2 {
-    font-family: Gotham Bold; 
+    font-family: 'Gotham Bold'; 
     text-align: left;
     width: 100%;
     padding: 0;
@@ -1033,7 +1033,7 @@ footer ul li a {
 .our_products {
 
     background-color: white; 
-    font-family: Gotham Bold;  
+    font-family: 'Gotham Bold';  
     text-align: left;
     width: 100%;
     padding: 0;
@@ -1053,7 +1053,7 @@ footer ul li a {
 
 .intro_products_left {
     font-size: 0.8rem;
-    font-family: Gotham Regular;
+    font-family: 'Gotham Regular';
     width: 50%;
     text-align: left; 
     padding-left: 0.8rem; 
@@ -1079,29 +1079,10 @@ footer ul li a {
 .intro_products_right li p {
     border: none; 
     font-size: 0.8rem;
-    font-family: Gotham Regular;
+    font-family: 'Gotham Regular';
     width: 100%;
     text-align: left; 
 }
-
-/* .intro_products ul {
-    display: flex;
-    justify-content: space-between; 
-    width: 50%;
-    
-} */
-
-
-/* .our_products p {
-    font-size: 0.8rem;
-    font-family: Gotham Regular;
-    width: 50%;
-    text-align: left; 
-    margin: 0 auto 0 auto; 
-    padding-left: 0.8rem; 
-    border-left: solid #4990CD 3px; 
-    margin-bottom: 3rem; 
-} */
 
 .our_products h3 {
     border-bottom: solid #4990CD 3px; 
@@ -1111,9 +1092,8 @@ footer ul li a {
 
 .our_products h2{
     width: 90%;
-    font-family: Gotham Bold;  
-    text-align: center; 
-    
+    font-family: 'Gotham Bold';  
+    text-align: center;    
     padding: 0;
     margin: 2rem auto 2rem auto;
     line-height: 1.5rem;
@@ -1172,7 +1152,7 @@ footer ul li a {
 .victron_energy_left p {
     font-size: 0.8rem;
     color: grey; 
-    font-family: Gotham Regular;
+    font-family: 'Gotham Regular';
     width: 80%; 
     margin: 0 auto 0 auto;   
     padding-left: 1rem;
@@ -1191,7 +1171,7 @@ footer ul li a {
     background-color: #4990CD; /* Button background color */
     color: white; /* Button text color */
     margin: 0 auto 1rem 2.4rem;
-    font-family: Gotham Light;
+    font-family: 'Gotham Light';
     cursor: pointer; /* Cursor style */
     transition: background-color 0.3s ease; /* Smooth transition effect */
     padding: 0.5rem 1rem; /*Button padding */
