@@ -893,32 +893,32 @@ footer ul li a {
 }
 
 .why-choose-us-part-1 {
-    width: 50%; 
+    width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 auto;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .big-p-wrapper {
-    background-color: pink;
-    width: 45%;
-    display: flex; 
-    align-items: center;   
+    width: 35%;
+    display: flex;
+    align-items: center; 
 }
 
 .why-choose-us-img-wrapper {
-    width: 45%; 
-    height: auto;  
+    width: 50%;
+    height: auto;
 }
 
 .why-choose-us-img-wrapper img {
     width: 100%;
     height: 100%; 
+    border-radius: 20px;
 }
 
 .big-p-bold {
-    font-size: 150%;
+    font-size: 180%;
     font-family: 'Gotham Bold';
 }
 
@@ -928,28 +928,31 @@ footer ul li a {
     width: 50%;
     height: auto;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding-top: 10px;
 }
 
 .why-choose-us-part2a {
     background-color: pink;
-    width: 45%;
+    width: 35%;
 }
 
-.why-choose-use-part2a {
-    font-size: 120%; 
+.why-choose-us-part2a  > p{
+    font-size: 110%; 
+    margin-bottom: 30px; 
 }
 
 .why-choose-us-card {
     background-color: white; 
     display: flex; 
-    justify-content: space-evenly;
-    border-radius: 5%;
-    width: 60%; 
-    padding: 2%;
+    justify-content: space-between;
+    border-radius: 15px;
+    width: 90%; 
+    padding: 10%;
     align-items: center; 
     margin: 0 auto;
     margin-bottom: 30px; 
+    border: 2px #4990CD solid; 
 }
 
 .why-choose-us-card > i {
@@ -957,14 +960,27 @@ footer ul li a {
     color: #4990CD;
 }
 
+.home-solar-buttons-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;  
+    gap: 20px;
+}
+
+.home-solar-buttons {
+    width: 100%;
+}
+
+
 .why-choose-us-part2b {
     background-color: orange;
-    width: 45%;
+    width: 50%;
 }
 
 .home-solar-form {
     width: 100%;
-    height: 80%;
+    height: 100%;
     background-color: white; 
     border-radius: 2%;
     margin-bottom: 0;
