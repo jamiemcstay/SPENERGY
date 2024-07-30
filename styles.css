@@ -918,7 +918,7 @@ footer ul li a {
 }
 
 .big-p-bold {
-    font-size: 180%;
+    font-size: 190%;
     font-family: 'Gotham Bold';
 }
 
@@ -933,13 +933,14 @@ footer ul li a {
 }
 
 .why-choose-us-part2a {
-    background-color: pink;
     width: 35%;
 }
 
 .why-choose-us-part2a  > p{
     font-size: 110%; 
     margin-bottom: 30px; 
+    padding-top: 20px;
+    border-top: solid #4990CD 2px; 
 }
 
 .why-choose-us-card {
@@ -947,7 +948,7 @@ footer ul li a {
     display: flex; 
     justify-content: space-between;
     border-radius: 15px;
-    width: 90%; 
+    width: 100%; 
     padding: 10%;
     align-items: center; 
     margin: 0 auto;
@@ -961,7 +962,7 @@ footer ul li a {
 }
 
 .home-solar-buttons-wrapper {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex; 
     flex-direction: column;  
