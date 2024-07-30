@@ -900,9 +900,11 @@ footer ul li a {
     margin-bottom: 50px;
 }
 
-.why-choose-us-part-1 p {
+.big-p-wrapper {
     background-color: pink;
-    width: 45%;  
+    width: 45%;
+    display: flex; 
+    align-items: center;   
 }
 
 .why-choose-us-img-wrapper {
@@ -916,7 +918,7 @@ footer ul li a {
 }
 
 .big-p-bold {
-    font-size: 200%;
+    font-size: 150%;
     font-family: 'Gotham Bold';
 }
 
