@@ -99,9 +99,9 @@ nav ul li a {
 
 }
 
-.top {
+.top-home {
     background: url(images/hero-image-3.jpg) no-repeat center / cover; 
-    height: 80vh;
+    height: 70vh;
     position: relative;
     width: 100%;
     display: flex;
@@ -111,7 +111,7 @@ nav ul li a {
     
 }
 
-.hero_text {
+.hero-text {
     color: white;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ nav ul li a {
     z-index: 1; 
 }
 
-.hero_text h1 {
+.hero-text h1 {
     font-size: 400%;
     margin-top: 0;
     line-height: 20% 4rem;
@@ -133,7 +133,7 @@ nav ul li a {
     text-align: center;
 }
 
-.hero_text h2 {
+.hero-text h2 {
     font-size: 1.5rem;
     padding-top: 0;
     margin-top: 0;
@@ -878,329 +878,16 @@ footer ul li a {
 }
 
 /*HOME SOLAR PAGE STYLES*/
-
-.home_solar_part_1 {
+.top-other {
+    height: 65vh;
     position: relative;
+    width: 100%;
+    background-color: #143049;
     display: flex;
-    width: 90%;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 5%;
-    
-    
-}
-
-.home_solar_part_1_left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; 
-    width: 50%; 
-    height: auto;   
-}
-
-.home_solar_part_1_left h5 {
-    font-family: 'Gotham Bold';
-    border-bottom: #4990CD  solid 3px;
-    border-bottom-width: 30%;
-    margin: 0; 
-    margin-bottom: 1rem;
-    width: 25%;
-    padding-bottom: 0.5rem;
-}   
-
-
-.home_solar_part_1_left  h2 {
-    font-family: 'Gotham Bold'; 
-    text-align: left;
-    width: 100%;
-    padding: 0;
-    margin-top: 0;
-    line-height: 1.5rem;
- 
+    justify-content: center;
+    align-items: center; 
 }
 
 
-
-.home_solar_part_1_left p {
-    border-left: solid #4990CD 3px;
-    padding-left: 0.5rem; 
-    width: 95%;
-    font-size: 0.8rem; 
-    margin-top: 0;
-    
-   
-
-}
-
-
-.home_solar_part_1_left_button {
-    width: 50%;
-    margin-top: 1rem;
-    background-color: #007bff; /* Button background color */
-    color: white; /* Button text color */
-    padding: 0.5rem 1rem; 
-    border: none; /* Remove button border */
-    border-radius: 0.5rem; /* Button border radius */
-    font-size: 1rem; /* Button font size */
-    cursor: pointer; /* Cursor style */
-    transition: background-color 0.3s ease; /* Smooth transition effect */
-}
-
-.home_solar_part_1_right {
-    width: 50%;
-    height: auto;
-    margin: 0;
-    /* border: solid black 1px; */
- 
-}
-
-.home_solar_part_1_right h2 {
-    font-family: 'Gotham Bold'; 
-    text-align: left;
-    width: 100%;
-    padding: 0;
-    margin-top: 0;
-    line-height: 1.5rem;  
-    
-}
-
-.home_solar_part_1_right_image {    
-    width: 100%;
-    height: auto;
-    
-
-}
-
-
-.home_solar_part_1_right_image img {
-    width: 100%;
-    height: auto; 
-    border-radius: 2rem;
-}
-
-.home_solar_part_1_right p {
-    font-size: 0.8rem; 
-    border-left: solid #4990CD 3px;
-    padding-left: 0.5rem; 
-    width: 95%;
-    font-size: 0.8rem; 
-    margin-top: 0;
-}
-
-.services_boxes {
-    display: flex;
-    width: 95%;   
-    margin-top: 0; 
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 5%;
-}
-
-.service_row {
-    display: flex; 
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: 5%;
-}
-.service_box {
-    width: 45%;
-    border: solid grey 1px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 1rem;
-    height: 4.5rem; 
-    background-color: white; 
-    
-    
-}
-
-.service_box h5 {
-    border: 0;
-    margin: 0;  
-    padding: 0; 
-    width: 40%; 
-}
-
-.service_box_logo {
-    width: 20%;
-    margin-left: 0;
-}
-
-.service_box_logo img {
-    width: 100%;
-}
-
-.our_products {
-
-    background-color: white; 
-    font-family: 'Gotham Bold';  
-    text-align: left;
-    width: 100%;
-    padding: 0;
-    margin-top: 0;
-    line-height: 1.5rem;
-    width: 100%;
-    height: auto; 
-    
-}
-
-.intro_products {
-    display: flex; 
-    width: 80%;
-    margin: 0 auto 0 auto; 
-
-}
-
-.intro_products_left {
-    font-size: 0.8rem;
-    font-family: 'Gotham Regular';
-    width: 50%;
-    text-align: left; 
-    padding-left: 0.8rem; 
-    border-left: solid #4990CD 3px; 
-    margin-bottom: 3rem; 
-}
-
-.intro_products_right {
-    width: 50%;
-    display: flex; 
-    flex-wrap: nowrap;
-}
-
-.intro_products_right ul li {
-    width: 100%; 
-}
-
-.intro_products_right ul li h5 {
-    width: 100%; 
-    border: none; 
-}
-
-.intro_products_right li p {
-    border: none; 
-    font-size: 0.8rem;
-    font-family: 'Gotham Regular';
-    width: 100%;
-    text-align: left; 
-}
-
-.our_products h3 {
-    border-bottom: solid #4990CD 3px; 
-    padding-bottom: 0.5rem; 
-}
-
-
-.our_products h2{
-    width: 90%;
-    font-family: 'Gotham Bold';  
-    text-align: center;    
-    padding: 0;
-    margin: 2rem auto 2rem auto;
-    line-height: 1.5rem;
-}
-
-.our_products h5 {
-    border-bottom: #4990CD  solid 3px;
-    border-bottom-width: 30%;
-    margin: 0; 
-    margin-bottom: 1rem;
-    width: 12.5%;
-    padding-bottom: 0.5rem;
-    text-align: left; 
-    margin-left: 1rem; 
-    margin-bottom: 0; 
-}
-
-.product_container {
-    width: 60%;
-    margin: 0 auto 0 auto;    
-}
-
-.product_container h3 {
-    width: 50%;
-    text-align: center; 
-    margin: 0 auto 0 auto; 
-    margin-bottom: 10%;
-}
-
-.victron_energy {
-    display: flex;
-    width: 100%;
-    justify-content: center; 
-    
-}
-
-.victron_energy_left {
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between; 
-    width: 50%; 
-    
-    height: auto;    
-}
-
-.victron_energy_logo {
-    width: 90%;
-    height: auto;
-    
-}
-
-.victron_energy_logo img {
-    width: 100%;
-}
-
-.victron_energy_left p {
-    font-size: 0.8rem;
-    color: grey; 
-    font-family: 'Gotham Regular';
-    width: 80%; 
-    margin: 0 auto 0 auto;   
-    padding-left: 1rem;
-    margin-bottom: 1rem; 
-    text-align: left;
-    
-}
-
-.victron_energy h4 {
-    margin: 0 auto 0 auto;
-    margin-bottom: 1rem; 
-}
-
-.find_out_more_button_product {
-    width: 78%;   
-    background-color: #4990CD; /* Button background color */
-    color: white; /* Button text color */
-    margin: 0 auto 1rem 2.4rem;
-    font-family: 'Gotham Light';
-    cursor: pointer; /* Cursor style */
-    transition: background-color 0.3s ease; /* Smooth transition effect */
-    padding: 0.5rem 1rem; /*Button padding */
-    border: none; /* Remove button border */
-    border-radius: 0.5rem; /* Button border radius */
-    font-size: 1rem; /* Button font size */
-    cursor: pointer; /* Cursor style */
-    transition: background-color 0.3s ease; /* Smooth transition effect */ 
-  
-}
-
-.victron_energy_right {
-    
-    width: 50%;
-    display: flex;
-    flex-direction: column; 
-    justify-content: flex-end; 
-    
-}
-
-.victron_energy_battery_image {
-    width: 90%;
-    height: auto; 
-    margin-bottom: 0.5rem;  
-}
-
-.victron_energy_battery_image img {
-    width: 100%; 
-}
 
  
