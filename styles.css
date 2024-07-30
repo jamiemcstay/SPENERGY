@@ -131,6 +131,7 @@ nav ul li a {
     line-height: 20% 4rem;
     font-family: "Gotham Bold";
     text-align: center;
+    text-transform: uppercase;
 }
 
 .hero-text h2 {
