@@ -201,7 +201,7 @@ h3 {
     font-family: 'Gotham Bold';
     font-size: 180%; 
     text-transform: uppercase; 
-    margin-bottom: 50px; 
+    margin-bottom: 30px; 
     font-weight: 800; 
 
 }
@@ -210,7 +210,7 @@ h3 {
     font-size: 180%; 
     font-family: 'Gotham Light';
     margin: 0 auto;  
-    width: auto;
+    width: 40%;
     margin-bottom: 50px; 
     text-align: center; 
     
@@ -886,6 +886,10 @@ footer ul li a {
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+
+.why-choose-us {
+    padding-top: 50px; 
 }
 
 
