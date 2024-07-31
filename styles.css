@@ -1107,6 +1107,12 @@ footer ul li a {
     border-radius: 10px; 
 }
 
+.grant-box-h4-wrapper {
+    width: auto;
+    height: auto;
+    margin: 0 auto; 
+}
+
 .non-domestic-grant-box h4{
     width: auto;
     font-size: 130%;
