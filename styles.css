@@ -892,7 +892,7 @@ footer ul li a {
     padding-top: 50px; 
 }
 
-.why-choose-us-part-1 {
+.section-wrapper-1 {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
@@ -923,7 +923,7 @@ footer ul li a {
 }
 
 
-.why-choose-us-part2 {
+.section-wrapper-2 {
     display: flex;
     width: 50%;
     height: auto;
@@ -933,11 +933,11 @@ footer ul li a {
     margin-bottom: 100px;
 }
 
-.why-choose-us-part2a {
+.section-wrapper-2a {
     width: 35%;
 }
 
-.why-choose-us-part2a  > p{
+.section-wrapper-2a  > p{
     font-size: 110%; 
     margin-bottom: 30px; 
     padding-top: 20px;
@@ -975,7 +975,7 @@ footer ul li a {
 }
 
 
-.why-choose-us-part2b {
+.section-wrapper-2b {
     width: 50%;
     display: flex;
 }
