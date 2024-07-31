@@ -1053,6 +1053,22 @@ footer ul li a {
     transform: scale(1.1); /* Slight zoom effect on hover */
 }
 
+/*Other Services page*/
+
+.section-p-small {
+    font-size: 110%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: solid #4990CD 2px;
+    width: 50%
+}
+
+.non-domestic-grant-box {
+    width: 35%;
+    background-color: white;
+    padding: 10%;
+}
+
 
 
  
