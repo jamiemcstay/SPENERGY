@@ -1118,6 +1118,33 @@ footer ul li a {
     font-size: 150%;
 }
 
+.non-dom-cards-wrapper {
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    /* flex-direction: column; */
+    gap: 10px; 
+}
 
+ .non-dom-card {
+    width: 45%;
+    padding: 5%;
+    background-color: #143049;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    flex: 1;
+    border-radius: 10px;
+ }
 
- 
+ .non-dom-card i {
+    color: white; 
+    font-size: 40px; 
+ }
+
+ .non-dom-card h4 {
+    color: white; 
+    font-size: 90%;
+ }
