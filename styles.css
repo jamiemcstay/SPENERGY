@@ -892,12 +892,11 @@ footer ul li a {
     padding-top: 50px; 
 }
 
-.section-wrapper-1 {
+.why-choose-us-wrapper-1 {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
-
 }
 
 .big-p-wrapper {
@@ -923,7 +922,7 @@ footer ul li a {
 }
 
 
-.section-wrapper-2 {
+.why-choose-us-wrapper-2 {
     display: flex;
     width: 50%;
     height: auto;
@@ -933,11 +932,11 @@ footer ul li a {
     margin-bottom: 100px;
 }
 
-.section-wrapper-2a {
+.why-choose-us-wrapper-2a {
     width: 35%;
 }
 
-.section-wrapper-2a  > p{
+.why-choose-us-wrapper-2a  > p{
     font-size: 110%; 
     margin-bottom: 30px; 
     padding-top: 20px;
@@ -975,7 +974,7 @@ footer ul li a {
 }
 
 
-.section-wrapper-2b {
+.why-choose-us-wrapper-2b {
     width: 50%;
     display: flex;
 }
@@ -1055,10 +1054,43 @@ footer ul li a {
 
 /*Other Services page*/
 
+.non-domestic-wrapper-1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.non-domestic-wrapper-2 {
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.non-domestic-wrapper-2a {
+    width: 50%;
+    display: flex;
+}
+
+.non-domestic-wrapper-2b {
+    width: 35%;
+}
+
+
+.non-domestic-wrapper-2a  > p{
+    font-size: 110%; 
+    margin-bottom: 30px; 
+    padding-top: 20px;
+    border-top: solid #4990CD 2px; 
+}
+
 .section-p-small {
     font-size: 110%;
     margin-bottom: 30px;
-
     width: 50%;
 }
 
