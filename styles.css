@@ -1058,15 +1058,26 @@ footer ul li a {
 .section-p-small {
     font-size: 110%;
     margin-bottom: 30px;
-    padding-top: 20px;
-    border-top: solid #4990CD 2px;
-    width: 50%
+
+    width: 50%;
 }
 
 .non-domestic-grant-box {
+    display: flex;
     width: 35%;
     background-color: white;
-    padding: 10%;
+    padding: 3%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 6%;
+    border: solid #4990CD 2px;
+    border-radius: 10px; 
+}
+
+.non-domestic-grant-box h4{
+    width: auto;
+    font-size: 130%;
 }
 
 
