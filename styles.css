@@ -899,6 +899,7 @@ footer ul li a {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
+    padding-bottom: 50px;
     /* margin-bottom: 50px; */
 }
 
@@ -932,6 +933,7 @@ footer ul li a {
     margin: 0 auto;
     justify-content: space-evenly;
     padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .why-choose-us-part2a {
@@ -997,8 +999,36 @@ footer ul li a {
     margin: 0 auto;
 }
 
-/*Styles for gallery*/
+.background-break {
+    height: 100px;
+    width: 100%;
+    background-image: url('images/single-line-pattern.svg');
+}
 
+/*Styles for our work section*/
+
+.our-work {
+    padding-top: 50px;
+    height: auto;
+    padding-bottom: 100px; 
+    background-color: #f3f1f1; /* Base color for the background */
+    background-image: 
+        linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%),
+        linear-gradient(135deg, rgba(73, 144, 205, 0.1) 25%, transparent 25%),
+        linear-gradient(225deg, rgba(73, 144, 205, 0.1) 25%, transparent 25%);
+    background-size: 800px 800px; /* Size of each cube */
+    background-repeat: repeat; /* Repeat pattern across the entire background */
+    
+}
+
+.our-work h3 {
+    
+    /* width: 20%; */
+    margin: 0 auto;
+    padding: 2%;
+    padding-bottom: 50px; 
+}
 .gallery {
     display: flex;
     flex-wrap: wrap; /* Ensure columns wrap if needed */
