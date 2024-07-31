@@ -1088,10 +1088,15 @@ footer ul li a {
     border-top: solid #4990CD 2px; 
 }
 
-.section-p-small {
+.small-p-wrapper {
+    width: 50%;
+}
+
+.non-dom-p-small {
     font-size: 110%;
     margin-bottom: 30px;
-    width: 50%;
+    width: 75%;
+
 }
 
 .non-domestic-grant-box {
