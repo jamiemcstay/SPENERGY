@@ -1223,3 +1223,38 @@ footer ul li a {
     gap: 20px; 
 }
 
+/*Off Grid section on other services page*/
+
+.off-grid-wrapper-1 {
+    width: 50%;
+    display: flex; 
+    background-color: blue;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.off-grid-p-wrapper {
+    width: 50%; 
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.off-grid-wrapper-1 p {
+    background-color: pink;
+    font-size: 180%;
+    width: 80%;
+}
+
+.off-grid-img-wrapper {
+    width: 50%;
+    height: auto;
+}
+
+.off-grid-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+}
+
