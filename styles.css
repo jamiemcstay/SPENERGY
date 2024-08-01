@@ -1174,7 +1174,7 @@ footer ul li a {
  }
 
  .big-p-wrapper-other {
-    width: 45%;
+    width: 40%;
     display: flex;
     align-items: center;
 }
@@ -1185,7 +1185,7 @@ footer ul li a {
 }
 
 .non-dom-img-wrapper {
-    width: 50%;
+    width: 45%;
     height: auto;
 }
 
