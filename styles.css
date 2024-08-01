@@ -1183,3 +1183,15 @@ footer ul li a {
     font-size: 190%;
     font-family: 'Gotham Bold';
 }
+
+.non-dom-img-wrapper {
+    width: 50%;
+    height: auto;
+}
+
+.non-dom-img-wrapper img {
+    width: 100%;
+    height: 100%; 
+    border-radius: 20px;
+}
+
