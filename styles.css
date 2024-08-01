@@ -900,9 +900,14 @@ footer ul li a {
 }
 
 .big-p-wrapper {
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
+}
+
+.big-p-bold {
+    font-size: 190%;
+    font-family: 'Gotham Bold';
 }
 
 .why-choose-us-img-wrapper {
@@ -916,10 +921,6 @@ footer ul li a {
     border-radius: 20px;
 }
 
-.big-p-bold {
-    font-size: 190%;
-    font-family: 'Gotham Bold';
-}
 
 
 .why-choose-us-wrapper-2 {
@@ -1171,3 +1172,14 @@ footer ul li a {
     color: white; 
     font-size: 90%;
  }
+
+ .big-p-wrapper-other {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.big-p-bold-other {
+    font-size: 190%;
+    font-family: 'Gotham Bold';
+}
