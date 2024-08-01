@@ -900,9 +900,9 @@ footer ul li a {
 }
 
 .big-p-wrapper {
-    width: 35%;
+    width: 40%;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .why-choose-us-img-wrapper {
@@ -1072,7 +1072,7 @@ footer ul li a {
 }
 
 .non-domestic-wrapper-2a {
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     background-color: blue;
