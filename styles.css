@@ -1055,6 +1055,10 @@ footer ul li a {
 
 /*Other Services page*/
 
+.non-domestic {
+    padding-top: 50px; 
+}
+
 .non-domestic-wrapper-1 {
     width: 50%;
     display: flex;
