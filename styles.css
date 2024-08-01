@@ -1281,8 +1281,18 @@ footer ul li a {
     color: blue;
     /* margin: 0 auto; */
     width: 50%;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1%;
+    color: white; 
+
 }
 
 .off-grid-card {
     text-align: center;
+    background-color:#143049;
+    flex-basis: 40%;
+    /* flex: 1; */
 }
