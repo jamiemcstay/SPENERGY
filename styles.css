@@ -1102,9 +1102,9 @@ footer ul li a {
     background-color: pink;
 }
 
-.no-dom-form {
-    width: 75%;
-    height: 90%;
+.non-dom-form {
+    width: 100%;
+    height: 30rem;
     background-color: white; 
     border-radius: 2%;
     margin-bottom: 0;
