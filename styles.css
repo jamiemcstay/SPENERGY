@@ -1281,18 +1281,47 @@ footer ul li a {
     color: blue;
     /* margin: 0 auto; */
     width: 50%;
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 1%;
-    color: white; 
+    /* color: white;  */
 
 }
 
 .off-grid-card {
     text-align: center;
-    background-color:#143049;
+    /* background-color: #143049; */
     flex-basis: 40%;
     /* flex: 1; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#143049; 
+    
+    /* background-color: white;  */
+    border-radius: 10px;
 }
+
+.off-grid-card h4 {
+    font-size: 100%;
+}
+
+.off-grid-check-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black; 
+    border-radius: 50%; 
+    background-color: #143049;
+
+}
+
+.off-grid-card i {
+    font-size: 30px;
+    color: white;
+}
+
