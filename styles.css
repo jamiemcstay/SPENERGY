@@ -1571,6 +1571,11 @@ footer ul li a {
         margin: 0 auto;
     }
 
+    .hero-buttons-wrapper button {
+        margin: 0 auto;
+    }
+
+
     .part_2_info_boxes {
         justify-content: center;
         gap: 10px;
@@ -1611,4 +1616,10 @@ footer ul li a {
     footer ul {
         padding-right: 30px;
     }
+
+    nav ul li a {
+        font-size: 90%;
+
+    }
+
 }
