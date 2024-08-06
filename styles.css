@@ -1422,6 +1422,20 @@ footer ul li a {
         width: auto;
     }
 
+    .home-page-bottom-wrapper {
+        flex-direction: column;
+    }
+
+    .home-page-bottom-text {
+        width: 95%;
+        margin: 0 auto 20px auto;
+    }
+
+    #home-page-form {
+        width: 95%;
+        margin: 0 auto;
+    }
+
 }
 
 @media (max-width: 768px) {
