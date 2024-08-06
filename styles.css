@@ -1375,16 +1375,18 @@ footer ul li a {
 
 .grants-part-1-wrapper {
     width: 50%;
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .grants-h3-left {
     width: 43%;
     margin: 0 auto;
     text-align: left;
+    margin-bottom: 30px; 
 }
 
 .grants-img-1 {
@@ -1403,39 +1405,39 @@ footer ul li a {
     display: flex; 
     /* justify-content: center; */
     align-items: center; 
-    background-color: green;
+    /* background-color: green; */
 }
 .grants-p {
     font-size: 160%;
     width: 90%;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .grants-part-2-wrapper {
-    background-color: lightblue; 
+    /* background-color: lightblue;  */
     display: flex; 
     width: 50%;
     margin: 0 auto;
     justify-content: center;
+    margin-bottom: 50px; 
 }
 
 .grants-part-2a {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 40%;
     display: flex; 
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .grants-part-2b {
-    background-color:aqua;
+    /* background-color:aqua; */
     display: flex;
     flex-direction: column;
     width: 45%; 
     justify-content: space-between;
     align-items: center; 
     gap: 40px; 
-
 }
 
 .grants-box-1, .grants-box-2 {
@@ -1448,4 +1450,56 @@ footer ul li a {
     display: flex; 
     justify-content: center;
     align-items: center;
+}
+
+.grants-blue-box {
+    width: 50%;
+    height: 200px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color:#143049; 
+    color: white; 
+    border-radius: 10px;
+    text-align: center; 
+    margin: 0 auto;
+    margin-bottom: 50px; 
+}
+
+.grants-part-3-wrapper {
+    width: 50%; 
+    margin: 0 auto;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+}
+
+.grants-part-3a {
+    width: 40%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grants-part-3a p {
+    font-family: 'Gotham Bold';
+    font-size: 150%;
+    width: 90%;
+    margin-bottom: 30px; 
+}
+
+.grants-form {
+    width: 25rem;
+    height: 35rem;
+    background-color: white; 
+    border-radius: 2%;
+    margin-bottom: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly;
+    align-items: center; 
+    font-family: 'Gotham Light'; 
+    align-self: flex-end;
+    margin: 0 auto;
 }
