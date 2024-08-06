@@ -58,11 +58,17 @@ header {
     width: 100%;
     margin: 0;
     position: relative;
+    padding: 10px; 
    
 }
 
 .logo img {
-    width: 160%;
+    width: 160px;
+}
+
+nav {
+    display: flex; 
+    flex: 1;
 }
 
 nav ul {
@@ -86,6 +92,23 @@ nav ul li a {
     color: black;
     text-decoration: none;
     
+}
+
+/*Hamburger menu styles*/
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer; 
+    padding: 10px; 
+}
+
+.menu-toggle .bar {
+    background-color: black;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+    transition: 0.3s;    
 }
 
 .contact_info {
@@ -1371,152 +1394,37 @@ footer ul li a {
     width: 85%;
 }
 
-/*GRANTS PAGE*/
+/*Media queries*/
 
-.solar-pv-grants-section {
-    padding-top: 50px;
-    padding-bottom: 50px; 
-}
+@media (max-width: 768px) {
+    nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+    }
 
-.grants-part-1-wrapper {
-    width: 50%;
-    /* background-color: orange; */
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}
+    nav.active {
+        display: flex; 
+    }
 
-.grants-h3-left {
-    width: 43%;
-    margin: 0 auto;
-    text-align: left;
-    margin-bottom: 30px; 
-}
+    nav ul {
+        flex-direction: column;
+        width: 100%; 
+    }
 
-.grants-img-1 {
-    width: 45%;
-    height: auto;
+    nav ul li {
+        padding: 1rem;
+        text-align: center;
+        width: 100%; 
+    }
 
-}
+    .contact-info {
+        display: none;
+    }
 
-.grants-img-1 img {
-    width: 100%;
-    height: 100%;
-}
+    .menu-toggle {
+        display: flex; 
+    }
 
-.grants-p-wrapper-part-1 {
-    width: 40%;
-    display: flex;
-}
-
-.grants-p-part-1 {
-    padding-top: 10%;
-    font-size: 160%;
-    width: 90%;
-    /* background-color: pink; */
-    border-top: solid 3px #2f6a9e;
-}
-
-.grants-p-wrapper {
-    width: 40%;
-    display: flex; 
-    align-items: center; 
-}
-.grants-p {
-    font-size: 160%;
-    width: 90%;
-    /* background-color: pink; */
-}
-
-.grants-part-2-wrapper {
-    /* background-color: lightblue;  */
-    display: flex; 
-    width: 50%;
-    margin: 0 auto;
-    justify-content: center;
-    margin-bottom: 50px; 
-}
-
-.grants-part-2a {
-    /* background-color: lightcoral; */
-    width: 40%;
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-top: solid 3px #2f6a9e;
-}
-
-.grants-part-2b {
-    /* background-color:aqua; */
-    display: flex;
-    flex-direction: column;
-    width: 45%; 
-    justify-content: space-between;
-    align-items: center; 
-    gap: 40px; 
-}
-
-.grants-box-1, .grants-box-2 {
-    background-color: white;
-    width: 252px;
-    border: solid 3px #2f6a9e;
-    padding: 5%;
-    border-radius: 10px;
-    height: 138px; 
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-}
-
-.grants-blue-box {
-    width: 50%;
-    height: 200px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    background-color:#143049; 
-    color: white; 
-    border-radius: 10px;
-    text-align: center; 
-    margin: 0 auto;
-    margin-bottom: 50px; 
-}
-
-.grants-part-3-wrapper {
-    width: 50%; 
-    margin: 0 auto;
-    /* background-color: lightblue; */
-    display: flex;
-    justify-content: center;
-}
-
-.grants-part-3a {
-    width: 40%;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-}
-
-.grants-part-3a p {
-    font-family: 'Gotham Bold';
-    font-size: 150%;
-    width: 90%;
-    margin-bottom: 30px; 
-}
-
-.grants-form {
-    width: 25rem;
-    height: 35rem;
-    background-color: white; 
-    border-radius: 2%;
-    margin-bottom: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-evenly;
-    align-items: center; 
-    font-family: 'Gotham Light'; 
-    align-self: flex-end;
-    margin: 0 auto;
 }
