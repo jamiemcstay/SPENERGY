@@ -63,13 +63,15 @@ header {
 }
 
 .logo img {
-    width: 160px;
+    width: 100%;
 }
 
 nav {
     display: flex; 
     flex: 1;
+    justify-content: center;
 }
+
 
 nav ul {
     display: flex;
@@ -1401,7 +1403,12 @@ footer ul li a {
         display: none;
         width: 100%;
         flex-direction: column;
+        width: 100%;
         background-color: white;
+        position: absolute;
+        top: 60px; /* Adjust as needed */
+        left: 0;
+        z-index: 1000; /* Ensure it appears on top */
     }
 
     nav.active {
