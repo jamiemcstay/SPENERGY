@@ -1568,6 +1568,7 @@ footer ul li a {
     #hero-buttons-wrapper {
         width: 80%;
         flex-direction: row;
+        margin: 0 auto;
     }
 
     .part_2_info_boxes {
