@@ -1225,6 +1225,10 @@ footer ul li a {
 
 /*Off Grid section on other services page*/
 
+.off-grid-section {
+    position: relative;
+}
+
 .off-grid-wrapper-1 {
     width: 50%;
     display: flex; 
@@ -1279,29 +1283,29 @@ footer ul li a {
 
 .off-grid-cards {
     color: blue;
-    /* margin: 0 auto; */
-    width: 50%;
-    /* background-color: orange; */
+    width: auto;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 1%;
-    /* color: white;  */
-
+    top: 10%;
+    right: 5%;
 }
 
 .off-grid-card {
-    text-align: center;
+    text-align: left;
     /* background-color: #143049; */
-    flex-basis: 40%;
+    width: 280px;
     /* flex: 1; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space;
     align-items: center;
-    color:#143049; 
-    
-    /* background-color: white;  */
+    color: #143049;
+    /* background-color: white; */
     border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 5%;
 }
 
 .off-grid-card h4 {
@@ -1343,3 +1347,18 @@ footer ul li a {
     border-radius: 20px;
 }
 
+.off-grid-buttons {
+    /* background-color: pink; */
+    width: 50%;
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.blue-bottom-border {
+    border-bottom: solid 2px #4990CD;
+}
+
+.bold-p-tight-width {
+    width: 85%;
+}
