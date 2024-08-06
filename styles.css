@@ -1370,3 +1370,43 @@ footer ul li a {
 .bold-p-tight-width {
     width: 85%;
 }
+
+/*GRANTS PAGE*/
+
+.grants-part-1-wrapper {
+    width: 50%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.grants-h3-left {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.grants-img-1 {
+    width: 45%;
+    height: auto;
+
+}
+
+.grants-img-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.grants-p-wrapper {
+    width: 40%;
+    display: flex; 
+    /* justify-content: center; */
+    align-items: center; 
+    background-color: green;
+}
+.grants-p {
+    font-size: 160%;
+    width: 90%;
+    background-color: pink;
+}
