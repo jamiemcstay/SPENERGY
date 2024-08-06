@@ -1399,6 +1399,8 @@ footer ul li a {
 /*Media queries*/
 
 @media (max-width: 425px) {
+
+
     .part_2_info_boxes {
         flex-direction: column;
         gap: 20px;
@@ -1472,6 +1474,12 @@ footer ul li a {
 
     .menu-toggle {
         display: flex; 
+    }
+
+    .top-home {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        height: auto;
     }
 
     .hero-text {
