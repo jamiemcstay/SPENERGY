@@ -1400,12 +1400,23 @@ footer ul li a {
     height: 100%;
 }
 
+.grants-p-wrapper-part-1 {
+    width: 40%;
+    display: flex;
+}
+
+.grants-p-part-1 {
+    padding-top: 10%;
+    font-size: 160%;
+    width: 90%;
+    /* background-color: pink; */
+    border-top: solid 3px #2f6a9e;
+}
+
 .grants-p-wrapper {
     width: 40%;
     display: flex; 
-    /* justify-content: center; */
     align-items: center; 
-    /* background-color: green; */
 }
 .grants-p {
     font-size: 160%;
@@ -1428,6 +1439,7 @@ footer ul li a {
     display: flex; 
     flex-direction: column;
     justify-content: space-evenly;
+    border-top: solid 3px #2f6a9e;
 }
 
 .grants-part-2b {
@@ -1443,7 +1455,7 @@ footer ul li a {
 .grants-box-1, .grants-box-2 {
     background-color: white;
     width: 252px;
-    border: solid 2px #143049;
+    border: solid 3px #2f6a9e;
     padding: 5%;
     border-radius: 10px;
     height: 138px; 
