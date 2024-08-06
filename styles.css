@@ -1436,30 +1436,6 @@ footer ul li a {
         margin: 0 auto;
     }
 
-    .footer-top-wrapper {
-        flex-direction: column;
-        padding-bottom: 20%;
-    }
-
-    .logo_footer_white {
-        width: 100%;
-    }
-
-    .footer-ul-wrapper {
-        flex-direction: column;
-        gap: 25px; 
-        margin: 0 auto;
-        align-items: center;
-    }
-
-    footer ul {
-        padding-right: 0;
-        border-right: none;
-        width: 80%;
-    }
-
-
-
 }
 
 @media (max-width: 768px) {
@@ -1547,6 +1523,28 @@ footer ul li a {
         margin-bottom: 20px; 
     }
 
+    .footer-top-wrapper {
+        flex-direction: column;
+        padding-bottom: 20%;
+    }
+
+    .logo_footer_white {
+        width: 100%;
+    }
+
+    .footer-ul-wrapper {
+        flex-direction: column;
+        gap: 25px; 
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    footer ul {
+        padding-right: 0;
+        border-right: none;
+        width: 80%;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 768px) {
@@ -1577,5 +1575,31 @@ footer ul li a {
 
     .get-in-touch-content {
         width: 100%;
+    }
+
+    .footer-top-wrapper {
+        padding-bottom: 15%;
+    }
+
+    .footer-ul-wrapper {
+        align-items: normal;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        gap: 50px;
+    }
+
+    footer ul {
+        width: auto;
+    }
+
+    .footer-ul-wrapper > ul:first-of-type {
+        order: 3;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+    footer ul {
+        padding-right: 30px;
     }
 }
