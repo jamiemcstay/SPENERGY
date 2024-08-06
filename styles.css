@@ -1409,6 +1409,19 @@ footer ul li a {
         width: 80%;
     }
 
+    #steps-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .step-box {
+        margin: 0 auto;
+    }
+
+    .get-in-touch-content {
+        width: auto;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -1511,6 +1524,20 @@ footer ul li a {
     #hero-buttons-wrapper {
         width: 80%;
         flex-direction: row;
+    }
 
+    .part_2_info_boxes {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #steps-wrapper {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .get-in-touch-content {
+        width: 100%;
     }
 }
