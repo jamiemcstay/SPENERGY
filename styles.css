@@ -97,6 +97,16 @@ nav ul li a {
     
 }
 
+nav ul li a.current-page {
+    font-weight: bold;
+}
+
+
+
+nav ul li a:hover {
+    color: lightgray; /* Color change on hover */
+}
+
 .contact-info {
     font-family: 'Gotham Bold';
     font-size: 120%;
@@ -2291,7 +2301,7 @@ footer ul li a {
     }
 
     nav ul li a {
-        font-size: 90%;
+        font-size: 80%;
 
     }
 
