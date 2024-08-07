@@ -233,14 +233,13 @@ h3 {
 
 }
 
-.big-p {
+.big-p-home-page, .big-p-home-solar {
     font-size: 180%; 
     font-family: 'Gotham Light';
     margin: 0 auto;  
     width: 40%;
     margin-bottom: 50px; 
-    text-align: center; 
-    
+    text-align: center;    
 }
 
 .divider {
@@ -1438,6 +1437,32 @@ footer ul li a {
         margin: 0 auto;
     }
 
+    .why-choose-us-wrapper-1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .big-p-home-solar {
+        width: 80%;
+    }
+
+    .big-p-bold {
+        width: 100%;
+    }
+
+    .big-p-wrapper {
+        width: 90%;
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .why-choose-us-img-wrapper {
+        width: 95%;
+        margin: 0 auto;
+        order: 1;
+        margin-bottom: 30px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -1501,7 +1526,11 @@ footer ul li a {
         gap: 5px;
     }
 
-    .big-p {
+    #hero-buttons-wrapper button {
+        margin: 0 auto;
+    }
+
+    .big-p-home-page {
         width: 80%;
         font-size: 150%;
     }
