@@ -1447,7 +1447,13 @@ footer ul li a {
         margin: 0 auto;
     }
 
-
+    .why-choose-us-wrapper-2b {
+        width: 100%;
+    }
+    
+    .home-solar-buttons-wrapper {
+        margin-bottom: 30px;
+    }
 
 }
 
@@ -1662,7 +1668,13 @@ footer ul li a {
 }
 
 @media (max-width: 1024px) {
+    .gallery {
+        width: 80%;
+    }
 
+    .gallery-column {
+        flex: 100%;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1024px) {
@@ -1690,6 +1702,10 @@ footer ul li a {
     #steps-wrapper {
         width: 90%;
         gap: 10px;
+    }
+
+    .why-choose-us-wrapper-1, .why-choose-us-wrapper-2 {
+        width: 80%;
     }
 
 }
