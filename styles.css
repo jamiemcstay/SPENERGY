@@ -233,7 +233,8 @@ h3 {
 
 }
 
-.big-p-home-page, .big-p-home-solar, .big-p-other-services {
+.big-p-home-page, .big-p-home-solar, .big-p-other-services, 
+.big-p-grants-page {
     font-size: 180%; 
     font-family: 'Gotham Light';
     margin: 0 auto;  
@@ -1668,6 +1669,29 @@ footer ul li a {
         width: 100%;
         margin: 0 auto;
     }
+
+    .big-p-grants-page {
+        width: 80%;
+    }
+
+    .grants-h3-left {
+        width: 80%;
+    }
+
+    .grants-part-1-wrapper {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .grants-p-wrapper-part-1 {
+        width: 100%;
+    }
+
+    .grants-p-part-1 {
+        width: 100%;
+    }
+
+    
 
 }
 
