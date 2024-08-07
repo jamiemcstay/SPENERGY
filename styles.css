@@ -1817,6 +1817,10 @@ footer ul li a {
     .non-domestic-wrapper-2a {
         width: 45%;
     }
+
+    .off-grid-buttons {
+        width: 80%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1990,6 +1994,42 @@ footer ul li a {
         font-size: 120%;
     }
 
+    .off-grid-wrapper-1 {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .off-grid-p-wrapper {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .off-grid-wrapper-1 p {
+        width: 100%;
+    }
+
+    .off-grid-img-wrapper {
+        width: 100%;
+    }
+
+    .off-grid-wrapper-2 {
+        flex-direction: column;
+    }
+
+    .off-grid-img-2 {
+        width: 100%;
+        order: 2;
+    }
+
+    .bold-p-tight-width {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .blue-bottom-border {
+        border-bottom: none;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 768px) {
@@ -2104,6 +2144,15 @@ p
     .grants-part-3b {
         width: 50%;
     }
+
+    .off-grid-wrapper-1, .off-grid-wrapper-2 {
+        width: 80%;
+    }
+
+    .off-grid-cards {
+        width: 80%;
+    }
+
 }
 
 
@@ -2160,6 +2209,10 @@ p
 
     .big-p-other-services {
         width: 80%;
+    }
+
+    .off-grid-cards {
+        justify-content: space-evenly;
     }
 
 }
