@@ -1437,6 +1437,16 @@ footer ul li a {
         margin: 0 auto;
     }
 
+    .why-choose-us-wrapper-2 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .why-choose-us-wrapper-2a {
+        width: 90%;
+        margin: 0 auto;
+    }
+
 
 
 }
@@ -1641,6 +1651,18 @@ footer ul li a {
     .footer-ul-wrapper > ul:first-of-type {
         order: 3;
     }
+
+    .why-choose-us-wrapper-2 {
+        width: 90%;
+    }
+
+    .big-p-wrapper {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+
 }
 
 @media (min-width: 1024px) and (max-width: 1024px) {
@@ -1651,6 +1673,23 @@ footer ul li a {
     nav ul li a {
         font-size: 90%;
 
+    }
+
+    .big-p-home-page {
+        width: 80%;
+    }
+
+    #who-wrapper {
+        width: 90%;
+    }
+
+    #who-text {
+        width: 40%; 
+    }
+
+    #steps-wrapper {
+        width: 90%;
+        gap: 10px;
     }
 
 }
