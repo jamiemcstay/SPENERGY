@@ -233,7 +233,7 @@ h3 {
 
 }
 
-.big-p-home-page, .big-p-home-solar {
+.big-p-home-page, .big-p-home-solar, .big-p-other-services {
     font-size: 180%; 
     font-family: 'Gotham Light';
     margin: 0 auto;  
@@ -1455,6 +1455,84 @@ footer ul li a {
         margin-bottom: 30px;
     }
 
+    .big-p-other-services {
+        width: 80%;
+    }
+
+    .non-domestic h3:first-of-type {
+        width: 80%;
+        margin: 0 auto 30px auto;
+    }
+
+    .non-domestic-wrapper-1 {
+        width: 100%;
+    }
+
+    .big-p-wrapper-other {
+        width: 100%;
+    }
+
+    .big-p-bold-other {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .non-domestic-wrapper-2 {
+        flex-direction: column;
+    }
+
+    .non-domestic-wrapper-2 {
+        width: 95%;
+    }
+
+    .non-domestic-wrapper-2a {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .small-p-wrapper {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .non-domestic-wrapper-2b {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .non-dom-box-wrapper {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .non-dom-form {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .big-p-wrapper-other-2 {
+        margin-bottom: 30px;
+    }
+
+    .non-domestic-wrapper-2b button {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .non-domestic-wrapper-1 {
+        width: 80%;
+    }
+
+    .non-domestic-wrapper-2 {
+        width: 80%;
+    }
+
+    .non-domestic-wrapper-2a {
+        width: 45%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1600,6 +1678,34 @@ footer ul li a {
         margin-bottom: 30px;
     }
 
+    .big-p-other-services {
+        width: 80%;
+    }
+
+    .non-domestic-wrapper-1 {
+        flex-direction: column;
+    }
+
+    .big-p-wrapper-other {
+        width: 95%;
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .non-dom-img-wrapper {
+        width: 90%;
+        margin: 0 auto;
+        order: 1;
+    }
+
+    .non-dom-card h4 {
+        font-size: 60%;
+    }
+    
+    .non-domestic-grant-box h4 {
+        font-size: 120%;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 768px) {
@@ -1667,7 +1773,9 @@ footer ul li a {
     }
 }
 
+
 @media (max-width: 1024px) {
+
     .gallery {
         width: 80%;
     }
@@ -1675,6 +1783,7 @@ footer ul li a {
     .gallery-column {
         flex: 100%;
     }
+
 }
 
 @media (min-width: 1024px) and (max-width: 1024px) {
@@ -1705,6 +1814,14 @@ footer ul li a {
     }
 
     .why-choose-us-wrapper-1, .why-choose-us-wrapper-2 {
+        width: 80%;
+    }
+
+    .big-p-wrapper-other {
+        width: 45%;
+    }
+
+    .big-p-other-services {
         width: 80%;
     }
 
