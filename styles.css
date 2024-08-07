@@ -1437,31 +1437,7 @@ footer ul li a {
         margin: 0 auto;
     }
 
-    .why-choose-us-wrapper-1 {
-        flex-direction: column;
-        width: 100%;
-    }
 
-    .big-p-home-solar {
-        width: 80%;
-    }
-
-    .big-p-bold {
-        width: 100%;
-    }
-
-    .big-p-wrapper {
-        width: 90%;
-        margin: 0 auto;
-        order: 2;
-    }
-
-    .why-choose-us-img-wrapper {
-        width: 95%;
-        margin: 0 auto;
-        order: 1;
-        margin-bottom: 30px;
-    }
 
 }
 
@@ -1580,6 +1556,32 @@ footer ul li a {
         padding-right: 0;
         border-right: none;
         width: 80%;
+    }
+
+    .why-choose-us-wrapper-1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .big-p-home-solar {
+        width: 80%;
+    }
+
+    .big-p-bold {
+        width: 100%;
+    }
+
+    .big-p-wrapper {
+        width: 90%;
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .why-choose-us-img-wrapper {
+        width: 95%;
+        margin: 0 auto;
+        order: 1;
+        margin-bottom: 30px;
     }
 
 }
