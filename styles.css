@@ -1629,13 +1629,11 @@ footer ul li a {
     .big-p-bold-other {
         width: 85%;
         margin: 0 auto;
+        font-size: 160%;
     }
 
     .non-domestic-wrapper-2 {
         flex-direction: column;
-    }
-
-    .non-domestic-wrapper-2 {
         width: 95%;
     }
 
@@ -1671,6 +1669,56 @@ footer ul li a {
     .non-domestic-wrapper-2b button {
         width: 100%;
         margin: 0 auto;
+    }
+
+    .off-grid-wrapper-1 {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .off-grid-p-wrapper {
+        width: 100%;
+        border-bottom: none;
+        margin-bottom: 30px;
+    }
+
+    .off-grid-wrapper-1 p {
+        font-size: 150%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .off-grid-img-wrapper {
+        width: 100%;
+    }
+
+    .off-grid-wrapper-2 {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .off-grid-img-2 {
+        width: 100%;
+        order: 2;
+    }
+
+    .bold-p-tight-width {
+        width: 100%;
+    }
+
+    .off-grid-cards {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .off-grid-buttons {
+        width: 90%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .off-grid-buttons button {
+        width: 100%;
     }
 
     .grants-h3-left {
@@ -1752,6 +1800,8 @@ footer ul li a {
     .grants-form {
         width: 100%;
     }
+
+
 
 }
 
@@ -2029,7 +2079,7 @@ footer ul li a {
         gap: 20px; 
         padding-top: 20px;
     }
-
+p
     .grants-part-2b {
         width: 50%;
     }
