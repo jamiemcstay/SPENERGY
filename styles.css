@@ -98,7 +98,7 @@ nav ul li a {
 }
 
 nav ul li a.current-page {
-    font-weight: bold;
+    color: rgb(122, 122, 122);
 }
 
 
@@ -108,18 +108,31 @@ nav ul li a:hover {
 }
 
 .contact-info {
+    display: flex; 
     font-family: 'Gotham Bold';
     font-size: 120%;
+    flex-direction: column;
+    gap: 15px;
+    
 }
 
-.contact-info div {
+.contact-info div a {
     display: flex;
     gap: 10px;
     align-items: center;
+    text-decoration: none;
+    color:#2f6a9e;
 }
 
 .contact-info i {
     font-size: 140%;
+}
+
+.contact-link:hover {
+    color:#5694ca;
+}
+
+.contact-link:hover i {
     color:#2f6a9e;
 }
 
