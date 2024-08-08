@@ -1,167 +1,170 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Jamie McStay">
-        <meta name="description" content="SP ENERGY provides top-rated solar panel 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jamie McStay">
+    <meta name="description" content="SP ENERGY provides top-rated solar panel 
         installation services in Ireland. SEAI registered company offering affordable 
         and efficient solar energy solutions for homes and businesses.">
-        <meta name="keywords" content="solar panel installation, solar energy, renewable
+    <meta name="keywords" content="solar panel installation, solar energy, renewable
          energy, solar power, solar panels Ireland, solar energy solutions, green energy 
          Ireland, SEAI grants, solar panel company Ireland">
-        <title>SP ENERGY | Solar Panel Installation</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/x-icon" href="images/favicon/favicon.png">
-        <script src="https://kit.fontawesome.com/1292c16ab0.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+    <title>SP ENERGY | Solar Panel Installation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.png">
+    <script src="https://kit.fontawesome.com/1292c16ab0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./homesolar.html">Home Solar</a></li>
+                <li><a href="./otherservices.html">Other Services</a></li>
+                <li><a href="./grants.html" class="current-page">Grants</a></li>
+                <li><a href="./contactus.html">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="contact-info">
+            <div>
+                <a href="tel:+1800991122" class="contact-link">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>1800 99 11 22</p>
+                </a>
             </div>
-            <div class="menu-toggle" id="menuToggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div>
+                <a href="mailto:info@spenergy.ie" class="contact-link">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>info@spenergy.ie</p>
+                </a>
             </div>
-            <nav id="menu">
+        </div>
+    </header>
+    <main>
+        <section class="top-other">
+            <div class="hero-text">
+                <h1>Solar PV Grants</h1>
+                <h2>Unlock solar savings with SEAI-approved grants—empowering
+                    your transition to clean, renewable energy with ease</h2>
+            </div>
+        </section>
+        <section class="solar-pv-grants-section">
+            <h3><span class="blue-text">Solar</span> PV grants</h3>
+            <p class="big-p-grants-page">SP ENERGY is an SEAI registered company, and we make it easy
+                for you to be able to get money off your solar power energy installation.</p>
+            <h3 class="grants-h3-left"><span class="blue-text">What</span> are SEAI Grants?</h3>
+            <div class="grants-part-1-wrapper">
+                <div class="grants-p-wrapper-part-1">
+                    <p class="grants-p-part-1">Through the SEAI Solar Electricity Grant, domestic customers can
+                        claim up to €2100 back on the cost of Solar PV installations.
+                        Non-domestic customers can avail of up to €162,600.
+                    </p>
+                </div>
+                <div class="grants-img-1">
+                    <img src="images/grants-img-1.png">
+                </div>
+            </div>
+            <h3 class="grants-h3-left"><span class="blue-text">How</span> do I apply?</h3>
+            <div class="grants-part-2-wrapper">
+                <div class="grants-part-2a">
+                    <p class="grants-p">To avail of an SEAI grant you must complete your
+                        application before the work can be carried out.
+                    </p>
+                    <p class="grants-p">Once your grant has been approved we can take care of
+                        the rest of the paperwork and get to work installing your
+                        New Solar PV systems.
+                    </p>
+                    <p class="grants-p">To start your application visit SEAI and follow the link for solar
+                        electricity grant.
+                    </p>
+                    <p class="grants-p">From there, you can fill in your details on the grant application
+                        portal, and select SP ENERGY as your registered installer.
+                    </p>
+                </div>
+                <div class="grants-part-2b">
+                    <div class="grants-box-1">
+                        <h4>Seai non-domestic pv grants up to €162,600</h4>
+                    </div>
+                    <div class="grants-box-2">
+                        <h4>seai domestic grants up to €2100</h4>
+                    </div>
+                    <div class="grants-img-2">
+                        <img src="images/grants-img-2.png">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="grants-blue-box">
+                <h4>Once the installation is complete, SEAI will process your
+                    application and refund you the amount due.
+                </h4>
+            </div>
+            <div class="grants-part-3-wrapper">
+                <div class="grants-part-3a">
+                    <p><span class="blue-text">Click</span> the link below to begin your application or feel
+                        free to reach out to our team with any questions about
+                        the application process.
+                    </p>
+                    <button class="cta_button" target="_blank" onclick="redirectToSEAI()">SEAI Grants</button>
+                </div>
+                <div class="grants-part-3b">
+                    <form class="grants-form" action="#" method="post">
+                        <h4>Email us</h4>
+                        <input type="text" id="name" name="name" placeholder="Name*" required>
+                        <input type="phone number" id="phone" name="phone" placeholder="Phone Number*"
+                            required></textarea>
+                        <input type="email" id="email" name="email" placeholder="Email Address*" required>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                        <input type="submit" value="Submit" class="cta_button submit-button">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top-wrapper">
+            <div class="logo_footer_white">
+                <img src="images/SP Energy Logo - White-01 1.svg" alt="SP ENERGY Logo">
+            </div>
+            <div class="footer-ul-wrapper">
                 <ul>
+                    <h5>Get in touch</h5>
+                    <li>email: info@spenergy.ie</li>
+                    <li>phone: 1800 99 11 22</li>
+                </ul>
+                <ul>
+                    <h5>Visit</h5>
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./homesolar.html">Home Solar</a></li>
                     <li><a href="./otherservices.html">Other Services</a></li>
-                    <li><a href="./grants.html" class="current-page">Grants</a></li>
+                    <li><a href="./grants.html">Grants</a></li>
                     <li><a href="./contactus.html">Contact us</a></li>
                 </ul>
-            </nav>
-            <div class="contact-info">
-                <div>
-                    <a href="tel:+1800991122" class="contact-link">
-                        <i class="fa-solid fa-phone"></i>
-                        <p>1800 99 11 22</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="mailto:info@spenergy.ie" class="contact-link">
-                        <i class="fa-solid fa-envelope"></i>
-                        <p>info@spenergy.ie</p>
-                    </a>
-                </div>
+                <ul>
+                    <h5>Our Partners</h5>
+                    <li>Huawei</li>
+                    <li>EcoFlow</li>
+                    <li>Victron Energy</li>
+                </ul>
             </div>
-        </header>
-        <main>
-            <section class="top-other">
-                <div class="hero-text">                    
-                    <h1>Solar PV Grants</h1>
-                    <h2>Unlock solar savings with SEAI-approved grants—empowering 
-                        your transition to clean, renewable energy with ease</h2>
-                </div>
-            </section>
-            <section class="solar-pv-grants-section">
-                <h3><span class="blue-text">Solar</span> PV grants</h3>
-                <p class="big-p-grants-page">SP ENERGY is an SEAI registered company, and we make it easy 
-                    for you to be able to get money off your solar power energy installation.</p>
-                <h3 class="grants-h3-left"><span class="blue-text">What</span> are SEAI Grants?</h3>
-                <div class="grants-part-1-wrapper">
-                    <div class="grants-p-wrapper-part-1">
-                        <p class="grants-p-part-1">Through the SEAI Solar Electricity Grant, domestic customers can 
-                            claim up to €2100 back on the cost of Solar PV installations. 
-                            Non-domestic customers can avail of up to €162,600.
-                        </p>
-                    </div>
-                    <div class="grants-img-1">
-                        <img src="images/grants-img-1.png">
-                    </div> 
-                </div>
-                <h3 class="grants-h3-left"><span class="blue-text">How</span> do I apply?</h3>
-                <div class="grants-part-2-wrapper">
-                    <div class="grants-part-2a">
-                        <p class="grants-p">To avail of an SEAI grant you must complete your 
-                            application before the work can be carried out.
-                        </p>
-                        <p class="grants-p">Once your grant has been approved we can take care of 
-                            the rest of the paperwork and get to work installing your 
-                            New Solar PV systems.
-                        </p>
-                        <p class="grants-p">To start your application visit SEAI and follow the link for solar 
-                            electricity grant.
-                        </p>
-                        <p class="grants-p">From there, you can fill in your details on the grant application 
-                            portal, and select SP ENERGY as your registered installer.
-                        </p>
-                    </div>
-                    <div class="grants-part-2b">
-                        <div class="grants-box-1">
-                            <h4>Seai non-domestic pv grants up to €162,600</h4>
-                        </div>
-                        <div class="grants-box-2">
-                            <h4>seai domestic grants up to €2100</h4>
-                        </div>
-                        <div class="grants-img-2">
-                            <img src="images/grants-img-2.png">
-                        </div>
-                    </div>
+        </div>
+        <div class="footer-bottom-wrapper">
+            <p>SP Energy © Copyright 2024. All Rights Reserved. Design by: fathead</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
 
-
-                </div>
-                <div class="grants-blue-box">
-                    <h4>Once the installation is complete, SEAI will process your 
-                        application and refund you the amount due.
-                    </h4>
-                </div>
-                <div class="grants-part-3-wrapper">
-                    <div class="grants-part-3a">
-                        <p><span class="blue-text">Click</span> the link below to begin your application or feel 
-                            free to reach out to our team with any questions about 
-                            the application process.
-                        </p>
-                        <button class="cta_button" target="_blank" onclick="redirectToSEAI()">SEAI Grants</button>
-                    </div>
-                    <div class="grants-part-3b">
-                        <form class="grants-form" action="#" method="post">
-                            <h4>Email us</h4>
-                            <input type="text" id="name" name="name" placeholder="Name*" required>
-                            <input type="phone number" id="phone" name="phone" placeholder="Phone Number*" required></textarea>
-                            <input type="email" id="email" name="email" placeholder="Email Address*" required>
-                            <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
-                            <input type="submit" value="Submit" class="cta_button submit-button">
-                        </form>
-                    </div>
-                </div>    
-            </section>
-        </main>         
-        <footer>
-            <div class="footer-top-wrapper">
-                <div class="logo_footer_white">
-                    <img src="images/SP Energy Logo - White-01 1.svg" alt="SP ENERGY Logo">
-                </div>
-                <div class="footer-ul-wrapper">
-                    <ul>
-                        <h5>Get in touch</h5>
-                        <li>email: info@spenergy.ie</li>
-                        <li>phone: 1800 99 11 22</li>
-                    </ul>
-                    <ul>
-                        <h5>Visit</h5>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./homesolar.html">Home Solar</a></li>
-                        <li><a href="./otherservices.html">Other Services</a></li>
-                        <li><a href="./grants.html">Grants</a></li>
-                        <li><a href="./contactus.html">Contact us</a></li>
-                    </ul>
-                    <ul>
-                        <h5>Our Partners</h5>
-                        <li>Huawei</li>
-                        <li>EcoFlow</li>
-                        <li>Victron Energy</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom-wrapper">
-                <p>SP Energy © Copyright  2024. All Rights Reserved.  Design by: fathead</p>
-            </div>
-        </footer>
-        <script src="script.js"></script>      
-    </body>
-
-</html> 
+</html>
