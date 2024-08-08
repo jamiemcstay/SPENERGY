@@ -288,14 +288,6 @@ h3 {
     text-align: center;    
 }
 
-/* .divider {
-    height: 3px; 
-    background-color: #4990CD; 
-    width: 40%; 
-    margin: 0 auto; 
-    margin-bottom: 30px; 
-} */
-
 
 .intro-home-info-boxes {
     width: auto;
@@ -808,10 +800,13 @@ h4 {
     letter-spacing: 1.5px; 
 }
 
+.home-page-bottom-text h4{
+    text-transform: lowercase;
+}
+
 .home-page-bottom-text button {
     width: 100%;
     align-self: center;
-
 }
 
 .submit-button {
