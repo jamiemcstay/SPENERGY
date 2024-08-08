@@ -1606,10 +1606,8 @@ footer ul li a {
     font-family: 'Gotham Regular';
     margin-bottom: 30px;
     width: 40%;
-    /* background-color: orange; */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -1625,14 +1623,21 @@ footer ul li a {
     font-size: 180%;
 }
 
-.contact-page-info div {
+.contact-page-info a {
     display: flex; 
-    /* justify-content: space-evenly; */
     gap: 15px;
     text-align: left;
     align-items: center;
     margin-bottom: 20px;
+    text-decoration: none;
 }
+
+.contact-page-info p {
+    color: #2f6a9e;
+    font-family: 'Gotham Bold';
+}
+
+
 
 #contact-page-form {
     width: 35%;
