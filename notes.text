@@ -4,3 +4,4 @@ SLL certificate
 Hosting ireland log in details
 check enlarging of logo and how menu toggle shows under
 check permissions on php_errors.log as currently set to be accessible for everyone
+Change apache serverName Directive at the end of the file to be SP Energy and not local host(apache config files)
