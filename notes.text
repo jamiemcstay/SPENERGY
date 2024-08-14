@@ -3,3 +3,4 @@ Gmail access (for verification)
 SLL certificate
 Hosting ireland log in details
 check enlarging of logo and how menu toggle shows under
+check permissions on php_errors.log as currently set to be accessible for everyone
