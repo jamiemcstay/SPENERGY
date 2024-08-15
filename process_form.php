@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
     
     // Define the recipient email address
-    $to = 'jamie@spenergy.ie';
+    $to = 'jamiemcstay@hotmail.ie';
     
     // Define the subject of the email
     $subject = 'Contact Form Submission from ' . $name;
