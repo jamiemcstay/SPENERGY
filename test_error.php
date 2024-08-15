@@ -1,3 +1,4 @@
 <?php
-non_existent_function();
+// This will generate a notice-level error
+echo $undefined_variable;
 ?>
