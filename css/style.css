@@ -237,6 +237,7 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
     height: auto;
     box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
 }
 
 .gradient-overlay, #gradient-overlay-benefits {
@@ -356,19 +357,9 @@ h4 {
 
 }
 
-.find_out_more_button {
+.find-out-more-button {
     width: 180px;
     height: 50px;
-    background-color: #4990CD;
-    color: white;
-    border: black 1px;
-    border-radius: 0.9rem;
-    font-size: 1rem;
-    font-family: 'Gotham Bold';
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-transform: uppercase;
-    padding: 1rem;
 }
 
 /*Who we are*/
@@ -429,19 +420,8 @@ h4 {
 }
 
 .who-button {
-    text-transform: uppercase;
-    font-family: 'Gotham Bold';
     width: 180px;
-    background-color: #4990CD;
-    color: white;
-    padding: 1rem 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
     height: auto;
-    box-shadow: 3px 3px 5px rgba(44, 44, 44, 0.2);
 }
 
 #blue-box {
@@ -456,7 +436,7 @@ h4 {
     width: 100%;
 }
 
-.cta_button:hover {
+.cta-button:hover {
     background-color: #0056b3; /* Button background color on hover */
 }
 
@@ -573,25 +553,9 @@ h4 {
     height: auto;
 }
 
-#how-works-button-wrapper {
-    width: auto;
-    height: auto;
-}
 
 .how-works-button-wrapper button {
-    text-transform: uppercase;
-    font-family: 'Gotham Bold';
     width: 100%;
-    background-color: #4990CD;
-    color: white;
-    padding: 1rem 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    height: auto;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -2026,9 +1990,6 @@ footer ul li a {
         order: 2;
     }
 
-    #who-button-wrapper {
-        flex-direction: column;
-    }
 
     .who-button {
         width: 100%;
