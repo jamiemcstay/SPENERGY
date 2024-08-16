@@ -2241,6 +2241,7 @@ footer ul li a {
 
 }
 
+
 @media (min-width: 1024px) and (max-width: 1024px) {
     footer ul {
         padding-right: 30px;
@@ -2256,7 +2257,7 @@ footer ul li a {
     }
 
     .who-wrapper {
-        width: 90%;
+        width: 100%;
     }
 
     .who-text {
@@ -2284,4 +2285,10 @@ footer ul li a {
         justify-content: space-evenly;
     }
 
+}
+
+@media (min-width: 1440px) {
+    .who-wrapper {
+        width: 60%;
+    }
 }
