@@ -12,15 +12,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
     
     // Define the recipient email address
-    $to = 'info@spenergy.ie';
+    $to = 'jamie@spenergy.ie';
     
     // Define the subject of the email
     $subject = 'Contact Form Submission from ' . $name;
     
     // Set up the email headers
-    $headers = "From: $email\r\n";
-    $headers .= "Reply-To: $email\r\n";
-    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+    $headers = 'From: jamie@spenergy.ie' . "\r\n" .
+                'Reply-To: ' . $email . "\r\n" .
+                'Content-Type: text/html; charset=UTF-8' . "\r\n";
     
     // Create the email body content
     $body = "<h2>Contact Form Submission</h2>
