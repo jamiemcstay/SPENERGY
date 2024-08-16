@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: 'Gotham Bold';
-    src: url('/fonts/Gotham%20Bold.otf') format('truetype');
+    src: url('/fonts/Gotham-Bold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gotham Light Regular';
-    src: url('/fonts/Gotham%20Light%20Regular.otf') format('opentype');
+    src: url('/fonts/Gotham-Light-Regular.otf') format('opentype');
 }
 
 @font-face {
@@ -685,7 +685,6 @@ nav ul li a:hover {
 
 
 .home-page-bottom-text {
-    background-color: pink;
     width: 35rem;
     background-color: white;
     height: 35rem;
