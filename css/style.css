@@ -960,6 +960,7 @@ footer ul li a {
     font-family: 'Gotham Light'; 
     align-self: flex-end;
     margin: 0 auto;
+    padding-bottom: 1rem;
 }
 
 .background-break {
@@ -2198,6 +2199,17 @@ footer ul li a {
 
 }
 
+@media (min-width: 1024px) {
+
+    .top-home {
+        padding: 12% 0;
+    }
+
+    .who-button {
+        width: 50%;
+    }
+}
+
 
 @media (max-width: 1024px) {
 
@@ -2265,4 +2277,13 @@ footer ul li a {
     .who-wrapper {
         width: 80%;
     }
+
+    .steps-wrapper {
+        width: 75%;
+    }
+
+    .benefits-p {
+        width: 70%; 
+    }
+
 }
