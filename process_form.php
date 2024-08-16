@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo json_encode(['success' => $success]);
 } else {
     // Redirect to the home page if the form is not submitted via POST
-    header('Location: index.html');
+    // header('Location: index.html');
     exit();
 
 }

@@ -112,7 +112,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 form.reset();
                 
                 // Change button text to "Message Sent"
-                button.classList.add('sent');
+                button.value = 'Sent';
+                button.classList.add('button-sent');
                 button.textContent = 'Message Sent';
             } else {
                 // Handle failure (optional)
