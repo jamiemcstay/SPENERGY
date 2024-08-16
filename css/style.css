@@ -845,7 +845,7 @@ footer ul li a {
 
 /*HOME SOLAR PAGE STYLES*/
 .top-other {
-    height: 60vh;
+    height: 70vh;
     position: relative;
     width: 100%;
     background-color: #143049;
@@ -1911,6 +1911,7 @@ footer ul li a {
 
     .hero-text h2 {
         font-size: 1.2rem; 
+        width: 80%;
     }
 
     .hero-buttons-wrapper {
@@ -2121,7 +2122,7 @@ footer ul li a {
     }
 
     .why-choose-us-wrapper-2 {
-        width: 90%;
+        width: 100%;
     }
 
     .big-p-wrapper {
@@ -2273,9 +2274,28 @@ footer ul li a {
 
 }
 
+@media (min-width: 1280px) {
+    .who-wrapper {
+        width: 85%;
+    }
+
+    .steps-wrapper {
+        width: 80%;
+    }
+
+    .why-choose-us-wrapper-1,
+    .why-choose-us-wrapper-2,
+    .non-domestic-wrapper-1,
+    .non-domestic-wrapper-2 {
+        width: 70%;
+    }
+
+}
+
+ 
 @media (min-width: 1440px) {
     .who-wrapper {
-        width: 80%;
+        width: 100%;
     }
 
     .steps-wrapper {
@@ -2284,6 +2304,16 @@ footer ul li a {
 
     .benefits-p {
         width: 70%; 
+    }
+
+    .non-domestic-wrapper-1,
+    .non-domestic-wrapper-2,
+    .off-grid-wrapper-1,
+    .off-grid-wrapper-2,
+    .off-grid-wrapper-1,
+    .off-grid-cards
+    .off-grid-buttons {
+        width: 60%;
     }
 
 }
