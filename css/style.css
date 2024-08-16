@@ -216,7 +216,7 @@ nav ul li a:hover {
     
 }
 
-#hero-buttons-wrapper {
+.hero-buttons-wrapper {
     width: 100%;
     height: auto;
     display: flex; 
@@ -240,7 +240,7 @@ nav ul li a:hover {
     text-transform: uppercase;
 }
 
-.gradient-overlay, #gradient-overlay-benefits {
+.gradient-overlay, .gradient-overlay-benefits {
     background-color: #171a1c;
     position: absolute;
     top: 0;
@@ -364,13 +364,13 @@ h4 {
 
 /*Who we are*/
 
-#who-we-are {
+.who-we-are-section {
     padding-top: 100px; 
     padding-bottom: 100px; 
     background-image: url(/images/single-line-pattern.svg);
 }
 
-#who-wrapper {
+.who-wrapper {
     width: 60%; 
     height: auto;
     margin: 0 auto;
@@ -379,20 +379,21 @@ h4 {
     gap: 1%;
 }
 
-#who-img {
+.who-img {
     width: 40%; 
     background-color: blue;
     border-radius: 25px; 
     height: auto;
     overflow: hidden;
+    display: flex;
 }
 
-#who-img img {
+.who-img img {
     width: 100%;
     height: 100%; 
 }
 
-#who-text {
+.who-text {
     width: 35%;
     background-color: white;
     padding: 2%;
@@ -400,20 +401,20 @@ h4 {
  
 }
 
-#who-text h3 {
+.who-text h3 {
     text-align: left; 
     margin-bottom: 30px;
 }
 
-#who-text p {
+.who-text p {
     margin-bottom: 15px; 
 }
 
-#who-text p:last-of-type {
+.who-text p:last-of-type {
     margin-bottom: 30px; 
 }
 
-#who-button-wrapper {
+.who-button-wrapper {
     display: flex; 
     gap: 10px;
     justify-content: space-between;
@@ -424,7 +425,7 @@ h4 {
     height: auto;
 }
 
-#blue-box {
+.blue-box {
     position: absolute; 
     bottom: 0 ;
     height: 10%; 
@@ -442,7 +443,7 @@ h4 {
 
 /*How it works*/
 
-#how-it-works {
+.how-it-works {
     height: auto; 
     width: auto; 
     background-color: #f3f1f1;
@@ -452,7 +453,7 @@ h4 {
 }
 
 
-#steps-wrapper {
+.steps-wrapper {
     display: flex; 
     width: 70%;
     justify-content: space-between;
@@ -462,7 +463,7 @@ h4 {
 
 }
 
-#steps-wrapper::before {
+.steps-wrapper::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -567,21 +568,6 @@ h4 {
     width: 40%;
 }
 
-#get-touch-imgs {
-    width: 65%;
-    height: 100%;
-    display: flex;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-#get-touch-imgs img {
-    width: 100%; 
-    height: 48%; 
-    background-color: pink;
-
-}
 
 .get-touch-content-align {
     display: flex;
@@ -591,29 +577,13 @@ h4 {
 }
 
 
-
-#how-works-form {
-    width: 100%;
-    height: 25rem;
-    background-color: white; 
-    border-radius: 2%;
-    margin-bottom: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-evenly;
-    align-items: center; 
-    font-family: 'Gotham Light'; 
-    margin-top: 50px;
-}   
-
 .photo-wrapper img {
     width: 100%;
 }
 
 /*BENEFITS SECTION*/
 
-#benefits-section {
+.benefits-section {
     background: url(/images/benefits_image_1.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
@@ -627,7 +597,7 @@ h4 {
     padding-top: 3%; 
 }
 
-#benefits-section h3, #benefits-section p {
+.benefits-section h3, .benefits-section p {
     position: relative;
     z-index: 10;
 }
@@ -718,7 +688,7 @@ h4 {
     color: #4990CD;
 }
 
-#gradient-overlay-benefits {
+.gradient-overlay-benefits {
     opacity: 0.5;
 }
 
@@ -774,7 +744,7 @@ h4 {
     width: 80%; 
 }
 
-#home-page-form {
+.home-page-form {
     width: 35rem;
     height: 35rem;
     background-color: white; 
@@ -1600,7 +1570,7 @@ footer ul li a {
 
 
 
-#contact-page-form {
+.contact-page-form {
     width: 35%;
     height: 35rem;
     background-color: white; 
@@ -1630,7 +1600,11 @@ footer ul li a {
         width: 80%;
     }
 
-    #steps-wrapper {
+    .who-button-wrapper {
+        flex-direction: column;
+    }
+
+    .steps-wrapper {
         flex-direction: column;
         gap: 20px;
     }
@@ -1652,7 +1626,7 @@ footer ul li a {
         margin: 0 auto 20px auto;
     }
 
-    #home-page-form {
+    .home-page-form {
         width: 95%;
         margin: 0 auto;
     }
@@ -1885,7 +1859,7 @@ footer ul li a {
         font-size: 80%;
     }
 
-    #contact-page-form {
+    .contact-page-form {
         width: 100%;
     }
 
@@ -1964,13 +1938,13 @@ footer ul li a {
         font-size: 1.2rem; 
     }
 
-    #hero-buttons-wrapper {
+    .hero-buttons-wrapper {
         width: 80%;
         flex-direction: column;
         gap: 5px;
     }
 
-    #hero-buttons-wrapper button {
+    .hero-buttons-wrapper button {
         margin: 0 auto;
     }
 
@@ -1979,12 +1953,12 @@ footer ul li a {
         font-size: 150%;
     }
 
-    #who-wrapper {
+    .who-wrapper {
         flex-direction: column;
         width: 100%;
     }
 
-    #who-text {
+    .who-text {
         width: 90%;
         margin: 0 auto;
         order: 2;
@@ -1995,7 +1969,7 @@ footer ul li a {
         width: 100%;
     }
 
-    #who-img {
+    .who-img {
         width: 90%;
         margin: 0 auto;
         margin-bottom: 20px; 
@@ -2125,7 +2099,7 @@ footer ul li a {
         width: 100%;
     }
 
-    #hero-buttons-wrapper {
+    .hero-buttons-wrapper {
         width: 80%;
         flex-direction: row;
         margin: 0 auto;
@@ -2141,7 +2115,7 @@ footer ul li a {
         gap: 10px;
     }
 
-    #steps-wrapper {
+    .steps-wrapper {
         justify-content: center;
         flex-wrap: wrap;
         gap: 30px;
@@ -2244,7 +2218,7 @@ footer ul li a {
         width: 50%;
     }
 
-    #contact-page-form {
+    .contact-page-form {
         width: 50%;
     }
 
@@ -2281,15 +2255,15 @@ footer ul li a {
         width: 80%;
     }
 
-    #who-wrapper {
+    .who-wrapper {
         width: 90%;
     }
 
-    #who-text {
+    .who-text {
         width: 40%; 
     }
 
-    #steps-wrapper {
+    .steps-wrapper {
         width: 90%;
         gap: 10px;
     }
