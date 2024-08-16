@@ -2290,7 +2290,11 @@ footer ul li a {
     .off-grid-wrapper-1,
     .off-grid-wrapper-2, 
     .off-grid-cards,
-    .off-grid-buttons {
+    .off-grid-buttons,
+    .grants-part-1-wrapper,
+    .grants-part-2-wrapper,
+    .grants-blue-box,
+    .grants-part-3-wrapper {
         width: 70%;
     }
 
