@@ -43,4 +43,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 }
     
+    // Send the email
+//     if (mail($to, $subject, $body, $headers)) {
+//         echo "Email sent successfully.";
+//     } else {
+//         echo "Failed to send email.";
+//     }
+// } else {
+    // Redirect to the home page if the form is not submitted via POST
+    // header('Location: index.html');
+//     exit();
+// }
 ?>

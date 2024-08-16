@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault(); // Prevent default form submission
 
         var formData = new FormData(form);
-        var button = form.querySelector('form.submit-button'); // Target the button within the form
+        var button = form.querySelector('.submit-button'); // Target the button within the form
 
         fetch('process_form.php', { // Replace with the path to your PHP script
             method: 'POST',
@@ -108,23 +108,24 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                // Change button color and text
-                button.classList.add('sent');
-                button.textContent = 'Message Sent';
-                
                 // Clear form fields
                 form.reset();
+                
+                // Change button text to "Message Sent"
+                button.classList.add('sent');
+                button.textContent = 'Message Sent';
             } else {
                 // Handle failure (optional)
                 alert('Failed to send message. Please try again.');
             }
         })
+
         .catch(error => {
             // Handle network errors
             alert('An error occurred. Please try again.');
             console.error('Error:', error);
         });
-    }
+}
 });
 
 
