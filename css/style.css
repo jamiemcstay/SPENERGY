@@ -54,12 +54,50 @@ main {
     color: #4990CD; 
 }
 
+/*Headings*/
 
-/*Align left rule*/
+h3 {
+    text-align: center; 
+    font-family: 'Gotham Bold';
+    font-size: 180%; 
+    text-transform: uppercase; 
+    margin-bottom: 30px; 
+    font-weight: 800; 
 
-.text-align-left {
-    text-align: left;
 }
+
+h4 { 
+    margin-bottom: 0;
+    padding: 0;
+    font-family: 'Gotham Bold'; 
+    text-transform: uppercase; 
+    font-size: 120%;
+    
+}
+
+/*Buttons*/
+
+.cta-button {
+    text-transform: uppercase;
+    font-family: 'Gotham Bold';
+    width: 220px;
+    background-color: #4990CD;
+    color: white;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: auto;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
 
 
 /*Header styles*/
@@ -223,22 +261,6 @@ nav ul li a:hover {
     justify-content: space-between;
 }
 
-.cta-button {
-    text-transform: uppercase;
-    font-family: 'Gotham Bold';
-    width: 220px;
-    background-color: #4990CD;
-    color: white;
-    padding: 1rem 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    height: auto;
-    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.2);
-    text-transform: uppercase;
-}
 
 .gradient-overlay, .gradient-overlay-benefits {
     background-color: #171a1c;
@@ -250,10 +272,7 @@ nav ul li a:hover {
     opacity: 0.4;
 }
 
-
-.cta-button:hover {
-    background-color: #0056b3;
-}
+/*Into section homepage with info boxes*/
 
 .intro-home {
     width: 100%;
@@ -265,16 +284,6 @@ nav ul li a:hover {
     position: relative; 
 }
 
-
-h3 {
-    text-align: center; 
-    font-family: 'Gotham Bold';
-    font-size: 180%; 
-    text-transform: uppercase; 
-    margin-bottom: 30px; 
-    font-weight: 800; 
-
-}
 
 .big-p-home-page, .big-p-home-solar, .big-p-other-services, 
 .big-p-grants-page {
@@ -325,14 +334,6 @@ h3 {
     color: #2f6a9e; 
 }
 
-h4 { 
-    margin-bottom: 0;
-    padding: 0;
-    font-family: 'Gotham Bold'; 
-    text-transform: uppercase; 
-    font-size: 120%;
-    
-}
 
 .intro-home-info-boxes p {
     font-size: 1rem;
@@ -425,21 +426,6 @@ h4 {
     height: auto;
 }
 
-.blue-box {
-    position: absolute; 
-    bottom: 0 ;
-    height: 10%; 
-    width: 100%; 
-    background-color: #2f6a9e;
-    position: absolute;
-    bottom: 0;
-    height: 22%;
-    width: 100%;
-}
-
-.cta-button:hover {
-    background-color: #0056b3; /* Button background color on hover */
-}
 
 /*How it works*/
 
@@ -447,7 +433,6 @@ h4 {
     height: auto; 
     width: auto; 
     background-color: #f3f1f1;
-    /* background: url('images/llline\ \(6\).svg');  */
     padding-top: 100px;
     background-size: cover;
 }
@@ -458,7 +443,6 @@ h4 {
     width: 70%;
     justify-content: space-between;
     margin: 0 auto;
-    /* position: relative;  */
     margin-bottom: 100px; 
 
 }
@@ -470,8 +454,7 @@ h4 {
     left: 0;
     right: 0;
     border-top: 2px dotted #000;
-    /* height: 2px; Thickness of the line */
-    background-color: #000; /* Color of the line */
+    background-color: #000;
     transform: translateY(-50%);
     z-index: -2;
 }
@@ -577,10 +560,6 @@ h4 {
 }
 
 
-.photo-wrapper img {
-    width: 100%;
-}
-
 /*BENEFITS SECTION*/
 
 .benefits-section {
@@ -607,7 +586,7 @@ h4 {
     margin-bottom: 25px;
 }
 
-.benefit_boxes {
+.benefit-boxes {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -621,7 +600,7 @@ h4 {
     margin-bottom: 50px; 
 }
 
-.benefit_box {
+.benefit-box {
     display: flex;
     background-color: #ffffff;
     border-radius: 5%;
@@ -644,20 +623,20 @@ h4 {
     padding-right: 10%;
 }
 
-.benefit-marker-wrapper {
+.benefit-icon-wrapper {
     width: auto;
     height: auto;
     justify-content: center;
 }
 
-.benefit-marker {
+.benefit-icon {
 
     height: auto; 
     width: auto;
     padding: 5px;  
 }
 
-.benefit-marker i {
+.benefit-icon i {
     color: #4990CD;
     font-size: 40px; 
 }
@@ -667,7 +646,6 @@ h4 {
     font-size: 90%;
     flex-basis: 15%;
 }
-
 
 
 .benefit-text p {
@@ -684,9 +662,6 @@ h4 {
     height: auto;
 }
 
-.blue_text {
-    color: #4990CD;
-}
 
 .gradient-overlay-benefits {
     opacity: 0.5;
@@ -696,9 +671,9 @@ h4 {
 
 .home-page-bottom {
     padding-top: 10%;
-    background-image: url(/images/patterned-background.svg); /* Path to your SVG file */
-    background-size: 16px 16px; /* Adjust size to control the pattern scale */
-    background-repeat: repeat; /* Ensure the pattern repeats */
+    background-image: url(/images/patterned-background.svg);
+    background-size: 16px 16px;
+    background-repeat: repeat; 
     position: relative;
 }
 
