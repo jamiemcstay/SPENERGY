@@ -2286,7 +2286,11 @@ footer ul li a {
     .why-choose-us-wrapper-1,
     .why-choose-us-wrapper-2,
     .non-domestic-wrapper-1,
-    .non-domestic-wrapper-2 {
+    .non-domestic-wrapper-2,
+    .off-grid-wrapper-1,
+    .off-grid-wrapper-2, 
+    .off-grid-cards,
+    .off-grid-buttons {
         width: 70%;
     }
 
@@ -2311,7 +2315,7 @@ footer ul li a {
     .off-grid-wrapper-1,
     .off-grid-wrapper-2,
     .off-grid-wrapper-1,
-    .off-grid-cards
+    .off-grid-cards,
     .off-grid-buttons {
         width: 60%;
     }
