@@ -1564,6 +1564,11 @@ footer ul li a {
 
 @media (max-width: 425px) {
 
+    .top-other {
+        height: 90vh;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
 
     .intro-home-info-boxes {
         flex-direction: column;
@@ -1890,6 +1895,11 @@ footer ul li a {
         display: none;
     }
 
+    .contact-info-question-box {
+        display: block;
+    }
+
+
     .menu-toggle {
         display: flex; 
     }
@@ -1900,9 +1910,9 @@ footer ul li a {
         height: auto;
     }
 
-    .hero-text {
+    /* .hero-text {
         width: 80%;
-    }
+    } */
 
     .hero-text h1 {
         width: 80%; 
