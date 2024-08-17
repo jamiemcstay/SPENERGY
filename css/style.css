@@ -2406,3 +2406,22 @@ footer ul li a {
 
 
 }
+
+@media (min-width: 2560px) {
+    .big-p-home-page {
+        width: 30%;
+    }
+
+    .who-wrapper {
+        width: 50%;
+    }
+
+    .steps-wrapper {
+        width: 50%;
+    }
+
+    .benefits-section-top {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
