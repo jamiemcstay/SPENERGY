@@ -2275,12 +2275,33 @@ footer ul li a {
 }
 
 @media (min-width: 1280px) {
+
+    .big-p-home-page, 
+    .big-p-home-solar,
+    .big-p-other-services,
+    .big-p-grants-page {
+        width: 60%;
+    }
+
     .who-wrapper {
         width: 85%;
     }
 
+    .who-button-wrapper {
+        flex-direction: column; 
+    }
+
+    .who-button {
+        width: 100%;
+    }
+
     .steps-wrapper {
         width: 80%;
+    }
+
+    .benefits-section-top {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .why-choose-us-wrapper-1,
@@ -2309,11 +2330,6 @@ footer ul li a {
 
     .steps-wrapper {
         width: 80%;
-    }
-
-    .benefits-section-top {
-        padding-left: 10%;
-        padding-right: 10%;
     }
 
     .benefits-p {
