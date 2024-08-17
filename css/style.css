@@ -36,7 +36,8 @@ body {
     font-family: 'Gotham Regular';
     background-color: #f3f1f1; 
     width: 100%;   
-    box-sizing: border-box;    
+    box-sizing: border-box; 
+    overflow-x: hidden;   
 }
 
 main {
@@ -1955,11 +1956,6 @@ footer ul li a {
         display: none;
     }
 
-    .contact-info-question-box {
-        display: block;
-    }
-
-
     .menu-toggle {
         display: flex; 
     }
@@ -1969,10 +1965,6 @@ footer ul li a {
         padding-bottom: 5%;
         height: auto;
     }
-
-    /* .hero-text {
-        width: 80%;
-    } */
 
     .hero-text h1 {
         width: 80%; 
@@ -2019,6 +2011,10 @@ footer ul li a {
         width: 90%;
         margin: 0 auto;
         margin-bottom: 20px; 
+    }
+
+    .contact-info-question-box {
+        display: block;
     }
 
     .footer-top-wrapper {
@@ -2423,5 +2419,84 @@ footer ul li a {
     .benefits-section-top {
         padding-left: 30%;
         padding-right: 30%;
+    }
+}
+
+/*Landscape media queries*/
+
+@media (max-width: 896px) and (orientation: landscape) {
+    nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        top: 60px; /* Adjust as needed */
+        left: 0;
+        z-index: 1000; /* Ensure it appears on top */
+    }
+
+    nav.active {
+        display: flex; 
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%; 
+    }
+
+    nav ul li {
+        padding: 1rem;
+        text-align: center;
+        width: 100%; 
+    }
+
+    .contact-info {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex; 
+    }
+
+    .top-home {
+        height: 80vh;
+    }
+
+    .big-p-home-page {
+        width: 80%;
+    }
+
+    .intro-home-info-boxes {
+        justify-content: space-evenly; 
+    }
+
+    .who-wrapper {
+        width: 100%;
+    }
+
+    .who-text,
+    .who-img {
+        width: 45%;
+    }
+
+    .steps-wrapper {
+        flex-wrap: wrap;
+        gap: 30px; 
+        justify-content: space-evenly;
+    }
+
+    .get-in-touch-wrapper {
+        width: 80%;
+    }
+
+    .benefits-section-top {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    footer ul {
+        padding-right: 10px; 
     }
 }
