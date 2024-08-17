@@ -2324,6 +2324,13 @@ footer ul li a {
  
 @media (min-width: 1440px) {
 
+    .big-p-home-page, 
+    .big-p-home-solar,
+    .big-p-other-services,
+    .big-p-grants-page {
+        width: 50%;
+    }
+
     .who-wrapper {
         width: 100%;
     }
@@ -2344,6 +2351,15 @@ footer ul li a {
     .off-grid-cards,
     .off-grid-buttons {
         width: 60%;
+    }
+
+    .grants-part-1-wrapper,
+    .grants-part-2-wrapper {
+        width: 60%;
+    }
+
+    .grants-h3-left {
+        width: 51%;
     }
 
 }
