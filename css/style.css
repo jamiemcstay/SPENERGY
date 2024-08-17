@@ -233,7 +233,7 @@ nav ul li a:hover {
 }
 
 .hero-text h1 {
-    font-size: 400%;
+    font-size: 350%;
     margin-top: 0;
     line-height: 20% 4rem;
     font-family: "Gotham Bold";
@@ -2424,7 +2424,7 @@ footer ul li a {
 
 /*Landscape media queries*/
 
-@media (max-width: 896px) and (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
     nav {
         display: none;
         width: 100%;
@@ -2469,7 +2469,13 @@ footer ul li a {
     }
 
     .intro-home-info-boxes {
-        justify-content: space-evenly; 
+        justify-content: space-evenly;
+        flex-wrap: wrap; 
+    }
+
+    .info_box {
+        width: 35%;
+        margin-bottom: 2%;
     }
 
     .who-wrapper {
@@ -2498,5 +2504,13 @@ footer ul li a {
 
     footer ul {
         padding-right: 10px; 
+    }
+
+    .hero-text h1 {
+        width: 100%;
+    }
+
+    .hero-buttons-wrapper {
+        flex-direction: row;
     }
 }
