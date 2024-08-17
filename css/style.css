@@ -1451,6 +1451,7 @@ footer ul li a {
     text-align: center; 
     margin: 0 auto;
     margin-bottom: 50px; 
+    padding: 3%;
 }
 
 .grants-part-3-wrapper {
@@ -2361,5 +2362,47 @@ footer ul li a {
     .grants-h3-left {
         width: 51%;
     }
+
+}
+
+@media (min-width: 1920px) {
+    .who-wrapper {
+        width: 80%;
+    }
+
+    .steps-wrapper {
+        width: 60%;
+    }
+
+    .benefits-section-top {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .why-choose-us-wrapper-1,
+    .why-choose-us-wrapper-2,
+    .non-domestic-wrapper-1,
+    .non-domestic-wrapper-2,
+    .off-grid-wrapper-1,
+    .off-grid-wrapper-2,
+    .off-grid-cards, 
+    .off-grid-buttons,
+    .grants-part-1-wrapper,
+    .grants-part-2-wrapper {
+        width: 50%;
+    }
+
+    .big-p-grants-page {
+        width: 40%;
+    }
+
+    .grants-h3-left {
+        width: 43%;
+    }
+
+    .grants-blue-box {
+        width: 50%;
+    }
+
 
 }
