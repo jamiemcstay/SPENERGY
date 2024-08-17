@@ -1565,9 +1565,7 @@ footer ul li a {
 @media (max-width: 425px) {
 
     .top-other {
-        height: 90vh;
-        padding-top: 20%;
-        padding-bottom: 20%;
+        height: 80vh;
     }
 
     .intro-home-info-boxes {
@@ -1845,6 +1843,12 @@ footer ul li a {
 
 }
 
+@media (min-width: 768px) {
+    .top-other {
+        height: 40vh;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .non-domestic-wrapper-1 {
         width: 80%;
@@ -1860,6 +1864,61 @@ footer ul li a {
 
     .off-grid-buttons {
         width: 80%;
+    }
+
+    .grants-h3-left {
+        width: 80%;
+    }
+
+    .grants-part-1-wrapper,
+    .grants-part-2-wrapper,
+    .grants-part-3-wrapper {
+        width: 90%;
+    }
+
+    .grants-img-1 {
+        width: 50%;
+    }
+
+    .grants-part-2a {
+        gap: 20px; 
+        padding-top: 20px;
+    }
+
+    .grants-part-2b {
+        width: 50%;
+    }
+
+    .grants-form {
+        width: 100%;
+    }
+
+    .grants-blue-box {
+        width: 85%;
+        padding: 2%;
+    }
+
+    .grants-part-3b {
+        width: 50%;
+    }
+
+    .off-grid-wrapper-1, 
+    .off-grid-wrapper-2,
+    .off-grid-cards {
+        width: 80%;
+    }
+
+
+    .contact-page-wrapper {
+        width: 90%;
+    }
+
+    .contact-page-info {
+        width: 50%;
+    }
+
+    .contact-page-form {
+        width: 50%;
     }
 }
 
@@ -2140,75 +2199,6 @@ footer ul li a {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-
-    .grants-h3-left {
-        width: 80%;
-    }
-
-    .grants-part-1-wrapper {
-        width: 90%;
-    }
-
-    .grants-img-1 {
-        width: 50%;
-    }
-
-    .grants-part-2-wrapper {
-        width: 90%;
-    }
-
-    .grants-part-2a {
-        gap: 20px; 
-        padding-top: 20px;
-    }
-
-    .grants-part-2b {
-        width: 50%;
-    }
-
-    .grants-part-2-wrapper {
-        width: 85%;
-    }
-
-    .grants-form {
-        width: 100%;
-    }
-
-    .grants-blue-box {
-        width: 85%;
-        padding: 2%;
-    }
-
-    .grants-part-3-wrapper {
-        width: 85%;
-    }
-
-    .grants-part-3b {
-        width: 50%;
-    }
-
-    .off-grid-wrapper-1, .off-grid-wrapper-2 {
-        width: 80%;
-    }
-
-    .off-grid-cards {
-        width: 80%;
-    }
-
-    .contact-page-wrapper {
-        width: 90%;
-    }
-
-    .contact-page-info {
-        width: 50%;
-    }
-
-    .contact-page-form {
-        width: 50%;
-    }
-
-}
 
 @media (min-width: 1024px) {
 
@@ -2312,12 +2302,18 @@ footer ul li a {
 
  
 @media (min-width: 1440px) {
+
     .who-wrapper {
         width: 100%;
     }
 
     .steps-wrapper {
-        width: 60%;
+        width: 80%;
+    }
+
+    .benefits-section-top {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .benefits-p {
