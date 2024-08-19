@@ -2425,169 +2425,6 @@ footer ul li a {
 
 /*Landscape media queries*/
 
-@media (max-width: 640px) and (orientation: landscape) {
-    .who-text,
-    .who-img,
-    .off-grid-cards {
-        width: 80%;
-    }
-
-    .why-choose-us-wrapper-2,
-    .non-domestic-wrapper-1,
-    .non-domestic-wrapper-2,
-    .grants-part-1-wrapper,
-    .grants-part-2-wrapper {
-        width: 100%;
-    }
-
-    .off-grid-wrapper-1,
-    .off-grid-wrapper-2,
-    .grants-blue-box,
-    .grants-part-3-wrapper {
-        width: 90%;
-    }
-
-    .off-grid-card {
-        width: 240px; 
-    }
-
-    .off-grid-buttons {
-        width: 80%;
-    }
-
-    .off-grid-buttons button {
-        width: 30%;
-        padding: 1.2rem;
-    }
-
-    .grants-h3-left {
-        width: 85%;
-    }
-
-    .grants-part-3b {
-        width: 50%;
-    }
-
-    .grants-form {
-        width: 100%;
-    }
-
-    .contact-page-wrapper {
-        width: 95%;
-    }
-
-    .contact-page-info {
-        width: 50%;
-    }
-
-    .contact-page-info h3 {
-        width: 100%;
-    }
-
-    .contact-page-form {
-        width: 50%;
-        align-self: normal;
-    }
-}
-
-@media (max-width: 896px) and (orientation: landscape) {
-    .top-other {
-        padding-top: 5%;
-        padding-bottom: 5%;
-        height: 70%;
-    }
-}
-
-@media (max-width: 1024px) and (orientation: landscape) {
-    nav {
-        display: none;
-        width: 100%;
-        flex-direction: column;
-        width: 100%;
-        background-color: white;
-        position: absolute;
-        top: 60px; /* Adjust as needed */
-        left: 0;
-        z-index: 1000; /* Ensure it appears on top */
-    }
-
-    nav.active {
-        display: flex; 
-    }
-
-    nav ul {
-        flex-direction: column;
-        width: 100%; 
-    }
-
-    nav ul li {
-        padding: 1rem;
-        text-align: center;
-        width: 100%; 
-    }
-
-    .contact-info {
-        display: none;
-    }
-
-    .menu-toggle {
-        display: flex; 
-    }
-
-    .top-home {
-        height: 80vh;
-    }
-
-    .big-p-home-page {
-        width: 80%;
-    }
-
-    .intro-home-info-boxes {
-        justify-content: space-evenly;
-        flex-wrap: wrap; 
-    }
-
-    .info_box {
-        width: 35%;
-        margin-bottom: 2%;
-    }
-
-    .who-wrapper {
-        width: 100%;
-    }
-
-    .who-text,
-    .who-img {
-        width: 45%;
-    }
-
-    .steps-wrapper {
-        flex-wrap: wrap;
-        gap: 30px; 
-        justify-content: space-evenly;
-    }
-
-    .get-in-touch-wrapper {
-        width: 80%;
-    }
-
-    .benefits-section-top {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    footer ul {
-        padding-right: 10px; 
-    }
-
-    .hero-text h1 {
-        width: 100%;
-    }
-
-    .hero-buttons-wrapper {
-        flex-direction: row;
-    }
-}
 
 @media (max-width: 1180px) and (min-width: 820px) and (orientation: landscape) {
 
@@ -2612,6 +2449,170 @@ footer ul li a {
     .grants-blue-box,
     .grants-part-3-wrapper {
         width: 80%;
+    }
+
+    @media (max-width: 1024px) and (orientation: landscape) {
+        nav {
+            display: none;
+            width: 100%;
+            flex-direction: column;
+            width: 100%;
+            background-color: white;
+            position: absolute;
+            top: 60px; /* Adjust as needed */
+            left: 0;
+            z-index: 1000; /* Ensure it appears on top */
+        }
+    
+        nav.active {
+            display: flex; 
+        }
+    
+        nav ul {
+            flex-direction: column;
+            width: 100%; 
+        }
+    
+        nav ul li {
+            padding: 1rem;
+            text-align: center;
+            width: 100%; 
+        }
+    
+        .contact-info {
+            display: none;
+        }
+    
+        .menu-toggle {
+            display: flex; 
+        }
+    
+        .top-home {
+            height: 80vh;
+        }
+    
+        .big-p-home-page {
+            width: 80%;
+        }
+    
+        .intro-home-info-boxes {
+            justify-content: space-evenly;
+            flex-wrap: wrap; 
+        }
+    
+        .info_box {
+            width: 35%;
+            margin-bottom: 2%;
+        }
+    
+        .who-wrapper {
+            width: 100%;
+        }
+    
+        .who-text,
+        .who-img {
+            width: 45%;
+        }
+    
+        .steps-wrapper {
+            flex-wrap: wrap;
+            gap: 30px; 
+            justify-content: space-evenly;
+        }
+    
+        .get-in-touch-wrapper {
+            width: 80%;
+        }
+    
+        .benefits-section-top {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    
+        footer ul {
+            padding-right: 10px; 
+        }
+    
+        .hero-text h1 {
+            width: 100%;
+        }
+    
+        .hero-buttons-wrapper {
+            flex-direction: row;
+        }
+    }
+
+    @media (max-width: 896px) and (orientation: landscape) {
+        .top-other {
+            padding-top: 5%;
+            padding-bottom: 5%;
+            height: 70%;
+        }
+    }
+
+    @media (max-width: 640px) and (orientation: landscape) {
+        .who-text,
+        .who-img,
+        .off-grid-cards {
+            width: 80%;
+        }
+    
+        .why-choose-us-wrapper-2,
+        .non-domestic-wrapper-1,
+        .non-domestic-wrapper-2,
+        .grants-part-1-wrapper,
+        .grants-part-2-wrapper {
+            width: 100%;
+        }
+    
+        .off-grid-wrapper-1,
+        .off-grid-wrapper-2,
+        .grants-blue-box,
+        .grants-part-3-wrapper {
+            width: 90%;
+        }
+    
+        .off-grid-card {
+            width: 240px; 
+        }
+    
+        .off-grid-buttons {
+            width: 80%;
+        }
+    
+        .off-grid-buttons button {
+            width: 30%;
+            padding: 1.2rem;
+        }
+    
+        .grants-h3-left {
+            width: 85%;
+        }
+    
+        .grants-part-3b {
+            width: 50%;
+        }
+    
+        .grants-form {
+            width: 100%;
+        }
+    
+        .contact-page-wrapper {
+            width: 95%;
+        }
+    
+        .contact-page-info {
+            width: 50%;
+        }
+    
+        .contact-page-info h3 {
+            width: 100%;
+        }
+    
+        .contact-page-form {
+            width: 50%;
+            align-self: normal;
+        }
     }
 
 /*     
