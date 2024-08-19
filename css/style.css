@@ -34,7 +34,6 @@ html {
 body {
     margin: 0;
     font-family: 'Gotham Regular';
-    background-color: #f3f1f1; 
     width: 100%;   
     box-sizing: border-box; 
     overflow-x: hidden;   
@@ -2424,6 +2423,10 @@ footer ul li a {
 
 /*Landscape media queries*/
 
+@media (min-width: 1024px) and (orientation: landscape) {
+    
+}
+
 @media (max-width: 1024px) and (orientation: landscape) {
     nav {
         display: none;
@@ -2513,4 +2516,36 @@ footer ul li a {
     .hero-buttons-wrapper {
         flex-direction: row;
     }
+}
+
+@media (max-width: 1180px) and (min-width: 820px) and (orientation: landscape) {
+
+    .who-wrapper {
+        width: 100%;
+    }
+
+    .steps-wrapper {
+        width: 90%;
+    }
+
+    .why-choose-us-wrapper-1,
+    .why-choose-us-wrapper-2,
+    .non-domestic-wrapper-1,
+    .non-domestic-wrapper-2,
+    .off-grid-wrapper-1,
+    .off-grid-wrapper-2,
+    .off-grid-cards,
+    .off-grid-buttons,
+    .grants-part-1-wrapper,
+    .grants-part-2-wrapper,
+    .grants-blue-box,
+    .grants-part-3-wrapper {
+        width: 80%;
+    }
+
+/*     
+    .grants-part-1-wrapper {
+
+} */
+
 }
