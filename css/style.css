@@ -2083,13 +2083,20 @@ footer ul li a {
 
 }
 
-@media only screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
 
-    .top-home {
+    .top-home,
+    .top-other {
         height: 50vh;
     }
 
-    .big-p-home-page {
+    .big-p-home-page,
+    .big-p-home-solar,
+    .big-p-grants-page,
+    .big-p-other-services,
+    .why-choose-us-wrapper-1,
+    .why-choose-us-wrapper-2,
+    .grants-blue-box {
         width: 80%;
     }
 
@@ -2154,6 +2161,71 @@ footer ul li a {
     footer ul {
         font-size: 110%;
         padding-right: 20px;
+    }
+
+    .big-p-wrapper,
+    .why-choose-us-wrapper-2a,
+    .why-choose-us-wrapper-2b {
+        width: 50%;
+    }
+
+    .home-solar-form {
+        width: 100%;
+    }
+
+    .why-choose-us-card {
+        width: 90%;
+    }
+
+    .non-domestic-wrapper-1,
+    .non-domestic-wrapper-2,
+    .off-grid-wrapper-1,
+    .off-grid-wrapper-2,
+    .off-grid-cards,
+    .grants-part-1-wrapper,
+    .grants-part-2-wrapper {
+        width: 90%;
+    }
+
+    .off-grid-cards {
+        justify-content: space-evenly;
+
+    }
+
+    .off-grid-buttons {
+        width: 80%;
+    }
+
+    .grants-part-2a {
+        padding-top: 3%;
+    }
+
+    .grants-h3-left {
+        width: auto;
+        padding-left: 11%;
+    }
+
+    .grants-part-3-wrapper {
+        width: 90%;
+    }
+
+    .grants-part-3a,
+    .grants-part-3b {
+        width: 50%;
+    }
+
+    .grants-form {
+        width: 100%;
+    }
+
+    .contact-page-wrapper {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .contact-page-info,
+    .contact-page-form {
+        width: 50%;
     }
 
 }
