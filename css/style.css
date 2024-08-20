@@ -2297,6 +2297,10 @@ footer ul li a {
 
 @media screen and (min-width: 1200px) {
 
+    .top-other {
+        height: 50vh;
+    }
+
     footer ul {
         padding-right: 5%;
     }
@@ -2323,6 +2327,15 @@ footer ul li a {
     .grants-part-2-wrapper,
     .contact-page-wrapper {
         width: 70%;
+    }
+
+    .who-button-wrapper {
+        justify-content: normal;
+        flex-direction: column;
+    }
+
+    .who-button {
+        width: 100%;
     }
 
 
