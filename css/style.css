@@ -2231,11 +2231,25 @@ footer ul li a {
 }
 
 @media screen and (min-width: 993px) {
-    .big-p-home-page {
+
+    .big-p-home-page,
+    .big-p-home-solar,
+    .big-p-other-services,
+    .non-domestic-wrapper-1,
+    .non-domestic-wrapper-2,
+    .off-grid-wrapper-1,
+    .off-grid-wrapper-2,
+    .big-p-grants-page,
+    .grants-part-1-wrapper,
+    .grants-part-2-wrapper {
         width: 80%;
     }
 
-    .who-wrapper {
+    .who-wrapper,
+    .off-grid-cards,
+    .off-grid-buttons,
+    .grants-part-3-wrapper,
+    .contact-page-wrapper {
         width: 90%;
     }
 
@@ -2257,5 +2271,26 @@ footer ul li a {
     footer ul {
         padding-right: 20px;
         font-size: 105%;
+    }
+
+    .why-choose-us-wrapper-1,
+    .why-choose-us-wrapper-2 {
+        width: 90%;
+    }
+
+    .gallery {
+        width: 80%;
+    }
+
+    .grants-h3-left {
+        width: 68%;
+    }
+
+    .grants-blue-box {
+        width: 70%;
+    }
+
+    .contact-page-form {
+        width: 50%;
     }
 }
