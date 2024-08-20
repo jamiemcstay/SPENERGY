@@ -2519,7 +2519,7 @@ footer ul li a {
             width: 80%;
         }
 
-        .intro-home-info-boxes {
+        /* .intro-home-info-boxes {
             justify-content: space-evenly;
             flex-wrap: wrap;
         }
@@ -2527,7 +2527,7 @@ footer ul li a {
         .info_box {
             width: 35%;
             margin-bottom: 2%;
-        }
+        } */
 
         .who-wrapper {
             width: 100%;
