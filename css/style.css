@@ -22,8 +22,8 @@
 
 * {
     box-sizing: border-box;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -34,9 +34,9 @@ html {
 body {
     margin: 0;
     font-family: 'Gotham Regular';
-    width: 100%;   
-    box-sizing: border-box; 
-    overflow-x: hidden;   
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 main {
@@ -51,28 +51,28 @@ main {
 }
 
 .blue-text {
-    color: #4990CD; 
+    color: #4990CD;
 }
 
 /*Headings*/
 
 h3 {
-    text-align: center; 
+    text-align: center;
     font-family: 'Gotham Bold';
-    font-size: 180%; 
-    text-transform: uppercase; 
-    margin-bottom: 30px; 
-    font-weight: 800; 
+    font-size: 180%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 800;
 
 }
 
-h4 { 
+h4 {
     margin-bottom: 0;
     padding: 0;
-    font-family: 'Gotham Bold'; 
-    text-transform: uppercase; 
+    font-family: 'Gotham Bold';
+    text-transform: uppercase;
     font-size: 120%;
-    
+
 }
 
 /*Buttons*/
@@ -110,8 +110,8 @@ header {
     width: 100%;
     margin: 0;
     position: relative;
-    padding: 10px; 
-   
+    padding: 10px;
+
 }
 
 .logo img {
@@ -119,7 +119,7 @@ header {
 }
 
 nav {
-    display: flex; 
+    display: flex;
     flex: 1;
     justify-content: center;
 }
@@ -145,7 +145,7 @@ nav ul li {
 nav ul li a {
     color: black;
     text-decoration: none;
-    
+
 }
 
 nav ul li a.current-page {
@@ -158,12 +158,12 @@ nav ul li a:hover {
 }
 
 .contact-info {
-    display: flex; 
+    display: flex;
     font-family: 'Gotham Bold';
     font-size: 120%;
     flex-direction: column;
     gap: 15px;
-    
+
 }
 
 .contact-info div a {
@@ -171,7 +171,7 @@ nav ul li a:hover {
     gap: 10px;
     align-items: center;
     text-decoration: none;
-    color:#2f6a9e;
+    color: #2f6a9e;
 }
 
 
@@ -180,11 +180,11 @@ nav ul li a:hover {
 }
 
 .contact-link:hover {
-    color:#5694ca;
+    color: #5694ca;
 }
 
 .contact-link:hover i {
-    color:#2f6a9e;
+    color: #2f6a9e;
 }
 
 /*Hamburger menu styles*/
@@ -192,8 +192,8 @@ nav ul li a:hover {
 .menu-toggle {
     display: none;
     flex-direction: column;
-    cursor: pointer; 
-    padding: 10px; 
+    cursor: pointer;
+    padding: 10px;
 }
 
 .menu-toggle .bar {
@@ -201,13 +201,13 @@ nav ul li a:hover {
     height: 3px;
     width: 25px;
     margin: 3px 0;
-    transition: 0.3s;    
+    transition: 0.3s;
 }
 
 /*Hero section styles*/
 
 .top-home {
-    background: url(../images/hero-image-3.jpg) no-repeat center / cover; 
+    background: url(../images/hero-image-3.jpg) no-repeat center / cover;
     height: 60vh;
     position: relative;
     width: 100%;
@@ -251,18 +251,19 @@ nav ul li a:hover {
     padding: 0;
     text-align: center;
     font-weight: 300;
-    
+
 }
 
 .hero-buttons-wrapper {
     width: 100%;
     height: auto;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
 }
 
 
-.gradient-overlay, .gradient-overlay-benefits {
+.gradient-overlay,
+.gradient-overlay-benefits {
     background-color: #171a1c;
     position: absolute;
     top: 0;
@@ -277,22 +278,24 @@ nav ul li a:hover {
 .intro-home {
     width: 100%;
     height: 100%;
-    background-color: #f3f1f1; 
+    background-color: #f3f1f1;
     margin-bottom: 0;
     padding-bottom: 100px;
-    padding-top: 50px; 
-    position: relative; 
+    padding-top: 50px;
+    position: relative;
 }
 
 
-.big-p-home-page, .big-p-home-solar, .big-p-other-services, 
+.big-p-home-page,
+.big-p-home-solar,
+.big-p-other-services,
 .big-p-grants-page {
-    font-size: 180%; 
+    font-size: 180%;
     font-family: 'Gotham Light Regular';
-    margin: 0 auto;  
+    margin: 0 auto;
     width: 40%;
-    margin-bottom: 50px; 
-    text-align: center;    
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 
@@ -317,21 +320,21 @@ nav ul li a:hover {
     background-color: white;
     padding: 30px;
     height: auto;
-    gap: 30px; 
-    border-radius: 25px; 
+    gap: 30px;
+    border-radius: 25px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    
+
 }
 
 .icon {
     width: auto;
-    height: auto; 
-    
+    height: auto;
+
 }
 
 .icon i {
     font-size: 60px;
-    color: #2f6a9e; 
+    color: #2f6a9e;
 }
 
 
@@ -345,7 +348,7 @@ nav ul li a:hover {
     color: grey;
     line-height: 1.8;
     height: 210px;
-    
+
 }
 
 .info-box-button-wrapper {
@@ -366,24 +369,24 @@ nav ul li a:hover {
 /*Who we are*/
 
 .who-we-are-section {
-    padding-top: 100px; 
-    padding-bottom: 100px; 
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-image: url(../images/single-line-pattern.svg);
 }
 
 .who-wrapper {
-    width: 60%; 
+    width: 60%;
     height: auto;
     margin: 0 auto;
-    display: flex; 
+    display: flex;
     justify-content: center;
     gap: 1%;
 }
 
 .who-img {
-    width: 40%; 
+    width: 40%;
     background-color: blue;
-    border-radius: 25px; 
+    border-radius: 25px;
     height: auto;
     overflow: hidden;
     display: flex;
@@ -391,7 +394,7 @@ nav ul li a:hover {
 
 .who-img img {
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
 
 .who-text {
@@ -399,24 +402,24 @@ nav ul li a:hover {
     background-color: white;
     padding: 2%;
     border-radius: 5%;
- 
+
 }
 
 .who-text h3 {
-    text-align: left; 
+    text-align: left;
     margin-bottom: 30px;
 }
 
 .who-text p {
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
 
 .who-text p:last-of-type {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .who-button-wrapper {
-    display: flex; 
+    display: flex;
     gap: 10px;
     justify-content: space-between;
 }
@@ -430,8 +433,8 @@ nav ul li a:hover {
 /*How it works*/
 
 .how-it-works {
-    height: auto; 
-    width: auto; 
+    height: auto;
+    width: auto;
     background-color: #f3f1f1;
     padding-top: 100px;
     background-size: cover;
@@ -439,11 +442,11 @@ nav ul li a:hover {
 
 
 .steps-wrapper {
-    display: flex; 
+    display: flex;
     width: 70%;
     justify-content: space-between;
     margin: 0 auto;
-    margin-bottom: 100px; 
+    margin-bottom: 100px;
 
 }
 
@@ -460,17 +463,17 @@ nav ul li a:hover {
 }
 
 .step-box {
-    width: 250px; 
-    height: auto; 
-    position: relative; 
+    width: 250px;
+    height: auto;
+    position: relative;
     padding: 8px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
     z-index: 2;
     background-color: white;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 
@@ -494,7 +497,7 @@ nav ul li a:hover {
     height: 175px;
 }
 
-.step-box > h4 {
+.step-box>h4 {
     display: flex;
     align-items: center;
     color: #2f6a9e;
@@ -522,10 +525,10 @@ nav ul li a:hover {
 .h3-tight {
     text-align: center;
     width: 100%;
-    height: auto; 
-    margin-bottom: 30px; 
+    height: auto;
+    margin-bottom: 30px;
 
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .get-in-touch-align {
@@ -547,7 +550,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px; 
+    gap: 20px;
     width: 40%;
 }
 
@@ -573,10 +576,11 @@ nav ul li a:hover {
     height: auto;
     padding-left: 18%;
     padding-right: 18%;
-    padding-top: 3%; 
+    padding-top: 3%;
 }
 
-.benefits-section h3, .benefits-section p {
+.benefits-section h3,
+.benefits-section p {
     position: relative;
     z-index: 10;
 }
@@ -597,14 +601,14 @@ nav ul li a:hover {
     list-style-type: none;
     gap: 20px;
     height: auto;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 .benefit-box {
     display: flex;
     background-color: #ffffff;
     border-radius: 5%;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -631,14 +635,14 @@ nav ul li a:hover {
 
 .benefit-icon {
 
-    height: auto; 
+    height: auto;
     width: auto;
-    padding: 5px;  
+    padding: 5px;
 }
 
 .benefit-icon i {
     color: #4990CD;
-    font-size: 40px; 
+    font-size: 40px;
 }
 
 .benefit-text h4 {
@@ -673,12 +677,12 @@ nav ul li a:hover {
     padding-top: 10%;
     background-image: url(../images/patterned-background.svg);
     background-size: 16px 16px;
-    background-repeat: repeat; 
+    background-repeat: repeat;
     position: relative;
 }
 
 .home-page-bottom-wrapper {
-    display: flex; 
+    display: flex;
     justify-content: center;
     gap: 5%;
 }
@@ -698,14 +702,14 @@ nav ul li a:hover {
 }
 
 .home-page-bottom-text h3 {
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .home-page-bottom-text p {
-    letter-spacing: 1.5px; 
+    letter-spacing: 1.5px;
 }
 
-.home-page-bottom-text h4{
+.home-page-bottom-text h4 {
     text-transform: lowercase;
 }
 
@@ -715,54 +719,54 @@ nav ul li a:hover {
 }
 
 .submit-button {
-    width: 80%; 
+    width: 80%;
 }
 
 .home-page-form {
     width: 35rem;
     height: 35rem;
-    background-color: white; 
+    background-color: white;
     border-radius: 2%;
     margin-bottom: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    align-items: center; 
-    font-family: 'Gotham Light'; 
+    align-items: center;
+    font-family: 'Gotham Light';
 }
 
 form h4 {
     background-color: rgb(231, 229, 229);
     padding: 0.5rem;
     width: 80%;
-    text-align: center; 
+    text-align: center;
     border-radius: 0.5rem;
-    margin-bottom: 0.5rem; 
-    margin-top: 0.5rem; 
-    font-family: 'Gotham Bold'; 
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-family: 'Gotham Bold';
 }
 
 input {
     display: block;
     width: 80%;
     margin-top: 1%;
-    height: 3rem; 
-    font-family: 'Gotham Light' Regular;
+    height: 3rem;
+    font-family: 'Gotham Light'Regular;
     border-radius: 0.5rem;
     font-size: 120%;
-    padding-left: 2%; 
+    padding-left: 2%;
 
 }
 
 textarea {
     width: 80%;
-    border-radius: 0.5rem; 
-    font-family: Gotham Light; 
+    border-radius: 0.5rem;
+    font-family: Gotham Light;
     height: 8rem;
     font-size: 150%;
-    padding-left: 2%; 
- }
+    padding-left: 2%;
+}
 
 /*Footer styles*/
 
@@ -773,28 +777,28 @@ footer {
     font-size: 110%;
     background-color: #143049;
     height: auto;
-    color: white; 
-    font-family: 'Gotham Light' Regular; 
+    color: white;
+    font-family: 'Gotham Light'Regular;
     padding-top: 3%;
 }
 
 .footer-top-wrapper {
     display: flex;
     padding-bottom: 3%;
-    border-bottom: solid white 1px; 
+    border-bottom: solid white 1px;
 }
 
 .footer-bottom-wrapper {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     padding: 1%;
-    background-color: white; 
+    background-color: white;
     color: black;
     font-family: 'Gotham Regular';
 }
 
 footer h5 {
-    text-transform: uppercase; 
+    text-transform: uppercase;
     padding-bottom: 2%;
     color: #4990CD;
     letter-spacing: 1.5px;
@@ -819,8 +823,8 @@ footer h5 {
     width: 100%;
 }
 
-footer ul {    
-    list-style: none; 
+footer ul {
+    list-style: none;
     margin-left: 0;
     font-size: 120%;
     display: flex;
@@ -831,12 +835,12 @@ footer ul {
 }
 
 footer ul:last-of-type {
-    border-right: none; 
+    border-right: none;
 }
 
 footer ul li a {
     text-decoration: none;
-    color: white;     
+    color: white;
 }
 
 .bold_text {
@@ -851,11 +855,11 @@ footer ul li a {
     background-color: #143049;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .why-choose-us {
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 .why-choose-us-wrapper-1 {
@@ -883,7 +887,7 @@ footer ul li a {
 
 .why-choose-us-img-wrapper img {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -903,36 +907,36 @@ footer ul li a {
     width: 35%;
 }
 
-.why-choose-us-wrapper-2a  > p{
-    font-size: 110%; 
-    margin-bottom: 30px; 
+.why-choose-us-wrapper-2a>p {
+    font-size: 110%;
+    margin-bottom: 30px;
     padding-top: 20px;
-    border-top: solid #4990CD 2px; 
+    border-top: solid #4990CD 2px;
 }
 
 .why-choose-us-card {
-    background-color: white; 
-    display: flex; 
+    background-color: white;
+    display: flex;
     justify-content: space-between;
     border-radius: 15px;
-    width: 100%; 
+    width: 100%;
     padding: 10%;
-    align-items: center; 
+    align-items: center;
     margin: 0 auto;
-    margin-bottom: 30px; 
-    border: 2px #4990CD solid; 
+    margin-bottom: 30px;
+    border: 2px #4990CD solid;
 }
 
-.why-choose-us-card > i {
-    font-size: 50px; 
+.why-choose-us-card>i {
+    font-size: 50px;
     color: #4990CD;
 }
 
 .home-solar-buttons-wrapper {
     width: 100%;
     margin: 0 auto;
-    display: flex; 
-    flex-direction: column;  
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -949,15 +953,15 @@ footer ul li a {
 .home-solar-form {
     width: 90%;
     height: 90%;
-    background-color: white; 
+    background-color: white;
     border-radius: 2%;
     margin-bottom: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    align-items: center; 
-    font-family: 'Gotham Light'; 
+    align-items: center;
+    font-family: 'Gotham Light';
     align-self: flex-end;
     margin: 0 auto;
     padding-bottom: 1rem;
@@ -975,55 +979,68 @@ footer ul li a {
     padding-top: 50px;
     height: auto;
     padding-bottom: 100px;
-    
+
 }
 
 .our-work h3 {
-    
+
     /* width: 20%; */
     margin: 0 auto;
     padding: 2%;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
 }
+
 .gallery {
     display: flex;
-    flex-wrap: wrap; /* Ensure columns wrap if needed */
-    gap: 2px; /* Optional: spacing between items */
+    flex-wrap: wrap;
+    /* Ensure columns wrap if needed */
+    gap: 2px;
+    /* Optional: spacing between items */
     width: 60%;
     margin: 0 auto;
-    background-color: white; 
+    background-color: white;
 }
 
 .gallery-column {
     display: flex;
     flex-direction: column;
-    flex: 1 0 33%; /* Each column takes up 1/3 of the gallery width */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    padding: 2px; /* Optional: space around items within each column */
+    flex: 1 0 33%;
+    /* Each column takes up 1/3 of the gallery width */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+    padding: 2px;
+    /* Optional: space around items within each column */
 }
 
 .gallery-item {
-    width: 100%; /* Ensure items fill the column width */
-    overflow: hidden; /* Hide overflow if images are larger than the container */
+    width: 100%;
+    /* Ensure items fill the column width */
+    overflow: hidden;
+    /* Hide overflow if images are larger than the container */
     height: 100%;
 }
 
 .gallery-image {
     display: block;
-    width: 100%; /* Ensure images fill the container width */
-    height: 100%; /* Ensure images fill the container height */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-    transition: transform .3s; /* Smooth transition for zoom effect */
+    width: 100%;
+    /* Ensure images fill the container width */
+    height: 100%;
+    /* Ensure images fill the container height */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+    transition: transform .3s;
+    /* Smooth transition for zoom effect */
 }
 
 .gallery-item:hover .gallery-image {
-    transform: scale(1.1); /* Slight zoom effect on hover */
+    transform: scale(1.1);
+    /* Slight zoom effect on hover */
 }
 
 /*Other Services page*/
 
 .non-domestic {
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 .non-domestic-wrapper-1 {
@@ -1051,7 +1068,7 @@ footer ul li a {
 
 .non-dom-img-wrapper img {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -1081,11 +1098,11 @@ footer ul li a {
 }
 
 
-.non-domestic-wrapper-2a  > p{
-    font-size: 110%; 
-    margin-bottom: 30px; 
+.non-domestic-wrapper-2a>p {
+    font-size: 110%;
+    margin-bottom: 30px;
     padding-top: 20px;
-    border-top: solid #4990CD 2px; 
+    border-top: solid #4990CD 2px;
 }
 
 .small-p-wrapper {
@@ -1102,20 +1119,20 @@ footer ul li a {
 .non-dom-form {
     width: 100%;
     height: 30rem;
-    background-color: white; 
+    background-color: white;
     border-radius: 2%;
     margin-bottom: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    align-items: center; 
-    font-family: 'Gotham Light'; 
+    align-items: center;
+    font-family: 'Gotham Light';
 }
 
 .non-dom-box-wrapper {
     /* width: 100%; */
-    display: flex; 
+    display: flex;
     justify-content: space-between;
 }
 
@@ -1135,25 +1152,25 @@ footer ul li a {
 .grant-box-h4-wrapper {
     width: auto;
     height: auto;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
-.non-domestic-grant-box h4{
+.non-domestic-grant-box h4 {
     width: auto;
     font-size: 150%;
     color: white;
 }
 
 .non-dom-cards-wrapper {
-    width: 45%; 
-    display: flex; 
-    flex-direction: column; 
-    flex-wrap: wrap; 
-    justify-content: space-evenly; 
-    gap: 10px; 
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
 }
 
- .non-dom-card {
+.non-dom-card {
     width: 100%;
     padding: 5%;
     background-color: white;
@@ -1163,18 +1180,18 @@ footer ul li a {
     margin: 0 auto;
     flex: 1;
     border-radius: 10px;
-    border: 2px solid #4990CD; 
- }
+    border: 2px solid #4990CD;
+}
 
- .non-dom-card i {
+.non-dom-card i {
     color: #4990CD;
     font-size: 40px;
- }
+}
 
- .non-dom-card h4 {
+.non-dom-card h4 {
     color: #4990CD;
     font-size: 90%;
- }
+}
 
 .big-p-wrapper-other-2 {
     width: 100%;
@@ -1187,18 +1204,18 @@ footer ul li a {
     font-size: 150%;
     font-family: 'Gotham Bold';
     font-weight: 800;
-    gap: 20px; 
+    gap: 20px;
 }
 
 /*Off Grid section on other services page*/
 
 .off-grid-section {
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
 }
 
 .off-grid-wrapper-1 {
     width: 50%;
-    display: flex; 
+    display: flex;
     /* background-color: blue; */
     margin: 0 auto;
     justify-content: space-between;
@@ -1206,7 +1223,7 @@ footer ul li a {
 }
 
 .off-grid-p-wrapper {
-    width: 50%; 
+    width: 50%;
     /* background-color: orange; */
     display: flex;
     justify-content: center;
@@ -1227,7 +1244,7 @@ footer ul li a {
 .off-grid-img-wrapper img {
     width: 100%;
     height: 100%;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 
@@ -1235,7 +1252,7 @@ footer ul li a {
     font-size: 180%;
     font-family: 'Gotham Bold';
 
-    border-radius: 10px; 
+    border-radius: 10px;
     padding: 2%;
 
 }
@@ -1296,7 +1313,7 @@ footer ul li a {
 }
 
 .off-grid-buttons-wrapper {
-    width: 50%; 
+    width: 50%;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -1315,7 +1332,7 @@ footer ul li a {
 
 .off-grid-buttons {
     width: 50%;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     margin: 0 auto;
 }
@@ -1337,7 +1354,7 @@ footer ul li a {
 
 .solar-pv-grants-section {
     padding-top: 50px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
 }
 
 .grants-part-1-wrapper {
@@ -1352,7 +1369,7 @@ footer ul li a {
     width: 43%;
     margin: 0 auto;
     text-align: left;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .grants-img-1 {
@@ -1381,9 +1398,10 @@ footer ul li a {
 
 .grants-p-wrapper {
     width: 40%;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
 }
+
 .grants-p {
     font-size: 160%;
     width: 90%;
@@ -1392,17 +1410,17 @@ footer ul li a {
 
 .grants-part-2-wrapper {
     /* background-color: lightblue;  */
-    display: flex; 
+    display: flex;
     width: 50%;
     margin: 0 auto;
     justify-content: center;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 .grants-part-2a {
     /* background-color: lightcoral; */
     width: 40%;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     border-top: solid 3px #2f6a9e;
@@ -1412,20 +1430,21 @@ footer ul li a {
     /* background-color:aqua; */
     display: flex;
     flex-direction: column;
-    width: 45%; 
+    width: 45%;
     justify-content: space-between;
-    align-items: center; 
-    gap: 40px; 
+    align-items: center;
+    gap: 40px;
 }
 
-.grants-box-1, .grants-box-2 {
+.grants-box-1,
+.grants-box-2 {
     background-color: white;
     width: 252px;
     border: solid 3px #2f6a9e;
     padding: 5%;
     border-radius: 10px;
-    height: 138px; 
-    display: flex; 
+    height: 138px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -1444,20 +1463,20 @@ footer ul li a {
 .grants-blue-box {
     width: 50%;
     height: 200px;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#143049; 
-    color: white; 
+    background-color: #143049;
+    color: white;
     border-radius: 10px;
-    text-align: center; 
+    text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
     padding: 3%;
 }
 
 .grants-part-3-wrapper {
-    width: 50%; 
+    width: 50%;
     margin: 0 auto;
     /* background-color: lightblue; */
     display: flex;
@@ -1466,7 +1485,7 @@ footer ul li a {
 
 .grants-part-3a {
     width: 40%;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -1475,21 +1494,21 @@ footer ul li a {
     font-family: 'Gotham Bold';
     font-size: 150%;
     width: 90%;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .grants-form {
     width: 25rem;
     height: 35rem;
-    background-color: white; 
+    background-color: white;
     border-radius: 2%;
     margin-bottom: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    align-items: center; 
-    font-family: 'Gotham Light'; 
+    align-items: center;
+    font-family: 'Gotham Light';
     align-self: flex-end;
     margin: 0 auto;
 }
@@ -1528,12 +1547,12 @@ footer ul li a {
 
 
 .contact-page-info i {
-    color:#2f6a9e;
+    color: #2f6a9e;
     font-size: 180%;
 }
 
 .contact-page-info a {
-    display: flex; 
+    display: flex;
     gap: 15px;
     text-align: left;
     align-items: center;
@@ -1551,15 +1570,15 @@ footer ul li a {
 .contact-page-form {
     width: 35%;
     height: 35rem;
-    background-color: white; 
+    background-color: white;
     border-radius: 2%;
     margin-bottom: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    align-items: center; 
-    font-family: 'Gotham Light'; 
+    align-items: center;
+    font-family: 'Gotham Light';
     align-self: flex-end;
 }
 
@@ -1625,7 +1644,7 @@ footer ul li a {
     .why-choose-us-wrapper-2b {
         width: 100%;
     }
-    
+
     .home-solar-buttons-wrapper {
         margin-bottom: 30px;
     }
@@ -1795,7 +1814,7 @@ footer ul li a {
     }
 
     .grants-part-3-wrapper {
-        align-items: center; 
+        align-items: center;
         width: 90%;
         flex-direction: column;
     }
@@ -1806,7 +1825,7 @@ footer ul li a {
         align-items: center;
     }
 
-    .grants-part-3a p{
+    .grants-part-3a p {
         margin: 0 auto 20px auto;
     }
 
@@ -1884,7 +1903,7 @@ footer ul li a {
     }
 
     .grants-part-2a {
-        gap: 20px; 
+        gap: 20px;
         padding-top: 20px;
     }
 
@@ -1905,7 +1924,7 @@ footer ul li a {
         width: 50%;
     }
 
-    .off-grid-wrapper-1, 
+    .off-grid-wrapper-1,
     .off-grid-wrapper-2,
     .off-grid-cards {
         width: 80%;
@@ -1933,24 +1952,26 @@ footer ul li a {
         width: 100%;
         background-color: white;
         position: absolute;
-        top: 60px; /* Adjust as needed */
+        top: 60px;
+        /* Adjust as needed */
         left: 0;
-        z-index: 1000; /* Ensure it appears on top */
+        z-index: 1000;
+        /* Ensure it appears on top */
     }
 
     nav.active {
-        display: flex; 
+        display: flex;
     }
 
     nav ul {
         flex-direction: column;
-        width: 100%; 
+        width: 100%;
     }
 
     nav ul li {
         padding: 1rem;
         text-align: center;
-        width: 100%; 
+        width: 100%;
     }
 
     .contact-info {
@@ -1958,7 +1979,7 @@ footer ul li a {
     }
 
     .menu-toggle {
-        display: flex; 
+        display: flex;
     }
 
     .top-home {
@@ -1968,12 +1989,12 @@ footer ul li a {
     }
 
     .hero-text h1 {
-        width: 80%; 
-        font-size: 300%; 
+        width: 80%;
+        font-size: 300%;
     }
 
     .hero-text h2 {
-        font-size: 1.2rem; 
+        font-size: 1.2rem;
         width: 80%;
     }
 
@@ -2011,7 +2032,7 @@ footer ul li a {
     .who-img {
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 
     .contact-info-question-box {
@@ -2029,7 +2050,7 @@ footer ul li a {
 
     .footer-ul-wrapper {
         flex-direction: column;
-        gap: 25px; 
+        gap: 25px;
         margin: 0 auto;
         align-items: center;
     }
@@ -2089,7 +2110,7 @@ footer ul li a {
     .non-dom-card h4 {
         font-size: 60%;
     }
-    
+
     .non-domestic-grant-box h4 {
         font-size: 120%;
     }
@@ -2184,7 +2205,7 @@ footer ul li a {
         width: auto;
     }
 
-    .footer-ul-wrapper > ul:first-of-type {
+    .footer-ul-wrapper>ul:first-of-type {
         order: 3;
     }
 
@@ -2246,7 +2267,7 @@ footer ul li a {
     }
 
     .who-text {
-        width: 40%; 
+        width: 40%;
     }
 
     .steps-wrapper {
@@ -2254,7 +2275,8 @@ footer ul li a {
         gap: 10px;
     }
 
-    .why-choose-us-wrapper-1, .why-choose-us-wrapper-2 {
+    .why-choose-us-wrapper-1,
+    .why-choose-us-wrapper-2 {
         width: 80%;
     }
 
@@ -2274,7 +2296,7 @@ footer ul li a {
 
 @media (min-width: 1280px) {
 
-    .big-p-home-page, 
+    .big-p-home-page,
     .big-p-home-solar,
     .big-p-other-services,
     .big-p-grants-page {
@@ -2286,7 +2308,7 @@ footer ul li a {
     }
 
     .who-button-wrapper {
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .who-button {
@@ -2307,7 +2329,7 @@ footer ul li a {
     .non-domestic-wrapper-1,
     .non-domestic-wrapper-2,
     .off-grid-wrapper-1,
-    .off-grid-wrapper-2, 
+    .off-grid-wrapper-2,
     .off-grid-cards,
     .off-grid-buttons,
     .grants-part-1-wrapper,
@@ -2319,10 +2341,10 @@ footer ul li a {
 
 }
 
- 
+
 @media (min-width: 1440px) {
 
-    .big-p-home-page, 
+    .big-p-home-page,
     .big-p-home-solar,
     .big-p-other-services,
     .big-p-grants-page {
@@ -2338,7 +2360,7 @@ footer ul li a {
     }
 
     .benefits-p {
-        width: 70%; 
+        width: 70%;
     }
 
     .non-domestic-wrapper-1,
@@ -2382,7 +2404,7 @@ footer ul li a {
     .non-domestic-wrapper-2,
     .off-grid-wrapper-1,
     .off-grid-wrapper-2,
-    .off-grid-cards, 
+    .off-grid-cards,
     .off-grid-buttons,
     .grants-part-1-wrapper,
     .grants-part-2-wrapper {
@@ -2426,7 +2448,7 @@ footer ul li a {
 /*Landscape media queries*/
 
 
-@media (max-width: 1180px) and (min-width: 820px) and (orientation: landscape) {
+@media (max-width: 1180px) and (min-width: 568px) and (orientation: landscape) {
 
     .who-wrapper {
         width: 100%;
@@ -2459,84 +2481,86 @@ footer ul li a {
             width: 100%;
             background-color: white;
             position: absolute;
-            top: 60px; /* Adjust as needed */
+            top: 60px;
+            /* Adjust as needed */
             left: 0;
-            z-index: 1000; /* Ensure it appears on top */
+            z-index: 1000;
+            /* Ensure it appears on top */
         }
-    
+
         nav.active {
-            display: flex; 
+            display: flex;
         }
-    
+
         nav ul {
             flex-direction: column;
-            width: 100%; 
+            width: 100%;
         }
-    
+
         nav ul li {
             padding: 1rem;
             text-align: center;
-            width: 100%; 
+            width: 100%;
         }
-    
+
         .contact-info {
             display: none;
         }
-    
+
         .menu-toggle {
-            display: flex; 
+            display: flex;
         }
-    
+
         .top-home {
             height: 80vh;
         }
-    
+
         .big-p-home-page {
             width: 80%;
         }
-    
+
         .intro-home-info-boxes {
             justify-content: space-evenly;
-            flex-wrap: wrap; 
+            flex-wrap: wrap;
         }
-    
+
         .info_box {
             width: 35%;
             margin-bottom: 2%;
         }
-    
+
         .who-wrapper {
             width: 100%;
         }
-    
+
         .who-text,
         .who-img {
             width: 45%;
         }
-    
+
         .steps-wrapper {
             flex-wrap: wrap;
-            gap: 30px; 
+            gap: 30px;
             justify-content: space-evenly;
         }
-    
+
         .get-in-touch-wrapper {
             width: 80%;
         }
-    
+
         .benefits-section-top {
             padding-left: 10%;
             padding-right: 10%;
         }
-    
+
         footer ul {
-            padding-right: 10px; 
+            padding-right: 10px;
         }
-    
+
         .hero-text h1 {
             width: 100%;
         }
-    
+
         .hero-buttons-wrapper {
             flex-direction: row;
         }
@@ -2548,15 +2572,27 @@ footer ul li a {
             padding-bottom: 5%;
             height: 70%;
         }
+
+        .intro-home-info-boxes {
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .info_box {
+            width: 40%;
+            margin-bottom: 5%;
+        }
     }
 
     @media (max-width: 640px) and (orientation: landscape) {
+
+
         .who-text,
         .who-img,
         .off-grid-cards {
             width: 80%;
         }
-    
+
         .why-choose-us-wrapper-2,
         .non-domestic-wrapper-1,
         .non-domestic-wrapper-2,
@@ -2564,58 +2600,58 @@ footer ul li a {
         .grants-part-2-wrapper {
             width: 100%;
         }
-    
+
         .off-grid-wrapper-1,
         .off-grid-wrapper-2,
         .grants-blue-box,
         .grants-part-3-wrapper {
             width: 90%;
         }
-    
+
         .off-grid-card {
-            width: 240px; 
+            width: 240px;
         }
-    
+
         .off-grid-buttons {
             width: 80%;
         }
-    
+
         .off-grid-buttons button {
             width: 30%;
             padding: 1.2rem;
         }
-    
+
         .grants-h3-left {
             width: 85%;
         }
-    
+
         .grants-part-3b {
             width: 50%;
         }
-    
+
         .grants-form {
             width: 100%;
         }
-    
+
         .contact-page-wrapper {
             width: 95%;
         }
-    
+
         .contact-page-info {
             width: 50%;
         }
-    
+
         .contact-page-info h3 {
             width: 100%;
         }
-    
+
         .contact-page-form {
             width: 50%;
             align-self: normal;
         }
     }
 
-/*     
+    /*     
     .grants-part-1-wrapper {
 
 } */
