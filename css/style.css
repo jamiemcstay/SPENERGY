@@ -1584,8 +1584,7 @@ footer ul li a {
 
 /*Media queries*/
 
-@media only screen and (max-width: 576px) {
-
+@media only screen and (max-width: 1024px) {
     nav {
         display: none;
         width: 100%;
@@ -1594,10 +1593,8 @@ footer ul li a {
         background-color: white;
         position: absolute;
         top: 60px;
-        /* Adjust as needed */
         left: 0;
         z-index: 1000;
-        /* Ensure it appears on top */
     }
 
     nav.active {
@@ -1622,6 +1619,9 @@ footer ul li a {
     .menu-toggle {
         display: flex;
     }
+}
+
+@media only screen and (max-width: 576px) {
 
     .top-home {
         padding-top: 5%;
@@ -2079,6 +2079,81 @@ footer ul li a {
 
     .contact-page-form {
         width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    .top-home {
+        height: 50vh;
+    }
+
+    .big-p-home-page {
+        width: 80%;
+    }
+
+    .hero-text {
+        width: 90%;
+    }
+
+    .hero-text h1 {
+        font-size: 300%;
+    }
+
+    .hero-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .intro-home-info-boxes {
+        justify-content: space-evenly;
+    }
+
+    .who-wrapper {
+        width: 80%;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .who-text,
+    .who-img {
+        width: 100%;
+    }
+
+    .who-button {
+        width: 50%;
+    }
+
+    .who-text {
+        order: 2;
+    }
+
+    .steps-wrapper {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .step-box {
+        margin-bottom: 20px;
+    }
+
+    .get-in-touch-wrapper {
+        width: 80%;
+    }
+
+    .footer-top-wrapper {
+        flex-direction: column;
+    }
+
+    .logo_footer_white {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    footer ul {
+        font-size: 110%;
+        padding-right: 20px;
     }
 
 }
