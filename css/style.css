@@ -2294,3 +2294,31 @@ footer ul li a {
         width: 50%;
     }
 }
+
+@media screen and (min-width: 1200px) {
+
+    .big-p-home-page,
+    .big-p-home-solar,
+    .big-p-other-services,
+    .big-p-grants-page,
+    .grants-h3-left {
+        width: 60%;
+    }
+
+    .who-wrapper,
+    .why-choose-us-wrapper-1,
+    .why-choose-us-wrapper-2,
+    .non-domestic-wrapper-1,
+    .non-domestic-wrapper-2,
+    .off-grid-wrapper-1,
+    .off-grid-wrapper-2,
+    .off-grid-cards,
+    .off-grid-buttons,
+    .grants-part-1-wrapper,
+    .grants-part-2-wrapper,
+    .contact-page-wrapper {
+        width: 70%;
+    }
+
+
+}
