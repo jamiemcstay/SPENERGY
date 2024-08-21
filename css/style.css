@@ -269,7 +269,7 @@ nav ul li a:hover {
 }
 
 .hero-buttons-wrapper {
-    width: 100%;
+    width: 80%;
     height: auto;
     display: flex;
     justify-content: space-between;
