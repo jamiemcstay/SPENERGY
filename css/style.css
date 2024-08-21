@@ -208,13 +208,15 @@ nav ul li a:hover {
 
 .top-home {
     background: url(../images/hero-image-3.jpg) no-repeat center / cover;
-    height: 60vh;
+    height: auto;
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     overflow: hidden;
     align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .hero-text {
@@ -259,6 +261,8 @@ nav ul li a:hover {
     height: auto;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+
 }
 
 
@@ -340,7 +344,7 @@ nav ul li a:hover {
 
 .intro-home-info-boxes p {
     font-size: 1rem;
-    width: 201.58px;
+    width: auto;
     text-align: left;
     margin: 0 auto;
     padding: 0;
@@ -444,7 +448,7 @@ nav ul li a:hover {
 .steps-wrapper {
     display: flex;
     width: 70%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 auto;
     margin-bottom: 100px;
 
@@ -849,13 +853,15 @@ footer ul li a {
 
 /*HOME SOLAR PAGE STYLES*/
 .top-other {
-    height: 70vh;
+    height: auto;
     position: relative;
     width: 100%;
     background-color: #143049;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .why-choose-us {
@@ -1623,11 +1629,10 @@ footer ul li a {
 
 @media only screen and (max-width: 576px) {
 
-    .top-home {
+    /* .top-home {
         padding-top: 5%;
         padding-bottom: 5%;
-        height: auto;
-    }
+    } */
 
     .hero-text h1 {
         width: 80%;
@@ -1642,7 +1647,6 @@ footer ul li a {
     .hero-buttons-wrapper {
         width: 80%;
         flex-direction: column;
-        gap: 5px;
     }
 
     .hero-buttons-wrapper button {
@@ -1800,9 +1804,10 @@ footer ul li a {
         border-bottom: none;
     }
 
+    /* 
     .top-other {
-        height: 80vh;
-    }
+        height: auto;
+    } */
 
     .intro-home-info-boxes {
         flex-direction: column;
@@ -2085,10 +2090,12 @@ footer ul li a {
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
-    .top-home,
+    /* .top-home,
     .top-other {
-        height: 50vh;
-    }
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    } */
 
     .big-p-home-page,
     .big-p-home-solar,
@@ -2260,7 +2267,6 @@ footer ul li a {
 
     .steps-wrapper {
         width: 80%;
-        justify-content: center;
         gap: 20px;
     }
 
@@ -2297,9 +2303,9 @@ footer ul li a {
 
 @media screen and (min-width: 1200px) {
 
-    .top-other {
+    /* .top-other {
         height: 50vh;
-    }
+    } */
 
     footer ul {
         padding-right: 5%;
@@ -2371,3 +2377,10 @@ footer ul li a {
         width: 50%;
     }
 }
+
+/* @media screen and (max-width: 576px) and (orientation: landscape) {
+    .top-home {
+        height: 80vh;
+
+    }
+} */
