@@ -363,7 +363,7 @@ nav ul li a:hover {
     font-family: 'Gotham Light Regular';
     color: grey;
     line-height: 1.8;
-    height: 210px;
+    height: auto;
 
 }
 
