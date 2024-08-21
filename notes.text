@@ -1,6 +1,10 @@
 **Ensure Apache running
 **Ensure postfix running
 ** check info email box to see why not receiving
+** make partners links
+** delete unused images
+** add comments on all pages
+** delete commented out code
 
 Picttures of containers - off grid
 Gmail access (for verification)
@@ -55,3 +59,11 @@ Copy code
 sudo ufw allow 'Apache Full'
 sudo ufw enable
 By taking these steps, you can ensure that your website is not only functional but also secure when it's live on the internet.
+
+
+Currently in your file: ServerName 127.0.0.1
+Action Needed: This is acceptable for local testing. If you have a domain name or need to serve the site externally, you should set this to your domain name or server’s hostname.
+
+Email Headers:
+
+Your headers look correct, but ensure that the "From" address is valid and correctly configured on your mail server to avoid being marked as spam.
