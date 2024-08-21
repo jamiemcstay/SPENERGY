@@ -34,7 +34,7 @@ html {
 body {
     margin: 0;
     font-family: 'Gotham Regular';
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
     overflow-x: hidden;
 }
