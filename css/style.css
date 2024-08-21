@@ -237,7 +237,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* max-width: 800px; */
+    max-width: 800px;
     width: auto;
     height: auto;
     justify-content: space-between;
@@ -246,7 +246,7 @@ nav ul li a:hover {
 }
 
 .hero-text h1 {
-    font-size: 250%;
+    font-size: 350%;
     margin-top: 0;
     line-height: 20% 4rem;
     font-family: "Gotham Bold";
