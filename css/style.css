@@ -378,7 +378,7 @@ nav ul li a:hover {
 }
 
 .find-out-more-button {
-    width: 180px;
+    width: 100%;
     height: 50px;
 }
 
@@ -1641,10 +1641,6 @@ footer ul li a {
 
 @media only screen and (max-width: 576px) {
 
-    /* .top-home {
-        padding-top: 5%;
-        padding-bottom: 5%;
-    } */
 
     .hero-text h1 {
         width: 80%;
