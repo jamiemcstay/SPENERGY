@@ -865,6 +865,7 @@ footer ul li a {
 }
 
 /*HOME SOLAR PAGE STYLES*/
+
 .top-other {
     height: auto;
     position: relative;
@@ -1813,10 +1814,6 @@ footer ul li a {
         border-bottom: none;
     }
 
-    /* 
-    .top-other {
-        height: auto;
-    } */
 
     .intro-home-info-boxes {
         flex-direction: column;
@@ -2099,12 +2096,6 @@ footer ul li a {
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
-    /* .top-home,
-    .top-other {
-        height: auto;
-        padding-top: 5%;
-        padding-bottom: 5%;
-    } */
 
     .big-p-home-page,
     .big-p-home-solar,
@@ -2312,9 +2303,6 @@ footer ul li a {
 
 @media screen and (min-width: 1200px) {
 
-    /* .top-other {
-        height: 50vh;
-    } */
 
     footer ul {
         padding-right: 5%;
@@ -2386,10 +2374,3 @@ footer ul li a {
         width: 50%;
     }
 }
-
-/* @media screen and (max-width: 576px) and (orientation: landscape) {
-    .top-home {
-        height: 80vh;
-
-    }
-} */
