@@ -34,7 +34,9 @@ html {
 body {
     margin: 0;
     font-family: 'Gotham Regular';
-    width: 100vw;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -80,7 +82,7 @@ h4 {
 .cta-button {
     text-transform: uppercase;
     font-family: 'Gotham Bold';
-    width: 220px;
+    width: 80%;
     background-color: #4990CD;
     color: white;
     padding: 1rem 1rem;
