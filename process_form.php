@@ -10,7 +10,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = htmlspecialchars($_POST['phone']);
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
+    $recaptchaResponse = $_POST['g-recaptcha-response']; // Get the reCAPTCHA response
+
+    // Define the reCAPTCHA secret key for testing
+    $secret = '6LeIxAcTAAAAAOba02C2Q2s5sR11p0jK4I9T3b7E'; // Test secret key
+
+    // Build the verification URL
+    $verifyUrl = 'https://www.google.com/recaptcha/api/siteverify';
+    $response = file_get_contents($verifyUrl . '?secret=' . urlencode($secret) . '&response=' . urlencode($recaptchaResponse));
     
+    // Decode the response
+    $responseKeys = json_decode($response, true);
+
+    // Check if reCAPTCHA verification succeeded
+    if (intval($responseKeys["success"]) !== 1) {
+        // Return a JSON response indicating failure
+        header('Content-Type: application/json');
+        echo json_encode(['success' => false, 'message' => 'reCAPTCHA verification failed.']);
+        exit();
+    }
+
     // Define the recipient email address
     $to = 'jamie@spenergy.ie';
     
@@ -29,7 +48,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
              <p><strong>Email:</strong> $email</p>
              <p><strong>Message:</strong><br>$message</p>";
 
-
     // Send the email
     $success = mail($to, $subject, $body, $headers);
 
@@ -40,7 +58,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Redirect to the home page if the form is not submitted via POST
     header('Location: index.html');
     exit();
-
 }
-    
 ?>
