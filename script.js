@@ -18,9 +18,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     forms.forEach(function(form) {
         form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Always prevent default submission
 
             if (validateForm(form)) {
-                event.preventDefault(); // Prevent form submission if validation fails
+                // Check if the reCAPTCHA has been solved
+                if (grecaptcha.getResponse() === '') {
+                    alert('Please complete the reCAPTCHA.');
+                } else {
+                    // Proceed with form submission
+                    handleFormSubmission(form, grecaptcha.getResponse());
+                }   
             }
         });
     });
@@ -91,14 +98,15 @@ document.addEventListener('DOMContentLoaded', function() {
         return phonePattern.test(phone);
     }
 
-    function handleFormSubmission(form, token) {
+    function handleFormSubmission(form, recaptchaToken) {
         var formData = new FormData(form);
-        formData.append('g-recaptcha-response', token); // Append reCAPTCHA token
+        formData.append('g-recaptcha-response', recaptchaToken); // Append reCAPTCHA token
 
         fetch('process_form.php', { // Replace with the path to your PHP script
             method: 'POST',
             body: formData
         })
+        
         .then(response => response.json())
         .then(data => {
             if (data.success) {
@@ -109,7 +117,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 var button = form.querySelector('.submit-button');
                 button.value = 'Sent';
                 button.classList.add('button-sent');
-                button.textContent = 'Message Sent';
             } else {
                 // Handle failure (optional)
                 alert('Failed to send message. Please try again.');
@@ -122,9 +129,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // reCAPTCHA callback function
-    window.onSubmit = function(token) {
-        var form = document.querySelector('form.contact-form');
-        handleFormSubmission(form, token);
-    };
 });
