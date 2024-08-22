@@ -71,7 +71,7 @@ main {
 h3 {
     text-align: center;
     font-family: 'Gotham Bold';
-    font-size: 180%;
+    font-size: 1.8rem;
     text-transform: uppercase;
     margin-bottom: 30px;
     font-weight: 800;
@@ -83,7 +83,7 @@ h4 {
     padding: 0;
     font-family: 'Gotham Bold';
     text-transform: uppercase;
-    font-size: 120%;
+    font-size: 1.2rem;
 
 }
 
@@ -155,7 +155,7 @@ nav ul {
 
 nav ul li {
     padding-right: 2rem;
-    font-size: 110%;
+    font-size: 1.1rem;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Gotham Regular';
@@ -183,7 +183,7 @@ nav ul li a:hover {
 .contact-info {
     display: flex;
     font-family: 'Gotham Bold';
-    font-size: 120%;
+    font-size: 1.2rem;
     flex-direction: column;
     gap: 15px;
 
@@ -199,7 +199,7 @@ nav ul li a:hover {
 
 
 .contact-info i {
-    font-size: 140%;
+    font-size: 1.4rem;
 }
 
 .contact-link:hover {
@@ -257,7 +257,7 @@ nav ul li a:hover {
 }
 
 .hero-text h1 {
-    font-size: 350%;
+    font-size: 3.5rem;
     margin-top: 0;
     line-height: 20% 4rem;
     font-family: "Gotham Bold";
@@ -317,7 +317,7 @@ nav ul li a:hover {
 .big-p-home-solar,
 .big-p-other-services,
 .big-p-grants-page {
-    font-size: 180%;
+    font-size: 1.8rem;
     font-family: 'Gotham Light Regular';
     margin: 0 auto;
     width: 40%;
@@ -361,7 +361,7 @@ nav ul li a:hover {
 }
 
 .icon i {
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #2f6a9e;
 }
 
@@ -509,7 +509,7 @@ nav ul li a:hover {
 }
 
 .step-box i {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #2f6a9e;
     margin-bottom: 20px;
 }
@@ -530,7 +530,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     color: #2f6a9e;
-    font-size: 90%;
+    font-size: 0.9rem;
     gap: 2px;
     text-align: center;
     margin-bottom: 15px;
@@ -671,12 +671,12 @@ nav ul li a:hover {
 
 .benefit-icon i {
     color: #4990CD;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .benefit-text h4 {
     position: relative;
-    font-size: 90%;
+    font-size: 0.9rem;
     flex-basis: 15%;
 }
 
@@ -783,7 +783,7 @@ input {
     height: 3rem;
     font-family: 'Gotham Light'Regular;
     border-radius: 0.5rem;
-    font-size: 120%;
+    font-size: 1.2rem;
     padding-left: 2%;
 
 }
@@ -793,7 +793,7 @@ textarea {
     border-radius: 0.5rem;
     font-family: Gotham Light;
     height: 8rem;
-    font-size: 150%;
+    font-size: 1.5rem;
     padding-left: 2%;
 }
 
@@ -803,7 +803,7 @@ footer {
     position: relative;
     width: 100%;
     margin: 0;
-    font-size: 110%;
+    font-size: 1.1rem;
     background-color: #143049;
     height: auto;
     color: white;
@@ -855,7 +855,7 @@ footer h5 {
 footer ul {
     list-style: none;
     margin-left: 0;
-    font-size: 120%;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     gap: 3%;
@@ -912,7 +912,7 @@ footer ul li a:hover {
 }
 
 .big-p-bold {
-    font-size: 190%;
+    font-size: 1.9rem;
     font-family: 'Gotham Bold';
 }
 
@@ -944,7 +944,7 @@ footer ul li a:hover {
 }
 
 .why-choose-us-wrapper-2a>p {
-    font-size: 110%;
+    font-size: 1.1rem;
     margin-bottom: 30px;
     padding-top: 20px;
     border-top: solid #4990CD 2px;
@@ -964,7 +964,7 @@ footer ul li a:hover {
 }
 
 .why-choose-us-card>i {
-    font-size: 50px;
+    font-size: 3.125rem;
     color: #4990CD;
 }
 
@@ -1079,7 +1079,7 @@ footer ul li a:hover {
 }
 
 .big-p-bold-other {
-    font-size: 190%;
+    font-size: 1.9rem;
     font-family: 'Gotham Bold';
 }
 
@@ -1120,7 +1120,7 @@ footer ul li a:hover {
 
 
 .non-domestic-wrapper-2a>p {
-    font-size: 110%;
+    font-size: 1.1rem;
     margin-bottom: 30px;
     padding-top: 20px;
     border-top: solid #4990CD 2px;
@@ -1131,7 +1131,7 @@ footer ul li a:hover {
 }
 
 .non-dom-p-small {
-    font-size: 110%;
+    font-size: 1.1rem;
     margin-bottom: 30px;
     width: 100%;
 }
@@ -1176,7 +1176,7 @@ footer ul li a:hover {
 
 .non-domestic-grant-box h4 {
     width: auto;
-    font-size: 150%;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -1204,12 +1204,12 @@ footer ul li a:hover {
 
 .non-dom-card i {
     color: #4990CD;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .non-dom-card h4 {
     color: #4990CD;
-    font-size: 90%;
+    font-size: 0.9rem;
 }
 
 .big-p-wrapper-other-2 {
@@ -1219,8 +1219,7 @@ footer ul li a:hover {
 .contact-non-dom {
     display: flex;
     flex-direction: column;
-    background-color: pink;
-    font-size: 150%;
+    font-size: 1.5rem;
     font-family: 'Gotham Bold';
     font-weight: 800;
     gap: 20px;
@@ -1248,7 +1247,7 @@ footer ul li a:hover {
 }
 
 .off-grid-wrapper-1 p {
-    font-size: 180%;
+    font-size: 1.8rem;
     width: 80%;
 }
 
@@ -1265,7 +1264,7 @@ footer ul li a:hover {
 
 
 .bold-p-off-grid {
-    font-size: 180%;
+    font-size: 1.8rem;
     font-family: 'Gotham Bold';
 
     border-radius: 10px;
@@ -1308,7 +1307,7 @@ footer ul li a:hover {
 }
 
 .off-grid-card h4 {
-    font-size: 100%;
+    font-size: 1rem;
 }
 
 .off-grid-check-wrapper {
@@ -1320,7 +1319,7 @@ footer ul li a:hover {
 }
 
 .off-grid-card i {
-    font-size: 60px;
+    font-size: 3.75rem;
     color: white;
 }
 
@@ -1403,7 +1402,7 @@ footer ul li a:hover {
 
 .grants-p-part-1 {
     padding-top: 10%;
-    font-size: 160%;
+    font-size: 1.6rem;
     width: 90%;
     border-top: solid 3px #2f6a9e;
 }
@@ -1415,7 +1414,7 @@ footer ul li a:hover {
 }
 
 .grants-p {
-    font-size: 160%;
+    font-size: 1.6rem;
     width: 90%;
 }
 
@@ -1499,7 +1498,7 @@ footer ul li a:hover {
 
 .grants-part-3a p {
     font-family: 'Gotham Bold';
-    font-size: 150%;
+    font-size: 1.5rem;
     width: 90%;
     margin-bottom: 30px;
 }
@@ -1536,7 +1535,7 @@ footer ul li a:hover {
 }
 
 .contact-page-info {
-    font-size: 180%;
+    font-size: 1.8rem;
     font-family: 'Gotham Regular';
     margin-bottom: 30px;
     width: 40%;
@@ -1547,14 +1546,13 @@ footer ul li a:hover {
 
 .contact-page-info h3 {
     width: 80%;
-    font-size: 100%;
     text-align: left;
 }
 
 
 .contact-page-info i {
     color: #2f6a9e;
-    font-size: 180%;
+    font-size: 1.8rem;
 }
 
 .contact-page-info a {
@@ -1630,7 +1628,7 @@ footer ul li a:hover {
 
     .hero-text h1 {
         width: 80%;
-        font-size: 300%;
+        font-size: 3rem;
     }
 
     .hero-text h2 {
@@ -1649,7 +1647,7 @@ footer ul li a:hover {
 
     .big-p-home-page {
         width: 80%;
-        font-size: 150%;
+        font-size: 1.5rem;
     }
 
     .who-wrapper {
@@ -1755,11 +1753,11 @@ footer ul li a:hover {
     }
 
     .non-dom-card h4 {
-        font-size: 60%;
+        font-size: 0.6rem;
     }
 
     .non-domestic-grant-box h4 {
-        font-size: 120%;
+        font-size: 1.2rem;
     }
 
     .off-grid-wrapper-1 {
@@ -1878,7 +1876,7 @@ footer ul li a:hover {
     .big-p-bold-other {
         width: 85%;
         margin: 0 auto;
-        font-size: 160%;
+        font-size: 1.6rem;
     }
 
     .non-domestic-wrapper-2 {
@@ -1932,7 +1930,7 @@ footer ul li a:hover {
     }
 
     .off-grid-wrapper-1 p {
-        font-size: 150%;
+        font-size: 1.5rem;
         width: 100%;
         margin-bottom: 30px;
     }
@@ -2064,12 +2062,12 @@ footer ul li a:hover {
 
     .contact-page-info h3 {
         width: 100%;
-        font-size: 95%;
+        font-size: 0.95rem;
         text-align: center;
     }
 
     .contact-page-info p {
-        font-size: 80%;
+        font-size: 0.8rem;
     }
 
     .contact-page-form {
@@ -2096,7 +2094,7 @@ footer ul li a:hover {
     }
 
     .hero-text h1 {
-        font-size: 300%;
+        font-size: 3rem;
     }
 
     .hero-text h2 {
@@ -2150,7 +2148,7 @@ footer ul li a:hover {
     }
 
     footer ul {
-        font-size: 110%;
+        font-size: 1.1rem;
         padding-right: 20px;
     }
 
@@ -2260,7 +2258,7 @@ footer ul li a:hover {
 
     footer ul {
         padding-right: 20px;
-        font-size: 105%;
+        font-size: 1.05rem;
     }
 
     .why-choose-us-wrapper-1,
@@ -2331,7 +2329,7 @@ footer ul li a:hover {
 @media screen and (min-width: 1600px) {
 
     .footer-ul-wrapper {
-        font-size: 120%;
+        font-size: 1.2rem;
     }
 
     .who-wrapper,
