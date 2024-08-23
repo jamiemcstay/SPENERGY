@@ -230,7 +230,7 @@ nav ul li a:hover {
 /*Hero section styles*/
 
 .top-home {
-    background: url(../images/hero-image-3.jpg) no-repeat center / cover;
+    background: url(../images/hero-image-3.png) no-repeat center / cover;
     height: auto;
     position: relative;
     width: 100%;
@@ -310,6 +310,10 @@ nav ul li a:hover {
     padding-bottom: 100px;
     padding-top: 50px;
     position: relative;
+    background-image: url(../images/intro-background.png);
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 
