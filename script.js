@@ -1,7 +1,9 @@
 function redirectToSEAI() {
-    var url = 'https://www.seai.ie/grants/business-grants/commercial-solar-pv/';
+    var url = 'https://www.seai.ie/grants/business-grants/' +
+              'commercial-solar-pv/';
     window.open(url, '_blank');
 }
+
 
 document.addEventListener('DOMContentLoaded', function() {
     var menuToggle = document.getElementById('menuToggle');
@@ -13,21 +15,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Form validation and reCAPTCHA handling on submit
+
+    // Form validation on submit
     var forms = document.querySelectorAll('form.contact-form');
 
     forms.forEach(function(form) {
         form.addEventListener('submit', function(event) {
-            event.preventDefault(); // Always prevent default submission
-
-            if (validateForm(form)) {
-                // Check if the reCAPTCHA has been solved
-                if (grecaptcha.getResponse() === '') {
-                    alert('Please complete the reCAPTCHA.');
-                } else {
-                    // Proceed with form submission
-                    handleFormSubmission(form, grecaptcha.getResponse());
-                }   
+            if (!validateForm(form)) {
+                event.preventDefault(); // Prevent form submission if validation fails
+            } else {
+                handleFormSubmission(event, form);
             }
         });
     });
@@ -98,15 +95,16 @@ document.addEventListener('DOMContentLoaded', function() {
         return phonePattern.test(phone);
     }
 
-    function handleFormSubmission(form, recaptchaToken) {
+    function handleFormSubmission(event, form) {
+        event.preventDefault(); // Prevent default form submission
+
         var formData = new FormData(form);
-        formData.append('g-recaptcha-response', recaptchaToken); // Append reCAPTCHA token
+        var button = form.querySelector('.submit-button'); // Target the button within the form
 
         fetch('process_form.php', { // Replace with the path to your PHP script
             method: 'POST',
             body: formData
         })
-        
         .then(response => response.json())
         .then(data => {
             if (data.success) {
@@ -114,19 +112,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 form.reset();
                 
                 // Change button text to "Message Sent"
-                var button = form.querySelector('.submit-button');
                 button.value = 'Sent';
-                button.classList.add('button-sent');
+                button.id = 'button-sent'; 
+                button.textContent = 'Message Sent';
             } else {
                 // Handle failure (optional)
                 alert('Failed to send message. Please try again.');
             }
         })
+
         .catch(error => {
             // Handle network errors
             alert('An error occurred. Please try again.');
             console.error('Error:', error);
         });
-    }
-
+}
 });
