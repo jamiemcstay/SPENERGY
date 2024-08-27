@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = 'Contact Form Submission from ' . $name;
     
     // Set up the email headers
-    $headers = 'From: jamie@spenergy.ie' . "\r\n" .
+    $headers = 'From: info@spenergy.ie' . "\r\n" .
                 'Reply-To: ' . $email . "\r\n" .
                 'Content-Type: text/html; charset=UTF-8' . "\r\n";
     

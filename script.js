@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         return isValid;
     }
-
+    // Display errors
     function displayError(form, fieldId, message) {
         var field = form.querySelector('#' + fieldId);
         var error = field.nextElementSibling;
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Change button text to "Message Sent"
                 button.value = 'Sent';
-                button.id = 'button-sent'; 
+                button.classList.add('button-sent');
                 button.textContent = 'Message Sent';
             } else {
                 // Handle failure (optional)
