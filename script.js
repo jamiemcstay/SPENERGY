@@ -101,10 +101,11 @@ document.addEventListener('DOMContentLoaded', function() {
         var formData = new FormData(form);
         var button = form.querySelector('.submit-button'); // Target the button within the form
 
-        fetch('process_form.php', { // Replace with the path to your PHP script
+        fetch(form.action, { // Replace with the path to your PHP script
             method: 'POST',
             body: formData
         })
+        
         .then(response => response.json())
         .then(data => {
             if (data.success) {
