@@ -314,12 +314,13 @@
                     </div>
                     <button class="cta-button" onclick="window.location.href='contactus.html'">Contact us</button>
                 </div>
-                <form class="home-page-form contact-form" action="process_form.php" method="post" novalidate>
+                <form class="home-page-form contact-form" action="https://api.staticforms.xyz/submit" method="post" novalidate>
                     <h4>Message us</h4>
+                    <input type="hidden" name="accessKey" value="b04a7c73-8f82-4337-be0a-a225af278c47">
                     <input type="text" id="name" name="name" placeholder="Name*" required>
                     <input type="number" id="phone" name="phone" placeholder="Phone Number*" required>
                     <input type="email" id="email" name="email" placeholder="Email Address*" required>
-                    <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                    <textarea id="message" name="message" rows="5" placeholder="*Message" required></textarea>
                     <input type="submit" value="Submit" class="cta-button submit-button">
                 </form>
             </div>
