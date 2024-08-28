@@ -101,21 +101,32 @@ document.addEventListener('DOMContentLoaded', function() {
         var formData = new FormData(form);
         var button = form.querySelector('.submit-button'); // Target the button within the form
 
-        fetch(form.action, { // Replace with the path to your PHP script
+        console.log('Form data before submission:');
+        formData.forEach((value, key) => console.log(key, value))
+
+        fetch(form.action, {
             method: 'POST',
             body: formData
         })
         
-        .then(response => response.json())
+        .then(response => {
+            console.log('Response status:', response.status); // Debug: log response status
+            if (!response.ok) {
+                throw new Error('Network response was not ok' + response.statusText); // Trigger the catch block if the response is not OK
+            }
+            return response.json();
+        })
         .then(data => {
+            console.log('Response data:', data); // Debug: log response data
             if (data.success) {
                 // Clear form fields
                 form.reset();
                 button.value = 'Sent';
                 button.id = 'button-sent';
+                // Display success message to user
+                alert('Email sent successfully!');
             } else {
-                // Handle failure (optional)
-                alert('Failed to send message. Please try again.');
+                alert('Failed to send message. Please try again.' +(data.message || ''));
             }
         })
 
