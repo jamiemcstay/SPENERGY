@@ -314,10 +314,9 @@
                     </div>
                     <button class="cta-button" onclick="window.location.href='contactus.html'">Contact us</button>
                 </div>
-                <form action="https://getform.io/f/bolgwxoa" class="home-page-form contact-form" method="post" id="staticform" novalidate>
+                <form class="home-page-form contact-form" novalidate>
                     <h4>Message us</h4>
-                    <!-- <input type="hidden" name="accessKey" value="b04a7c73-8f82-4337-be0a-a225af278c47"> -->
-                    <input type="hidden" name="_gotcha" style="display:none !important">
+                    <!-- <input type="hidden" name="_gotcha" style="display:none !important"> -->
                     <input type="hidden" name="_gotcha" style="display:none !important">
                     <input type="text" id="name" name="name" placeholder="Name*" required>
                     <input type="number" id="phone" name="phone" placeholder="Phone Number*" required>
@@ -369,6 +368,16 @@
         <!-- End of footer -->
     </footer>
     <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init({
+             publicKey: "cXIGV5AkODf9L32_E",
+           });
+        })();
+     </script>
 </body>
 
 </html>

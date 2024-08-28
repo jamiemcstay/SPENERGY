@@ -97,47 +97,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function handleFormSubmission(event, form) {
         event.preventDefault(); // Prevent default form submission
-
-        var formData = new FormData(form);
-        var button = form.querySelector('.submit-button'); // Target the button within the form
-
-        console.log('Form data before submission:');
-        formData.forEach((value, key) => console.log(key, value))
-
-        fetch(form.action, {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json', // Set the Accept header to receive JSON
-                'Content-Type': 'application/json' // Ensure the Content-Type is set correctly
-            },
-            body: JSON.stringify(Object.fromEntries(formData)) // Convert formData to JSON
-        })
-        
-        .then(response => {
-            console.log('Response status:', response.status); // Debug: log response status
-            if (!response.ok) {
-                throw new Error('Network response was not ok' + response.statusText); // Trigger the catch block if the response is not OK
-            }
-            return response.json();
-        })
-        .then(data => {
-            console.log('Response data:', data); // Debug: log response data
-            if (data.success) {
-                // Clear form fields
-                form.reset();
+    
+        // Send form data using EmailJS
+        emailjs.sendForm('service_aj5o7kb', 'template_b5bcapm', form)
+            .then(function(response) {
+                console.log('Success:', response);
+                form.reset(); // Clear form fields
+                var button = form.querySelector('.submit-button');
                 button.value = 'Sent';
                 button.id = 'button-sent';
-                // Display success message to user
                 alert('Email sent successfully!');
-            } else {
-                alert('Failed to send message. Please try again.' +(data.message || ''));
-            }
-        })
-
-        .catch(error => {
-            // Handle network errors
-            alert('An error occurred. Please try again.');
-            console.error('Error:', error);
-        });
-}
+            }, function(error) {
+                console.error('Error:', error);
+                alert('An error occurred. Please try again.');
+            });
+    }
 });
