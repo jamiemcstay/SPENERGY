@@ -106,7 +106,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         fetch(form.action, {
             method: 'POST',
-            body: formData
+            headers: {
+                'Accept': 'application/json', // Set the Accept header to receive JSON
+                'Content-Type': 'application/json' // Ensure the Content-Type is set correctly
+            },
+            body: JSON.stringify(Object.fromEntries(formData)) // Convert formData to JSON
         })
         
         .then(response => {

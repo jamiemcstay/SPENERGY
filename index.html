@@ -314,14 +314,15 @@
                     </div>
                     <button class="cta-button" onclick="window.location.href='contactus.html'">Contact us</button>
                 </div>
-                <form action="https://api.staticforms.xyz/submit" class="home-page-form contact-form" method="post" novalidate>
+                <form action="https://getform.io/f/bolgwxoa" class="home-page-form contact-form" method="post" id="staticform" novalidate>
                     <h4>Message us</h4>
-                    <input type="hidden" name="accessKey" value="b04a7c73-8f82-4337-be0a-a225af278c47">
+                    <!-- <input type="hidden" name="accessKey" value="b04a7c73-8f82-4337-be0a-a225af278c47"> -->
+                    <input type="hidden" name="_gotcha" style="display:none !important">
                     <input type="text" id="name" name="name" placeholder="Name*" required>
                     <input type="number" id="phone" name="phone" placeholder="Phone Number*" required>
                     <input type="email" id="email" name="email" placeholder="Email Address*" required>
                     <textarea id="message" name="message" rows="5" placeholder="*Message" required></textarea>
-                    <input type="submit" value="Submit" name="submit" class="cta-button submit-button">
+                    <input type="submit" value="Submit" class="cta-button submit-button">
                 </form>
             </div>
         </section>
