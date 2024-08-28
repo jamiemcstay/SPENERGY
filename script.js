@@ -106,7 +106,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 var button = form.querySelector('.submit-button');
                 button.value = 'Sent';
                 button.id = 'button-sent';
-                alert('Email sent successfully!');
             }, function(error) {
                 console.error('Error:', error);
                 alert('An error occurred. Please try again.');
