@@ -128,7 +128,7 @@
                     <button class="cta-button" onclick="redirectToSEAI()">SEAI Grants</button>
                 </div>
                 <div class="grants-part-3b">
-                    <form class="grants-form contact-form" action="process_form.php" method="post" novalidate>
+                    <form class="grants-form contact-form" novalidate>
                         <h4>Email us</h4>
                         <input type="text" id="name" name="name" placeholder="Name*" required>
                         <input type="number" id="phone" name="phone" placeholder="Phone Number*" required>
@@ -181,6 +181,16 @@
         <!-- End of footer -->
     </footer>
     <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init({
+            publicKey: "2Jsi26-PyPr59A4xu",
+        });
+     })();
+    </script>
 </body>
 
 </html>

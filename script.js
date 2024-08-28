@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault(); // Prevent default form submission
     
         // Send form data using EmailJS
-        emailjs.sendForm('service_aj5o7kb', 'template_b5bcapm', form)
+        emailjs.sendForm('service_ld32jeb', 'template_qb1mdxq', form)
             .then(function(response) {
                 console.log('Success:', response);
                 form.reset(); // Clear form fields
