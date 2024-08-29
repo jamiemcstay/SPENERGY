@@ -7,11 +7,13 @@ SP ENERGY is a comprehensive website for a solar panel installation service prov
 1. [Project Overview](#project-overview)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
-8. [License](#license)
+4. [Testing](#testing)
+4. [Licences](#license)
 
 ## Project Overview
 
 The SP ENERGY website provides information about solar panel installation services offered in Ireland. The website is designed with a clean and modern UI/UX approach, making it easy for users to navigate through the different sections such as Home, Home Solar, Other Services, Grants, and Contact Us.
+
 
 ## Features
 
@@ -41,9 +43,70 @@ The SP ENERGY website provides information about solar panel installation servic
 ### 4. **FontAwesome**
    - Icons are added using FontAwesome to enhance the visual aesthetics of the site.
 
-### 5. **EmailJS**
-   - EmailJS is a third-party service used to handle form submissions without the need for server-side code.
-   - This service sends form data directly to a designated email address when users submit the form.
+### 5. EmailJS Integration
 
-### 6. **Version Control**
-   - Git and GitHub are used for version control, allowing for collaborative development and easy project management.
+EmailJS is used to handle form submissions on the website. Here's a brief overview of how it is integrated:
+
+> **Initialization**
+
+   EmailJS is initialized in the html files with script tag that contains a public key. This allows the client-side application to interact with EmailJS services.
+
+   ```javascript
+   emailjs.init({
+       publicKey: "YOUR_PUBLIC_KEY_HERE"
+   });
+   ```
+
+> **Form Submission Handling** 
+
+When a user submits the contact form, the form data is sent to EmailJS using the emailjs.sendForm method. This method takes three parameters:
+
+- service_id: The ID of the email service being used.
+- template_id: The ID of the email template to be used.
+- form: The form element containing the user input.
+
+   ```javascript
+   emailjs.sendForm('service_id', 'template_id', form)
+      .then(function(response) {
+         console.log('Success:', response);
+         form.reset(); // Clear form fields
+         var button = form.querySelector('.submit-button');
+         button.value = 'Sent';
+         button.id = 'button-sent';
+      }, function(error) {
+         console.error('Error:', error);
+         alert('An error occurred. Please try again.');
+      });
+   ```
+
+
+### 6. **Form Validation**
+Before submission, the form is validated to ensure all required fields are filled out correctly. Validation checks include ensuring that the email format is valid and the phone number meets the required format.
+
+### 7. **Version Control**
+
+Git and GitHub were used for version control. 
+
+## Testing
+
+HTML, CSS, and javascript tested through w3 schools, jigaw and JSHint respectively.
+
+## Licences
+
+Hero section image:
+
+Markus Spiske
+> https://unsplash.com/@markusspiske
+
+Who we are image:
+
+Chelsea
+>https://unsplash.com/@chelseadeeyo
+
+Fonts (Gotham Light, Gotham Regular, Gotham Bold):
+
+The Hoefler Type Foundry, Inc
+
+
+
+
