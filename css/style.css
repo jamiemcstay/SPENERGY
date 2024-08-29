@@ -595,7 +595,7 @@ nav ul li a:hover {
 /*BENEFITS SECTION*/
 
 .benefits-section {
-    background: url(../images/benefits_image_1.jpg) no-repeat center center;
+    background: url(../images/benefits_image_1.webp) no-repeat center center;
     background-size: cover;
     position: relative;
 }
