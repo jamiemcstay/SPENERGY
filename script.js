@@ -1,6 +1,5 @@
 function redirectToSEAI() {
-    var url = 'https://www.seai.ie/grants/business-grants/' +
-              'commercial-solar-pv/';
+    var url = 'https://mgen.seai.ie/';
     window.open(url, '_blank');
 }
 
