@@ -1,5 +1,5 @@
 function redirectToSEAI() {
-    var url = 'https://mgen.seai.ie/';
+    var url = 'https://hes.seai.ie/GrantProcess/ApplyForGrantAfterWizard.aspx';
     window.open(url, '_blank');
 }
 
